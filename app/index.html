@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="erp">
+<html lang="en" ng-app="erpApp">
 
 <head>
 
@@ -23,6 +23,14 @@
     <!-- Custom Fonts -->
     <link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
+
+    <!-- Angular -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+
+    <!-- Controllers -->
+    <script src="app.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -31,7 +39,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body ng-controller="erpController">
 
     <div id="wrapper">
 
@@ -45,7 +53,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">TUNING-PHONE ADMIN</a>
+                <a class="navbar-brand" href="index.html">{{company}} ADMIN</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -157,16 +165,13 @@
                         <a href="javascript:;" data-toggle="collapse" data-target="#estoques"><i class="fa fa-archive"></i> Estoques <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="estoques" class="collapse">
                             <li>
-                                <a href="#/peliculas">Películas</a>
+                                <a href="#peliculas">Películas</a>
                             </li>
                             <li>
-                                <a href="#">Capas</a>
+                                <a href="#capas">Capas</a>
                             </li>
                             <li>
-                                <a href="#">Cabos</a>
-                            </li>
-                            <li>
-                                <a href="#">Fones</a>
+                                <a href="#produtosApple">Produtos Apple</a>
                             </li>
                         </ul>
                     </li>
@@ -189,18 +194,11 @@
 
         <div ng-view></div>
 
-    <!-- Angular -->
-    <script src="bower_components/angular/angular.min.js"></script>
-
     <!-- jQuery -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <script src="app.js"></script>
-    <script src="controllers/estoquesController.js"></script>
-
 
 </body>
 
