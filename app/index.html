@@ -148,8 +148,8 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#cadastro"><i class="fa fa-floppy-o"></i> Cadastros <i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="cadastro" class="collapse">
+                        <a href="javascript:;" data-toggle="collapse" data-target="#entries"><i class="fa fa-floppy-o"></i> Cadastros <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="entries" class="collapse">
                             <li>
                                 <a href="#">Fornecedores</a>
                             </li>
@@ -162,16 +162,16 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#estoques"><i class="fa fa-archive"></i> Estoques <i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="estoques" class="collapse">
+                        <a href="javascript:;" data-toggle="collapse" data-target="#stocks"><i class="fa fa-archive"></i> Estoques <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="stocks" class="collapse">
                             <li>
-                                <a href="#peliculas">Películas</a>
+                                <a href="#films">Películas</a>
                             </li>
                             <li>
-                                <a href="#capas">Capas</a>
+                                <a href="#covers">Capas</a>
                             </li>
                             <li>
-                                <a href="#produtosApple">Produtos Apple</a>
+                                <a href="#appleProducts">Produtos Apple</a>
                             </li>
                         </ul>
                     </li>
@@ -185,12 +185,22 @@
                         <a><i class="fa fa-file-text"></i> Notas Fiscais</a>
                     </li>
                     <li>
-                        <a><i class="fa fa-bar-chart"></i> Relatórios</a>
+                        <a href="#reports"><i class="fa fa-bar-chart"></i> Relatórios</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </nav>
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    {{module}}
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
 
         <div ng-view></div>
 
@@ -199,6 +209,14 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Flot Charts JavaScript -->
+    <!--[if lte IE 8]><script src="js/excanvas.min.js"></script><![endif]-->
+    <script src="js/plugins/flot/jquery.flot.js"></script>
+    <script src="js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="js/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="js/plugins/flot/jquery.flot.pie.js"></script>
+    <script src="js/plugins/flot/flot-data.js"></script>
 
 </body>
 
