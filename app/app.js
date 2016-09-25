@@ -8,24 +8,44 @@ app.controller('erpController', function($scope) {
 app.config(function($routeProvider)
 {
    $routeProvider
+
+   .when('/entries/products', {
+      templateUrl : 'views/entries/products.html',
+      controller : "erpController",  
+   })
+
+   .when('/entries/suppliers', {
+      templateUrl : 'views/entries/suppliers.html',
+      controller : "erpController",  
+   })
  
-   .when('/films', {
+   .when('/stocks/films', {
       templateUrl : 'views/stocks/films.html',
       controller : "erpController",  
    })
 
-   .when('/covers', {
+   .when('/stocks/covers', {
       templateUrl : 'views/stocks/covers.html',
       controller : "erpController",  
    })
 
-   .when('/appleProducts', {
+   .when('/stocks/appleProducts', {
       templateUrl : 'views/stocks/appleProducts.html',
       controller : "erpController",  
    })
 
-   .when('/reports', {
-      templateUrl : 'views/reports/general.html',
+   .when('/clients', {
+      templateUrl : 'views/clients/clients.html',
+      controller : "erpController",  
+   })
+
+   .when('/clients', {
+      templateUrl : 'views/clients/clients.html',
+      controller : "erpController",  
+   })
+
+   .when('/client-details', {
+      templateUrl : 'views/clients/client-details.html',
       controller : "erpController",  
    })
  

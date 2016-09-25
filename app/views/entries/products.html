@@ -1,0 +1,30 @@
+<div id="page-wrapper">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2 class="page-header">Cadastro de Produtos</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				Nome:&nbsp;<input type="text" ng-maxlength="50" size="50"><br/>
+				Valor de Compra:&nbsp;<input type="number" ng-max="6" size="6"><br/>
+				Valor de Venda:&nbsp;<input type="number" ng-max="6" size="6"><br/>
+				Especificações:&nbsp;<input type="text" ng-maxlength="100" size="100"><br/>
+				Cor:&nbsp;<input type="text" ng-maxlength="20" size="20"><br/>
+				Quantidade disponível:&nbsp;<input type="number" ng-max="4" size="4"><br/>
+				Status:&nbsp;
+					<label><input type="radio" value="Ativo">Ativo</label>
+					<label><input type="radio" value="Inativo">Inativo</label><br/>
+				Data de criação:&nbsp; <input type="date" placeholder="dd/MM/yyyy"><br/>
+				Fornecedor:&nbsp; 
+				<select ng-model="suppliers">
+			      <option value="">-- Escolha o fornecedor --</option>
+			      <option value="">-- Fornecedor 1 --</option>
+			      <option value="">-- Fornecedor 2 --</option>
+			    </select> 
+			</div>
+		</div>
+	</div>
+</div>
