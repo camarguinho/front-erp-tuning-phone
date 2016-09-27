@@ -1,4 +1,4 @@
-<div id="page-wrapper">
+<div id="page-wrapper" ng-controller="clientsController">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-12">
@@ -7,26 +7,104 @@
 		</div>
 
 		<div class="row">
-			<div class="col-lg-12">
+			<div class="col-lg-4">
 				<div class="panel panel-info">				
 					<div class="panel-heading">
-						<h3 class="panel-title">
-							<a href="#FAQ1" data-toggle="collapse">
-								<i class="fa fa-folder-open"></i> Documentos
-							</a>
+						<h3 class="panel-title"><i class="fa fa-folder-open"></i> Documentos
 						</h3>
 					</div>
+					<div class="table-responsive">
+						<table class="table table-bordered table-hover">
+							<thead>
+	                            <tr>
+	                                <th>Tipo</th>
+	                                <th>Número</th>
+	                            </tr>
+	                        </thead>
+	                        <tbody>
+	                            <tr>
+	                                <td>RG</td>
+	                                <td>14.568.308-8</td>
+	                            </tr>
+	                            <tr>
+	                                <td>CPF</td>
+	                                <td>25.50.98.958.98</td>
+	                            </tr>
+	                        </tbody>
+						</table>
+					</div>
 				</div>
-
+			</div>
+			<div class="col-lg-8">
+				<div class="panel panel-info">				
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="fa fa-phone"></i> Contatos</h3>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-bordered table-hover">
+							<thead>
+	                            <tr>
+	                                <th>Fone 1</th>
+	                                <th>Fone 2</th>
+	                                <th>E-mail 1</th>
+	                                <th>E-mail 2</th>
+	                                <th>Obs.</th>
+	                            </tr>
+	                        </thead>
+	                        <tbody>
+	                            <tr>
+	                                <td>(11)1111-2222</td>
+	                                <td>(11)2222-3333</td>
+	                                <td>email_1@email.com</td>
+	                                <td>email_2@email.com</td>
+	                                <td>Fone 1 das 08h às 19h</td>
+	                            </tr>
+	                            <tr>
+	                                <td>(11)5555-2222</td>
+	                                <td>(11)2222-7777</td>
+	                                <td>email_a@email.com</td>
+	                                <td>email_b@email.com</td>
+	                                <td>Não ligar aos sábados</td>
+	                            </tr>
+	                        </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12">
 				<div class="panel panel-info">				
 					<div class="panel-heading">
 						<h3 class="panel-title"><i class="fa fa-map-marker"></i> Endereços</h3>
 					</div>
-				</div>
-
-				<div class="panel panel-info">				
-					<div class="panel-heading">
-						<h3 class="panel-title"><i class="fa fa-phone"></i> Contatos</h3>
+					<div class="table-responsive">
+						<table class="table table-bordered table-hover">
+							<thead>
+	                            <tr>
+	                                <th>CEP</th>
+	                                <th>Logradouro</th>
+	                                <th>Número</th>
+	                                <th>Complemento</th>
+	                                <th>Bairro</th>
+	                                <th>IBGE</th>
+	                                <th>Cidade</th>
+	                                <th>UF</th>
+	                                <th>País</th>
+	                            </tr>
+	                        </thead>
+	                        <tbody>
+	                            <tr>
+	                                <td>05878-770</td>
+	                                <td>RUA PARATI</td>
+	                                <td>13</td>
+	                                <td>SOBRADO AMARELO</td>
+	                                <td>JARDIM ANA ROSA</td>
+	                                <td>4646978</td>
+	                                <td>SAO PAULO</td>
+	                                <td>SP</td>
+	                                <td>BRASIL</td>
+	                            </tr>
+	                        </tbody>
+						</table>
 					</div>
 				</div>
 
@@ -42,7 +120,7 @@
 					</div>
 				</div>
 
-			    <button type="button" class="btn btn-primary">Voltar</button>
+			    <a class="btn btn-primary" href="#clients" role="button">Voltar</a>
 
 			</div>
 		</div>
