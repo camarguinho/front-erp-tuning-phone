@@ -1,3 +1,3 @@
-erpApp.controller('stocksController', function($scope) {
+app.controller('stocksController', function($scope) {
    $scope.module = "Estoque";
 });

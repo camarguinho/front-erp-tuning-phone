@@ -1,4 +1,4 @@
-var app = angular.module('erpApp',['ngRoute']);
+var app = angular.module('app',['ngRoute']);
 
 app.controller('erpController', function($scope) {
    $scope.company = "TUNING-PHONE";

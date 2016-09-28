@@ -1,3 +1,3 @@
-erpApp.controller('clientsController', function($scope) {
+app.controller('clientsController', function($scope) {
    $scope.module = "Clientes";
 });
