@@ -250,3 +250,15 @@ ul.alert-dropdown {
     text-align: center;
     padding: 20% 1%;
   }
+
+  .pagination {
+    text-align: center;
+  }
+
+form label{
+    width: 115px;
+}
+
+table thead {
+    background-color: silver;
+}
