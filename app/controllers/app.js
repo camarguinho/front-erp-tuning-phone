@@ -22,6 +22,52 @@ app.config(function($routeProvider)
       templateUrl : 'views/entries/suppliers.html',
       controller : "entriesController",  
    })
+
+         .when('/suppliers-data', {
+            templateUrl : 'views/entries/suppliers.html',
+            controller : "entriesController",  
+         })
+
+         .when('/suppliers-document', {
+            templateUrl : 'views/entries/suppliers.html',
+            controller : "entriesController",  
+         })
+
+         .when('/suppliers-address', {
+            templateUrl : 'views/entries/suppliers.html',
+            controller : "entriesController",  
+         })
+
+         .when('/suppliers-contact', {
+            templateUrl : 'views/entries/suppliers.html',
+            controller : "entriesController",  
+         })
+
+
+   .when('/entries/clients', {
+      templateUrl : 'views/entries/clients.html',
+      controller : "entriesController",  
+   })
+
+            .when('/clients-data', {
+               templateUrl : 'views/entries/clients.html',
+               controller : "entriesController",  
+            })
+
+            .when('/clients-document', {
+               templateUrl : 'views/entries/clients.html',
+               controller : "entriesController",  
+            })
+
+            .when('/clients-address', {
+               templateUrl : 'views/entries/clients.html',
+               controller : "entriesController",  
+            })
+
+            .when('/clients-contact', {
+               templateUrl : 'views/entries/clients.html',
+               controller : "entriesController",  
+            })
  
    .when('/stocks/films', {
       templateUrl : 'views/stocks/films.html',
