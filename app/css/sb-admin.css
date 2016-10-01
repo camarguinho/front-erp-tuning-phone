@@ -4,16 +4,27 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+  /* audiowide-regular - latin */
+  @font-face {
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/../fonts/audiowide-v4-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Audiowide'), local('Audiowide-Regular'),
+         url('/../fonts/audiowide-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/../fonts/audiowide-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/../fonts/audiowide-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('/../fonts/audiowide-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/../fonts/audiowide-v4-latin-regular.svg#Audiowide') format('svg'); /* Legacy iOS */
+  }
+
+
 /* Global Styles */
-
-body {
-    margin-top: 100px;
-    background-color: #222;
-}
-
 @media(min-width:768px) {
     body {
         margin-top: 50px;
+        font: Audiowide, Montserrat, Lato, sans-serif;
+        background-color: #222;
     }
 }
 
@@ -24,7 +35,7 @@ body {
 #page-wrapper {
     width: 100%;
     padding: 0;
-    background-color: #fff;
+    background-color: white;
 }
 
 .huge {
@@ -225,3 +236,17 @@ ul.alert-dropdown {
 .panel-yellow > a:hover {
     color: #df8a13;
 }
+
+.header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url('../images/5_White_logo_on_black.svg');
+    text-align: center;
+    padding: 20% 1%;
+  }
