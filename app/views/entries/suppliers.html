@@ -1,8 +1,9 @@
-<div id="page-wrapper" ng-controller="entriesController">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="container">
+<div id="page-wrapper" ng-controller="suppliersController">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="container">
                     <h2>Cadastro de Fornecedores</h2>
 
                     <!-- Guias -->
@@ -19,79 +20,134 @@
 
                     <!-- Dados básicos -->
                     <div id="suppliers-data" class="tab-pane fade in active">
-                        <div class="row">
-							<div class="col-lg-12">
-								Razão Social:&nbsp;<input type="text" ng-maxlength="100" size="100"/><br/>
-								Nome Fantasia:&nbsp;<input type="text" ng-maxlength="50" size="50"/><br/>
-								Inscrição Municipal:&nbsp;<input type="number" ng-max="15" size="15"/><br/>
-								Inscrição Estadual:&nbsp;<input type="number" ng-max="15" size="15"/><br/>
-								Capital Social:&nbsp;<input type="number" ng-max="10" size="10"/><br/>
-							</div>
-						</div>
+                        <div class="col-lg-12">
+                          <label for="">Razão Social:</label>
+                          <input type="text" ng-maxlength="100" size="100"/>
+                        </div>
+                        <div class="col-lg-12">
+                          <label for="">Nome Fantasia:</label>
+                          <input type="text" ng-maxlength="50" size="50"/>
+                        </div>
+                        <div class="col-lg-12">
+                          <label for="">Inscrição Municipal:</label>
+                          <input type="number" ng-max="15" size="15"/>
+                        </div>
+                        <div class="col-lg-12">
+                          <label for="">Inscrição Estadual:</label>
+                          <input type="number" ng-max="15" size="15"/>
+                        </div>
+                        <div class="col-lg-12">
+                          <label for="">Capital Social:</label>
+                          <input type="number" ng-max="10" size="10"/>
+                        </div>
                     </div>
 
                     <!-- Documentos -->
                     <div id="suppliers-document" class="tab-pane fade">
-                        <div class="table-responsive">
-                            Tipo:&nbsp; 
-                            <select ng-model="documents">
+                        <div class="form-group">
+                            <label for="type">Tipo:</label>
+                            <select ng-model="documents" id="type">
                               <option value="">-- Escolha o tipo --</option>
-                              <option value="">RG</option>
-                              <option value="">CPF</option>
-                            </select><br/>
-                            Número:&nbsp;<input type="number" ng-max="14" size="4"/><br/>
+                              <option value="">CNPJ</option>
+                              <option value="">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Número:</label>
+                            <input id="number" type="number" ng-max="14" size="4"/>
                         </div>
                     </div>
 
                     <!-- Endereço -->
                     <div id="suppliers-address" class="tab-pane fade">
-                        <div class="table-responsive">
-                            CEP:&nbsp;<input type="number" ng-max="8" size="8"/><br/>
-                            Endereço:&nbsp;<input type="text" ng-maxlength="50" size="50"/><br/>
-                            Nome:&nbsp;<input type="text" ng-maxlength="8" size="8"/><br/>
-                            Complemento:&nbsp;<input type="text" ng-maxlength="25" size="25"/><br/>
-                            Bairro:&nbsp;<input type="text" ng-maxlength="25" size="25"/><br>
-                            IBGE:&nbsp;<input type="number" ng-max="7" size="7"/><br/>
-                            País:&nbsp; 
-                            <select ng-model="city">
+                        <div class="form-group">
+                            <label for="zip_code">CEP:</label>
+                            <input id="zip_code" type="number" ng-max="8" size="8"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Endereço:</label>
+                            <input id="address" type="text" ng-maxlength="50" size="50"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Número:</label>
+                            <input id="number" type="text" ng-maxlength="8" size="8"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="complement">Complemento:</label>
+                            <input id="complement" type="text" ng-maxlength="25" size="25"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="neighborhood">Bairro:</label>
+                            <input id="neighborhood" type="text" ng-maxlength="25" size="25"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="ibge_code">IBGE:</label>
+                            <input id="ibge_code" type="number" ng-max="7" size="7"/>
+                        </div>
+                        <div class="form-group">                            
+                            <label for="contry">País:</label>
+                            <select id="contry" ng-model="country">
                               <option value="">-- Escolha o país --</option>
                               <option value="">Brasil</option>
                               <option value="">Chile</option>
                               <option value="">Argentina</option>
-                            </select><br/>
-                            Estado:&nbsp; 
-                            <select ng-model="city">
-                              <option value="">-- Escolha o Estado --</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="state">Estado:</label> 
+                            <select id="state" ng-model="state">
+                              <option value="">-- Escolha o estado --</option>
                               <option value="">SP</option>
                               <option value="">RJ</option>
                               <option value="">MG</option>
-                            </select><br/>
-                            Cidade:&nbsp; 
-                            <select ng-model="city">
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">Cidade:</label> 
+                            <select id="city" ng-model="city">
                               <option value="">-- Escolha a cidade --</option>
                               <option value="">São Paulo</option>
                               <option value="">Rio de Janeiro</option>
                               <option value="">Salvador</option>
-                            </select><br/>
+                            </select>
                         </div>
                     </div>
 
                     <!-- Contatos -->
                     <div id="suppliers-contact" class="tab-pane fade">
-                        <div class="table-responsive">
-                            E-mail 1:&nbsp;<input type="number" ng-maxlength="50" size="50"/><br/>
-                            E-mail 2:&nbsp;<input type="number" ng-maxlength="50" size="50"/><br/>
-                            Número 1:&nbsp;<input type="number" ng-max="13" size="13"/><br/>
-                            Número 2:&nbsp;<input type="number" ng-max="13" size="13"/><br/>
-                            Observações:&nbsp;
-                            <textarea rows="4" cols="50" ng-maxlength="150" size="150">
+                        <div class="form-group">
+                            <label for="email_1" >E-mail 1:</label>
+                            <input id="email_1" type="text" ng-maxlength="50" size="50"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="email_2" >E-mail 2:</label>
+                            <input id="email_2" type="text" ng-maxlength="50" size="50"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone_1" >Número 1:</label>
+                            <input id="phone_1" type="number" ng-max="13" size="13"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone_2" >Número 2:</label>
+                            <input id="phone_2" type="number" ng-max="13" size="13"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="observations" >Observações:</label>
+                            <textarea id="observations" rows="4" cols="50" ng-maxlength="150" size="150">
                             </textarea>
                         </div>
                     </div>
-                </div> 
-			</div>
-		</div>
+                </div>   
+            </div><br/>
+            <div class="row">
+                <div class="col-lg-12"><br/>
+                    <a href="#" class="btn btn-warning" role="button">Limpar</a>
+                    <a href="#" class="btn btn-success" role="button">Salvar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#page-wrapper -->
 
-		
-	</div>
 </div>
+<!-- /#wrapper -->
