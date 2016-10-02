@@ -246,19 +246,33 @@ ul.alert-dropdown {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url('../images/5_White_logo_on_black.svg');
+    background-image: url('../images/4_Grayscale_logo_on_transparent_1024.png');
     text-align: center;
     padding: 20% 1%;
   }
 
-  .pagination {
+.pagination {
     text-align: center;
-  }
+}
+
+.div-cont-table {
+    background: #f2f2f2;
+}
+
+.crud-guide {
+    background-color: #f2f2f2;
+}
 
 form label{
-    width: 115px;
+    width: 100px;
+    text-align: right;
+    font-size: 0.8em;
 }
 
 table thead {
     background-color: silver;
+}
+
+h2 {
+    text-align: center;
 }
