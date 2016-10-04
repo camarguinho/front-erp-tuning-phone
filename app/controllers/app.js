@@ -44,6 +44,11 @@ app.config(function($routeProvider)
          })
 
 
+   .when('/tracking/clients', {
+      templateUrl : 'views/tracking/tracking.html',
+      controller : "trackingController",  
+   })
+
    .when('/entries/clients', {
       templateUrl : 'views/entries/clients.html',
       controller : "entriesController",  
