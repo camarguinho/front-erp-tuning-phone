@@ -1,0 +1,98 @@
+[
+  {
+    "id": 252,
+    "name": "FONE DE OUVIDO EARPODS APPLE",
+    "value_purchase": "$70.69",
+    "value_sale": "$88.72",
+    "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
+    "color": "BRANCO",
+    "available_quantity": 48,
+    "status": false,
+    "creation_date": "2016-09-11T12:13:40 +03:00",
+    "product_type": {
+      "id": 1,
+      "name": "PELÍCULAS"
+    },
+    "supplier": {
+      "id": 2,
+      "company_name": "SHENZHEN RN TECH CO., LTD",
+      "fantasy_name": "",
+      "municipal_registration": 658684781230261,
+      "state_registration": 771102441006939,
+      "capital_social": "$40,341.72",
+      "document": {
+        "id": 143,
+        "type": "CNPJ",
+        "number": 8836093220814
+      },
+      "address": {
+        "id": 26,
+        "zip_code": 58316227,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 17459432,
+        "complement": "NENHUM",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 8839838,
+        "city": "SÃO PAULO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 271,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 3177833264981,
+        "phone_2": 8195942257090,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 22,
+    "name": "FONE DE OUVIDO EARPODS APPLE",
+    "value_purchase": "$47.00",
+    "value_sale": "$141.70",
+    "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
+    "color": "BRANCO",
+    "available_quantity": 231,
+    "status": false,
+    "creation_date": "2016-03-12T04:01:39 +03:00",
+    "product_type": {
+      "id": 133,
+      "name": "PELÍCULAS"
+    },
+    "supplier": {
+      "id": 116,
+      "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
+      "fantasy_name": "",
+      "municipal_registration": 373554405502078,
+      "state_registration": 696011511834730,
+      "capital_social": "$29,638.13",
+      "document": {
+        "id": 291,
+        "type": "CNPJ",
+        "number": 70005795734654
+      },
+      "address": {
+        "id": 235,
+        "zip_code": 33428652,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 13808127,
+        "complement": "NENHUM",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 2977080,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 182,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 6067935682138,
+        "phone_2": 7461807653574,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  }
+]
