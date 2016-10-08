@@ -1,0 +1,990 @@
+[
+  {
+    "id": 102,
+    "name": "PELÍCULA DE VIDRO TEMPERADO STANDARD - IPHONE 6S PLUS",
+    "value_purchase": "$27.47",
+    "value_sale": "$53.86",
+    "specifications": "PLANA",
+    "color": "TRANSPARENTE",
+    "available_quantity": 108,
+    "status": true,
+    "creation_date": "2014-07-30T08:12:00 +03:00",
+    "compatibility": {
+      "id": 81,
+      "supported_devices": "IPHONE 5"
+    },
+    "product_type": {
+      "id": 190,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 299,
+      "company_name": "XINGHAI",
+      "fantasy_name": "",
+      "municipal_registration": 710816485884836,
+      "state_registration": 458560758546764,
+      "capital_social": "$40,773.52",
+      "document": {
+        "id": 76,
+        "type": "CPF",
+        "number": 80360541172912
+      },
+      "address": {
+        "id": 167,
+        "zip_code": 25289664,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 10553847,
+        "complement": "NENHUM",
+        "neighborhood": "ITAIM BIBI",
+        "ibge_code": 5877755,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 202,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 5888003241781,
+        "phone_2": 7093447680418,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  },
+  {
+    "id": 79,
+    "name": "PELÍCULA DE VIDRO TEMPERADO 3D MOCOLO - IPHONE 6, 6S",
+    "value_purchase": "$34.40",
+    "value_sale": "$50.93",
+    "specifications": "PLANA",
+    "color": "TRANSPARENTE",
+    "available_quantity": 190,
+    "status": false,
+    "creation_date": "2015-08-04T11:55:20 +03:00",
+    "compatibility": {
+      "id": 224,
+      "supported_devices": "IPHONE 6 PLUS"
+    },
+    "product_type": {
+      "id": 26,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 127,
+      "company_name": "MOCOLO ONLINE SHOP",
+      "fantasy_name": "",
+      "municipal_registration": 143354269961626,
+      "state_registration": 757395426564236,
+      "capital_social": "$27,137.37",
+      "document": {
+        "id": 95,
+        "type": "CPF",
+        "number": 38516374552002
+      },
+      "address": {
+        "id": 18,
+        "zip_code": 65443286,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 70733569,
+        "complement": "APARTAMENTO 56 | TORRE 2",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 8739365,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 208,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 2319496497486,
+        "phone_2": 5048446478061,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 204,
+    "name": "PELÍCULA DE VIDRO TEMPERADO 3D MOCOLO - IPHONE 6, 6S",
+    "value_purchase": "$24.78",
+    "value_sale": "$74.13",
+    "specifications": "3D",
+    "color": "TRANSPARENTE",
+    "available_quantity": 74,
+    "status": true,
+    "creation_date": "2016-10-07T03:44:46 +03:00",
+    "compatibility": {
+      "id": 288,
+      "supported_devices": "IPHONE 6"
+    },
+    "product_type": {
+      "id": 241,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 255,
+      "company_name": "EDWARD TECHNOLOGY CO,LTD",
+      "fantasy_name": "",
+      "municipal_registration": 802229749841788,
+      "state_registration": 390768101148376,
+      "capital_social": "$34,347.87",
+      "document": {
+        "id": 213,
+        "type": "CNPJ",
+        "number": 74870036553708
+      },
+      "address": {
+        "id": 286,
+        "zip_code": 54051975,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 31393953,
+        "complement": "APARTAMENTO 56 | TORRE 2",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 2682796,
+        "city": "SÃO PAULO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 60,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 1809629936952,
+        "phone_2": 4181014032872,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 119,
+    "name": "PELÍCULA DE VIDRO TEMPERADO ANTI-SPY - IPHONE 5C, 5S, 5SE",
+    "value_purchase": "$34.82",
+    "value_sale": "$69.01",
+    "specifications": "3D",
+    "color": "ESCURA",
+    "available_quantity": 101,
+    "status": false,
+    "creation_date": "2016-06-24T11:03:02 +03:00",
+    "compatibility": {
+      "id": 177,
+      "supported_devices": "IPHONE 5"
+    },
+    "product_type": {
+      "id": 285,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 136,
+      "company_name": "EDWARD TECHNOLOGY CO,LTD",
+      "fantasy_name": "",
+      "municipal_registration": 287559389702665,
+      "state_registration": 328312985532720,
+      "capital_social": "$22,131.72",
+      "document": {
+        "id": 204,
+        "type": "RG",
+        "number": 24086909088112
+      },
+      "address": {
+        "id": 8,
+        "zip_code": 65285046,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 61941831,
+        "complement": "APARTAMENTO 56 | TORRE 2",
+        "neighborhood": "ITAIM BIBI",
+        "ibge_code": 8157931,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 10,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 6163550596804,
+        "phone_2": 6641527348452,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  },
+  {
+    "id": 77,
+    "name": "PELÍCULA DE VIDRO TEMPERADO STANDARD - IPHONE 6S PLUS",
+    "value_purchase": "$30.98",
+    "value_sale": "$62.27",
+    "specifications": "PLANA",
+    "color": "WHITE",
+    "available_quantity": 178,
+    "status": false,
+    "creation_date": "2014-08-13T04:35:22 +03:00",
+    "compatibility": {
+      "id": 72,
+      "supported_devices": "IPHONE 6 PLUS"
+    },
+    "product_type": {
+      "id": 141,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 11,
+      "company_name": "XINGHAI",
+      "fantasy_name": "",
+      "municipal_registration": 155568182793287,
+      "state_registration": 109241841576208,
+      "capital_social": "$22,881.71",
+      "document": {
+        "id": 26,
+        "type": "CNPJ",
+        "number": 3879566931037
+      },
+      "address": {
+        "id": 147,
+        "zip_code": 54257740,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 60962372,
+        "complement": "NENHUM",
+        "neighborhood": "ITAIM BIBI",
+        "ibge_code": 4897686,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 123,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 2418491386288,
+        "phone_2": 1340628148956,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 125,
+    "name": "PELÍCULA DE VIDRO TEMPERADO ANTI-SPY - IPHONE 5C, 5S, 5SE",
+    "value_purchase": "$22.03",
+    "value_sale": "$67.10",
+    "specifications": "PLANA",
+    "color": "ESCURA",
+    "available_quantity": 221,
+    "status": false,
+    "creation_date": "2016-05-30T08:55:28 +03:00",
+    "compatibility": {
+      "id": 114,
+      "supported_devices": "IPHONE 6"
+    },
+    "product_type": {
+      "id": 76,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 151,
+      "company_name": "MOCOLO ONLINE SHOP",
+      "fantasy_name": "",
+      "municipal_registration": 549833297223691,
+      "state_registration": 757192294216193,
+      "capital_social": "$20,812.21",
+      "document": {
+        "id": 75,
+        "type": "CPF",
+        "number": 51670575122578
+      },
+      "address": {
+        "id": 299,
+        "zip_code": 18329471,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 75137156,
+        "complement": "NENHUM",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 4955320,
+        "city": "SÃO PAULO",
+        "state": "RIO DE JANEIRO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 172,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 2187113390711,
+        "phone_2": 4563536820873,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 211,
+    "name": "PELÍCULA DE VIDRO TEMPERADO ANTI-SPY - IPHONE 6S PLUS",
+    "value_purchase": "$39.67",
+    "value_sale": "$75.35",
+    "specifications": "3D",
+    "color": "BLACK",
+    "available_quantity": 183,
+    "status": false,
+    "creation_date": "2015-08-13T09:45:34 +03:00",
+    "compatibility": {
+      "id": 1,
+      "supported_devices": "IPHONE 6"
+    },
+    "product_type": {
+      "id": 258,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 45,
+      "company_name": "MOCOLO ONLINE SHOP",
+      "fantasy_name": "",
+      "municipal_registration": 129897541206899,
+      "state_registration": 704291195648202,
+      "capital_social": "$21,385.15",
+      "document": {
+        "id": 290,
+        "type": "CPF",
+        "number": 29817756228185
+      },
+      "address": {
+        "id": 126,
+        "zip_code": 16197610,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 58276648,
+        "complement": "NENHUM",
+        "neighborhood": "ITAIM BIBI",
+        "ibge_code": 7987823,
+        "city": "SÃO PAULO",
+        "state": "RIO DE JANEIRO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 248,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 5443087001231,
+        "phone_2": 3850529595494,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "name": "PELÍCULA DE VIDRO TEMPERADO ANTI-SPY - IPHONE 6S PLUS",
+    "value_purchase": "$36.87",
+    "value_sale": "$70.65",
+    "specifications": "PLANA",
+    "color": "TRANSPARENTE",
+    "available_quantity": 60,
+    "status": false,
+    "creation_date": "2016-08-10T09:20:22 +03:00",
+    "compatibility": {
+      "id": 163,
+      "supported_devices": "IPHONE 6"
+    },
+    "product_type": {
+      "id": 202,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 215,
+      "company_name": "EDWARD TECHNOLOGY CO,LTD",
+      "fantasy_name": "",
+      "municipal_registration": 216491406670885,
+      "state_registration": 892755637574389,
+      "capital_social": "$46,316.30",
+      "document": {
+        "id": 176,
+        "type": "CNPJ",
+        "number": 49063533884781
+      },
+      "address": {
+        "id": 32,
+        "zip_code": 68967600,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 41176699,
+        "complement": "NENHUM",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 6922139,
+        "city": "RIO DE JANEIRO",
+        "state": "RIO DE JANEIRO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 188,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 4765127976770,
+        "phone_2": 8424428839295,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 277,
+    "name": "PELÍCULA DE VIDRO TEMPERADO ANTI-SPY - IPHONE 6S PLUS",
+    "value_purchase": "$20.65",
+    "value_sale": "$44.17",
+    "specifications": "PLANA",
+    "color": "ESCURA",
+    "available_quantity": 129,
+    "status": false,
+    "creation_date": "2015-11-09T09:12:46 +02:00",
+    "compatibility": {
+      "id": 248,
+      "supported_devices": "IPHONE 6 PLUS"
+    },
+    "product_type": {
+      "id": 251,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 187,
+      "company_name": "MOCOLO ONLINE SHOP",
+      "fantasy_name": "",
+      "municipal_registration": 840088430241840,
+      "state_registration": 793863973676969,
+      "capital_social": "$31,530.86",
+      "document": {
+        "id": 158,
+        "type": "RG",
+        "number": 4370144434995
+      },
+      "address": {
+        "id": 59,
+        "zip_code": 87128777,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 45449884,
+        "complement": "NENHUM",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 6547239,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 29,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 6940777484114,
+        "phone_2": 5825353854154,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  },
+  {
+    "id": 95,
+    "name": "PELÍCULA DE VIDRO TEMPERADO 3D MOCOLO - IPHONE 6, 6S",
+    "value_purchase": "$35.73",
+    "value_sale": "$67.11",
+    "specifications": "+ FINA",
+    "color": "BLACK",
+    "available_quantity": 168,
+    "status": false,
+    "creation_date": "2016-08-08T10:37:04 +03:00",
+    "compatibility": {
+      "id": 69,
+      "supported_devices": "IPHONE 6 PLUS"
+    },
+    "product_type": {
+      "id": 283,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 173,
+      "company_name": "MOCOLO ONLINE SHOP",
+      "fantasy_name": "",
+      "municipal_registration": 629870539129077,
+      "state_registration": 512624335344218,
+      "capital_social": "$31,275.82",
+      "document": {
+        "id": 82,
+        "type": "CPF",
+        "number": 89772941170849
+      },
+      "address": {
+        "id": 130,
+        "zip_code": 26076379,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 88285435,
+        "complement": "NENHUM",
+        "neighborhood": "ITAIM BIBI",
+        "ibge_code": 8692087,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 266,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 2639879228880,
+        "phone_2": 6257050183071,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  },
+  {
+    "id": 56,
+    "name": "PELÍCULA DE VIDRO TEMPERADO 3D MOCOLO - IPHONE 6, 6S",
+    "value_purchase": "$32.77",
+    "value_sale": "$61.77",
+    "specifications": "PLANA",
+    "color": "BLACK",
+    "available_quantity": 162,
+    "status": false,
+    "creation_date": "2016-07-02T07:38:03 +03:00",
+    "compatibility": {
+      "id": 66,
+      "supported_devices": "IPHONE 5"
+    },
+    "product_type": {
+      "id": 209,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 64,
+      "company_name": "MOCOLO ONLINE SHOP",
+      "fantasy_name": "",
+      "municipal_registration": 637046912016599,
+      "state_registration": 683003563664564,
+      "capital_social": "$13,432.43",
+      "document": {
+        "id": 28,
+        "type": "CNPJ",
+        "number": 8870734938449
+      },
+      "address": {
+        "id": 171,
+        "zip_code": 37315332,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 11144148,
+        "complement": "NENHUM",
+        "neighborhood": "ITAIM BIBI",
+        "ibge_code": 4484081,
+        "city": "SÃO PAULO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 48,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 7549759168551,
+        "phone_2": 8241182239861,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  },
+  {
+    "id": 89,
+    "name": "PELÍCULA DE VIDRO TEMPERADO S-THIN MOCOLO - IPHONE 6, 6S",
+    "value_purchase": "$26.01",
+    "value_sale": "$73.31",
+    "specifications": "+ FINA",
+    "color": "ESCURA",
+    "available_quantity": 71,
+    "status": true,
+    "creation_date": "2015-12-18T07:44:58 +02:00",
+    "compatibility": {
+      "id": 255,
+      "supported_devices": "IPHONE 6 PLUS"
+    },
+    "product_type": {
+      "id": 4,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 267,
+      "company_name": "GUANGZHOU DREAMS ELECTTRONIC TECHNOLOGY CO., LTD.",
+      "fantasy_name": "",
+      "municipal_registration": 227756484626696,
+      "state_registration": 283159648056831,
+      "capital_social": "$15,971.85",
+      "document": {
+        "id": 94,
+        "type": "CNPJ",
+        "number": 54398337363828
+      },
+      "address": {
+        "id": 117,
+        "zip_code": 31753923,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 64543128,
+        "complement": "NENHUM",
+        "neighborhood": "ITAIM BIBI",
+        "ibge_code": 2230723,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 186,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 3058195018613,
+        "phone_2": 7221198442903,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  },
+  {
+    "id": 235,
+    "name": "PELÍCULA DE VIDRO TEMPERADO STANDARD - IPHONE 5C, 5S, 5SE",
+    "value_purchase": "$20.29",
+    "value_sale": "$55.67",
+    "specifications": "+ FINA",
+    "color": "BLACK",
+    "available_quantity": 19,
+    "status": true,
+    "creation_date": "2015-11-28T01:35:19 +02:00",
+    "compatibility": {
+      "id": 222,
+      "supported_devices": "IPHONE 6 PLUS"
+    },
+    "product_type": {
+      "id": 197,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 143,
+      "company_name": "EDWARD TECHNOLOGY CO,LTD",
+      "fantasy_name": "",
+      "municipal_registration": 695861899394208,
+      "state_registration": 643334459136780,
+      "capital_social": "$42,095.21",
+      "document": {
+        "id": 263,
+        "type": "CNPJ",
+        "number": 12738790760645
+      },
+      "address": {
+        "id": 295,
+        "zip_code": 67374140,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 47393312,
+        "complement": "NENHUM",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 4551448,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 64,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 7320434997845,
+        "phone_2": 5596579290937,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  },
+  {
+    "id": 42,
+    "name": "PELÍCULA DE VIDRO TEMPERADO 3D MOCOLO - IPHONE 6, 6S",
+    "value_purchase": "$20.68",
+    "value_sale": "$69.43",
+    "specifications": "3D",
+    "color": "TRANSPARENTE",
+    "available_quantity": 175,
+    "status": true,
+    "creation_date": "2015-06-26T11:24:19 +03:00",
+    "compatibility": {
+      "id": 219,
+      "supported_devices": "IPHONE 6"
+    },
+    "product_type": {
+      "id": 7,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 208,
+      "company_name": "MOCOLO ONLINE SHOP",
+      "fantasy_name": "",
+      "municipal_registration": 531147832866835,
+      "state_registration": 126100623417491,
+      "capital_social": "$47,128.50",
+      "document": {
+        "id": 56,
+        "type": "CPF",
+        "number": 2825782468548
+      },
+      "address": {
+        "id": 253,
+        "zip_code": 85994283,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 37923530,
+        "complement": "APARTAMENTO 56 | TORRE 2",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 5200700,
+        "city": "RIO DE JANEIRO",
+        "state": "RIO DE JANEIRO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 187,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 8033700981872,
+        "phone_2": 6253655567560,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 160,
+    "name": "PELÍCULA DE VIDRO TEMPERADO STANDARD - IPHONE 6, 6S",
+    "value_purchase": "$31.05",
+    "value_sale": "$58.25",
+    "specifications": "PLANA",
+    "color": "BLACK",
+    "available_quantity": 97,
+    "status": false,
+    "creation_date": "2015-08-27T03:43:00 +03:00",
+    "compatibility": {
+      "id": 48,
+      "supported_devices": "IPHONE 6"
+    },
+    "product_type": {
+      "id": 231,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 75,
+      "company_name": "XINGHAI",
+      "fantasy_name": "",
+      "municipal_registration": 847911533229961,
+      "state_registration": 182120532915510,
+      "capital_social": "$13,016.15",
+      "document": {
+        "id": 92,
+        "type": "CPF",
+        "number": 11355782045888
+      },
+      "address": {
+        "id": 90,
+        "zip_code": 27524402,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 33747807,
+        "complement": "NENHUM",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 6041300,
+        "city": "RIO DE JANEIRO",
+        "state": "RIO DE JANEIRO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 3,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 4806399818655,
+        "phone_2": 5359108335111,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 193,
+    "name": "PELÍCULA DE VIDRO TEMPERADO ANTI-SPY - IPHONE 6, 6S",
+    "value_purchase": "$25.36",
+    "value_sale": "$60.45",
+    "specifications": "3D",
+    "color": "WHITE",
+    "available_quantity": 47,
+    "status": false,
+    "creation_date": "2015-11-12T07:51:21 +02:00",
+    "compatibility": {
+      "id": 76,
+      "supported_devices": "IPHONE 5"
+    },
+    "product_type": {
+      "id": 169,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 200,
+      "company_name": "XINGHAI",
+      "fantasy_name": "",
+      "municipal_registration": 349097063871120,
+      "state_registration": 437583160419734,
+      "capital_social": "$13,272.65",
+      "document": {
+        "id": 199,
+        "type": "RG",
+        "number": 60625389743744
+      },
+      "address": {
+        "id": 159,
+        "zip_code": 31963235,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 17280142,
+        "complement": "APARTAMENTO 56 | TORRE 2",
+        "neighborhood": "ITAIM BIBI",
+        "ibge_code": 3835183,
+        "city": "SÃO PAULO",
+        "state": "RIO DE JANEIRO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 140,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 1461534971476,
+        "phone_2": 7998903926359,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  },
+  {
+    "id": 231,
+    "name": "PELÍCULA DE VIDRO TEMPERADO ANTI-SPY - IPHONE 6, 6S",
+    "value_purchase": "$26.68",
+    "value_sale": "$42.46",
+    "specifications": "PLANA",
+    "color": "WHITE",
+    "available_quantity": 222,
+    "status": false,
+    "creation_date": "2015-06-28T03:14:15 +03:00",
+    "compatibility": {
+      "id": 67,
+      "supported_devices": "IPHONE 5"
+    },
+    "product_type": {
+      "id": 284,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 225,
+      "company_name": "XINGHAI",
+      "fantasy_name": "",
+      "municipal_registration": 350711803296381,
+      "state_registration": 444892277306825,
+      "capital_social": "$21,660.46",
+      "document": {
+        "id": 82,
+        "type": "CPF",
+        "number": 73421241712393
+      },
+      "address": {
+        "id": 183,
+        "zip_code": 72327063,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 25584529,
+        "complement": "NENHUM",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 5205915,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 154,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 2470675311143,
+        "phone_2": 2994361858998,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 136,
+    "name": "PELÍCULA DE VIDRO TEMPERADO ANTI-SPY - IPHONE 5C, 5S, 5SE",
+    "value_purchase": "$31.42",
+    "value_sale": "$50.86",
+    "specifications": "3D",
+    "color": "TRANSPARENTE",
+    "available_quantity": 178,
+    "status": false,
+    "creation_date": "2014-02-16T02:37:56 +03:00",
+    "compatibility": {
+      "id": 21,
+      "supported_devices": "IPHONE 6"
+    },
+    "product_type": {
+      "id": 15,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 11,
+      "company_name": "MOCOLO ONLINE SHOP",
+      "fantasy_name": "",
+      "municipal_registration": 845852012195814,
+      "state_registration": 646762709855279,
+      "capital_social": "$45,536.39",
+      "document": {
+        "id": 153,
+        "type": "CPF",
+        "number": 10176278559459
+      },
+      "address": {
+        "id": 265,
+        "zip_code": 40247041,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 42490213,
+        "complement": "APARTAMENTO 56 | TORRE 2",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 1336892,
+        "city": "SÃO PAULO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 258,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 3218365994834,
+        "phone_2": 1323179182365,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 263,
+    "name": "PELÍCULA DE VIDRO TEMPERADO 3D MOCOLO - IPHONE 6, 6S",
+    "value_purchase": "$22.46",
+    "value_sale": "$52.92",
+    "specifications": "PLANA",
+    "color": "TRANSPARENTE",
+    "available_quantity": 50,
+    "status": true,
+    "creation_date": "2014-01-30T11:33:53 +02:00",
+    "compatibility": {
+      "id": 41,
+      "supported_devices": "IPHONE 6"
+    },
+    "product_type": {
+      "id": 110,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 143,
+      "company_name": "MOCOLO ONLINE SHOP",
+      "fantasy_name": "",
+      "municipal_registration": 533234301422141,
+      "state_registration": 857861896679378,
+      "capital_social": "$35,223.73",
+      "document": {
+        "id": 217,
+        "type": "CNPJ",
+        "number": 80512597211365
+      },
+      "address": {
+        "id": 63,
+        "zip_code": 71593623,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 71273208,
+        "complement": "APARTAMENTO 56 | TORRE 2",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 7171460,
+        "city": "SÃO PAULO",
+        "state": "RIO DE JANEIRO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 218,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 6280236968868,
+        "phone_2": 5330962225386,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  }
+]

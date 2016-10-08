@@ -1,3 +1,6 @@
-app.controller('stocksController', function($scope) {
+app.controller('stocksController', function($scope, $http) {
    $scope.module = "Estoque";
+   $scope.appleProducts = "";
+
+
 });

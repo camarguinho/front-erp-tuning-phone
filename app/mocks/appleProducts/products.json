@@ -1,96 +1,104 @@
 [
   {
-    "id": 252,
+    "id": 193,
     "name": "FONE DE OUVIDO EARPODS APPLE",
-    "value_purchase": "$70.69",
-    "value_sale": "$88.72",
+    "value_purchase": "$54.04",
+    "value_sale": "$129.15",
     "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
     "color": "BRANCO",
-    "available_quantity": 48,
-    "status": false,
-    "creation_date": "2016-09-11T12:13:40 +03:00",
+    "available_quantity": 82,
+    "status": true,
+    "creation_date": "2016-03-05T11:31:11 +03:00",
+    "compatibility": {
+      "id": 99,
+      "supported_devices": "TODOS"
+    },
     "product_type": {
-      "id": 1,
-      "name": "PELÍCULAS"
+      "id": 17,
+      "name": "PRODUTOS APPLE"
     },
     "supplier": {
-      "id": 2,
+      "id": 132,
       "company_name": "SHENZHEN RN TECH CO., LTD",
       "fantasy_name": "",
-      "municipal_registration": 658684781230261,
-      "state_registration": 771102441006939,
-      "capital_social": "$40,341.72",
+      "municipal_registration": 810992074133915,
+      "state_registration": 146156876443929,
+      "capital_social": "$46,406.13",
       "document": {
-        "id": 143,
-        "type": "CNPJ",
-        "number": 8836093220814
+        "id": 245,
+        "type": "RG",
+        "number": 62542738291108
       },
       "address": {
-        "id": 26,
-        "zip_code": 58316227,
+        "id": 131,
+        "zip_code": 54982845,
         "address": "RUA JOSÉ RIBEIRO RAMOS",
-        "number": 17459432,
+        "number": 55542121,
         "complement": "NENHUM",
-        "neighborhood": "PARQUE INDEPENDÊNCIA",
-        "ibge_code": 8839838,
-        "city": "SÃO PAULO",
-        "state": "SÃO PAULO",
-        "contry": "BRASIL"
-      },
-      "contact": {
-        "id": 271,
-        "email_1": "EMAIL_1@ICLOUD.COM",
-        "email_2": "EMAIL_2@ICLOUD.COM",
-        "phone_1": 3177833264981,
-        "phone_2": 8195942257090,
-        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
-      }
-    }
-  },
-  {
-    "id": 22,
-    "name": "FONE DE OUVIDO EARPODS APPLE",
-    "value_purchase": "$47.00",
-    "value_sale": "$141.70",
-    "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
-    "color": "BRANCO",
-    "available_quantity": 231,
-    "status": false,
-    "creation_date": "2016-03-12T04:01:39 +03:00",
-    "product_type": {
-      "id": 133,
-      "name": "PELÍCULAS"
-    },
-    "supplier": {
-      "id": 116,
-      "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
-      "fantasy_name": "",
-      "municipal_registration": 373554405502078,
-      "state_registration": 696011511834730,
-      "capital_social": "$29,638.13",
-      "document": {
-        "id": 291,
-        "type": "CNPJ",
-        "number": 70005795734654
-      },
-      "address": {
-        "id": 235,
-        "zip_code": 33428652,
-        "address": "RUA JOAQUIM FLORIANO",
-        "number": 13808127,
-        "complement": "NENHUM",
-        "neighborhood": "PARQUE INDEPENDÊNCIA",
-        "ibge_code": 2977080,
+        "neighborhood": "ITAIM BIBI",
+        "ibge_code": 8264996,
         "city": "RIO DE JANEIRO",
         "state": "SÃO PAULO",
         "contry": "BRASIL"
       },
       "contact": {
-        "id": 182,
+        "id": 5,
         "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 6206861833081,
+        "phone_2": 8029214498065,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 112,
+    "name": "CABO USB LIGHTNING APPLE",
+    "value_purchase": "$73.05",
+    "value_sale": "$139.38",
+    "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
+    "color": "BRANCO",
+    "available_quantity": 84,
+    "status": false,
+    "creation_date": "2016-08-02T07:47:48 +03:00",
+    "compatibility": {
+      "id": 138,
+      "supported_devices": "TODOS"
+    },
+    "product_type": {
+      "id": 12,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 99,
+      "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
+      "fantasy_name": "",
+      "municipal_registration": 790168954060115,
+      "state_registration": 122434226328555,
+      "capital_social": "$12,130.11",
+      "document": {
+        "id": 286,
+        "type": "CNPJ",
+        "number": 8607395496234
+      },
+      "address": {
+        "id": 48,
+        "zip_code": 68743263,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 82237301,
+        "complement": "APARTAMENTO 56 | TORRE 2",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 1917368,
+        "city": "SÃO PAULO",
+        "state": "RIO DE JANEIRO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 219,
+        "email_1": "EMAIL_1@ICLOUD.COM",
         "email_2": "EMAIL_2@ICLOUD.COM",
-        "phone_1": 6067935682138,
-        "phone_2": 7461807653574,
+        "phone_1": 6333224195157,
+        "phone_2": 8816464910493,
         "observations": "NÃO LIGAR PELA MANHÃ"
       }
     }
