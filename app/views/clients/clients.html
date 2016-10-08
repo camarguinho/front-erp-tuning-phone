@@ -19,32 +19,13 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>100</td>
-                                <td>Luis Antônio Prestes</td>
-                                <td>Luizinho</td>
-                                <td>CPF</td>
-                                <td>45.856.504-0</td>
-                                <td>luizinho@gmail.com</td>
-                                <td>
-                                    <div class="col-lg-2">
-                                        <a href="#/client-details"><i class="glyphicon glyphicon-search"></i></a>
-                                    </div>
-                                    <div class="col-lg-2">
-                                        <a href="#/entries/clients"><i class="glyphicon glyphicon-edit"></i></a>
-                                    </div>
-                                    <div class="col-lg-2">
-                                        <a href="#/clients"><i class="glyphicon glyphicon-remove"></i></a>
-                                    </div>                               
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>101</td>
-                                <td>Maria Paula</td>
-                                <td>Mari</td>
-                                <td>CPF</td>
-                                <td>45.784.504-8</td>
-                                <td>mariazinha@gmail.com</td>
+                            <tr ng-repeat="client in clientsList track by $index">
+                                <td>{{client.id}}</td>
+                                <td>{{client.name}}</td>
+                                <td>{{client.nick_name}}</td>
+                                <td>{{client.document.type}}</td>
+                                <td>{{client.document.number}}</td>
+                                <td>{{client.contact.email_1}}</td>
                                 <td>
                                     <div class="col-lg-2">
                                         <a href="#/client-details"><i class="glyphicon glyphicon-search"></i></a>
@@ -64,13 +45,13 @@
         </div>
         <div>
             <ul class="pagination">
-                <li><a><<</a></li>
+                <li><a><i class="fa fa-angle-double-left" aria-hidden="true"></i></a></li>
                 <li><a>1</a></li>
                 <li><a>2</a></li>
                 <li><a>3</a></li>
                 <li><a>4</a></li>
                 <li><a>5</a></li>
-                <li><a>>></a></li>
+                <li><a><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
             </ul>
         </div>
     </div>
