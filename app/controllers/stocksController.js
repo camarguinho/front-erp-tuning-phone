@@ -1,7 +1,6 @@
 app.controller('stocksController', function($scope, $http) {
   $scope.module = "Estoque";
 
-
   $.getJSON("mocks/appleProducts/products.json", function(json) {
     $scope.appleProductsList = json;
   });
@@ -13,6 +12,5 @@ app.controller('stocksController', function($scope, $http) {
   $.getJSON("mocks/films/products.json", function(json) {
     $scope.filmsProductsList = json;
   });
-
 
 });

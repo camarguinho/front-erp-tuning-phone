@@ -4,6 +4,17 @@ app.controller('erpController', function($scope) {
    $scope.company = "TUNING-PHONE";
 });
 
+app.service('sharedValues', function() {
+   var clientsList;
+
+   setClientsList = function(val){
+      clientsList = val;
+   },
+   getClientsList = function(){
+      return clientsList;
+   }
+});
+
 app.config(function($routeProvider)
 {
    $routeProvider
@@ -115,5 +126,6 @@ app.config(function($routeProvider)
  
    .otherwise ({ redirectTo: '/' });
 });
+
 
 
