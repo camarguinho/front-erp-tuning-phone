@@ -1,4 +1,5 @@
-app.controller('erpController', function($scope, $location) {
+app.controller('erpController', function($scope, $location, sharedValues) {
+	$scope.clientsList = null;
 
 	$scope.goToClientsList = function(){
 		$location.path("clients");
@@ -35,5 +36,6 @@ app.controller('erpController', function($scope, $location) {
 	$scope.goToReports = function(){
 		$location.path("reports");
 	};
+
 
 });

@@ -20,7 +20,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr ng-repeat="product in filmsProductsList track by $index">
+                            <tr dir-paginate="product in filmsProductsList | itemsPerPage: 6 track by $index">
                                 <td>{{product.id}}</td>
                                 <td>{{product.name}}</td>
                                 <td>{{product.compatibility.supported_devices}}</td>
@@ -44,16 +44,8 @@
                         </tbody>
                     </table>
                 </div>
-                <div>
-                    <ul class="pagination">
-                        <li><a><i class="fa fa-angle-double-left" aria-hidden="true"></i></a></li>
-                        <li><a>1</a></li>
-                        <li><a>2</a></li>
-                        <li><a>3</a></li>
-                        <li><a>4</a></li>
-                        <li><a>5</a></li>
-                        <li><a><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
-                    </ul>
+                <div class="text-center">
+                    <dir-pagination-controls></dir-pagination-controls>
                 </div>
             </div>
         </div>        

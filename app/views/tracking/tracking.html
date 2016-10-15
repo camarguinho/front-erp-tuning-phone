@@ -1,4 +1,4 @@
-<div id="page-wrapper" ng-controller="clientsController">
+<div id="page-wrapper" ng-controller="trackingController">
 
     <div class="container-fluid">
         <div class="row">
@@ -20,20 +20,10 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>22/01/2016</td>
-                        <td>Sao Paulo, SP</td>
-                        <td>Entregue</td>
-                      </tr>
-                      <tr>
-                        <td>21/01/2016</td>
-                        <td>Sao Paulo, SP</td>
-                        <td>Encaminhado</td>
-                      </tr>
-                      <tr>
-                        <td>20/01/2016</td>
-                        <td>Sao Paulo, SP</td>
-                        <td>Postado</td>
+                      <tr ng-repeat="tracking in trackingList track by $index">
+                        <td>{{tracking.date}}</td>
+                        <td>{{tracking.place}}</td>
+                        <td>{{tracking.status}}</td>
                       </tr>
                     </tbody>
                 </table>

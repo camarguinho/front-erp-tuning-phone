@@ -1,0 +1,52 @@
+[
+  {
+    "date": "2015-08-02 07:55:26 ",
+    "place": "RIO DE JANEIRO, RJ",
+    "status": "ENTREGUE"
+  },
+  {
+    "date": "2015-03-02 05:34:52 ",
+    "place": "SÃO PAULO, SP",
+    "status": "POSTADO"
+  },
+  {
+    "date": "2016-01-20 05:32:55 ",
+    "place": "BRASÍLIA, DF",
+    "status": "POSTADO"
+  },
+  {
+    "date": "2016-07-16 07:14:06 ",
+    "place": "RIO DE JANEIRO, RJ",
+    "status": "ENTREGUE"
+  },
+  {
+    "date": "2016-08-13 12:29:31 ",
+    "place": "RIO DE JANEIRO, RJ",
+    "status": "ENCAMINHADO"
+  },
+  {
+    "date": "2015-03-08 03:52:35 ",
+    "place": "CURITIBA, PR",
+    "status": "ENTREGUE"
+  },
+  {
+    "date": "2014-12-27 10:25:50 ",
+    "place": "CURITIBA, PR",
+    "status": "DEVOLVIDO"
+  },
+  {
+    "date": "2015-06-09 08:37:39 ",
+    "place": "BRASÍLIA, DF",
+    "status": "ENCAMINHADO"
+  },
+  {
+    "date": "2015-03-03 02:13:37 ",
+    "place": "CURITIBA, PR",
+    "status": "ENTREGUE"
+  },
+  {
+    "date": "2016-04-01 07:36:12 ",
+    "place": "BRASÍLIA, DF",
+    "status": "POSTADO"
+  }
+]

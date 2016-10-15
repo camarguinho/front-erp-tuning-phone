@@ -35,11 +35,13 @@
 
     <!-- Controllers -->
     <script src="controllers/app.js"></script>
+    <script src="controllers/services.js"></script>
     <script src="controllers/erpController.js"></script>
     <script src="controllers/stocksController.js"></script>
     <script src="controllers/reportsController.js"></script>
     <script src="controllers/clientsController.js"></script>
     <script src="controllers/entriesController.js"></script>
+    <script src="controllers/trackingController.js"></script>
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -198,7 +200,7 @@
                         <a href="#/"><i class="fa fa-file-text"></i> Notas Fiscais</a>
                     </li>
                     <li>
-                        <a href="" ng-click="goToReports"><i class="fa fa-bar-chart"></i> Relatórios</a>
+                        <a href="" ng-click="goToReports()"><i class="fa fa-bar-chart"></i> Relatórios</a>
                     </li>
                 </ul>
             </div>
@@ -212,6 +214,9 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Pagination -->
+    <script src="bower_components/angularUtils-pagination/dirPagination.js"></script>
 
     <!-- Flot Charts JavaScript -->
     <!--[if lte IE 8]><script src="js/excanvas.min.js"></script><![endif]-->

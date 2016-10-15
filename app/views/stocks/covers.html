@@ -21,7 +21,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr ng-repeat="product in coversProductsList track by $index">
+                            <tr dir-paginate="product in coversProductsList | itemsPerPage: 6 track by $index">
                                 <td>{{product.id}}</td>
                                 <td>{{product.name}}</td>
                                 <td>{{product.compatibility.supported_devices}}</td>
@@ -33,29 +33,21 @@
                                 <td>{{product.supplier.company_name}}</td>
                                 <td>
                                     <div class="col-lg-2">
-                                        <a href="#/read/products"><i class="glyphicon glyphicon-search"></i></a>
+                                        <a href="#/read/products"><i class="fa fa-search fa-2x"></i></a>
                                     </div>
                                     <div class="col-lg-2">
-                                        <a href="#/entries/products"><i class="glyphicon glyphicon-edit"></i></a>
+                                        <a href="#/entries/products"><i class="fa fa-pencil-square-o fa-2x"></i></a>
                                     </div>
                                     <div class="col-lg-2">
-                                        <a href="#/stocks/covers"><i class="glyphicon glyphicon-remove"></i></a>
+                                        <a href="#/stocks/covers"><i class="fa fa-times fa-2x"></i></a>
                                     </div>                               
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <div>
-                    <ul class="pagination">
-                        <li><a><i class="fa fa-angle-double-left" aria-hidden="true"></i></a></li>
-                        <li><a>1</a></li>
-                        <li><a>2</a></li>
-                        <li><a>3</a></li>
-                        <li><a>4</a></li>
-                        <li><a>5</a></li>
-                        <li><a><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
-                    </ul>
+                <div class="text-center">
+                    <dir-pagination-controls></dir-pagination-controls>
                 </div>
             </div>
         </div>

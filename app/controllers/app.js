@@ -1,19 +1,4 @@
-var app = angular.module('app',['ngRoute']);
-
-app.controller('erpController', function($scope) {
-   $scope.company = "TUNING-PHONE";
-});
-
-app.service('sharedValues', function() {
-   var clientsList;
-
-   setClientsList = function(val){
-      clientsList = val;
-   },
-   getClientsList = function(){
-      return clientsList;
-   }
-});
+var app = angular.module('app',['ngRoute', 'angularUtils.directives.dirPagination']);
 
 app.config(function($routeProvider)
 {
