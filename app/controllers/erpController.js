@@ -1,5 +1,23 @@
 app.controller('erpController', function($scope, $location, sharedValues) {
 	$scope.clientsList = null;
+	$scope.authenticated = sharedValues.getAuthenticated();
+
+	$scope.user = null;
+	$scope.password = null;
+
+	$scope.login = function(){
+		if($scope.user != 'admin' || $scope.password != 1234){
+			$scope.authenticated = false;
+		} else {
+			$scope.authenticated = true;
+		}
+	};
+
+	$scope.logoff = function(){
+		$scope.authenticated = false;
+		
+		$location.path("login");
+	};
 
 	$scope.goToClientsList = function(){
 		$location.path("clients");
@@ -37,5 +55,6 @@ app.controller('erpController', function($scope, $location, sharedValues) {
 		$location.path("reports");
 	};
 
+	sharedValues.setAuthenticated($scope.authenticated);
 
 });

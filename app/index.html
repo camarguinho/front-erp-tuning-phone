@@ -70,7 +70,7 @@
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
-                <li class="dropdown no_font_audiowide" ng-controller="msgController">
+                <li class="dropdown no_font_audiowide" ng-controller="msgController" ng-show="authenticated">
                     <a href="#/" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
                     <ul class="dropdown-menu message-dropdown profile">
                         <li ng-repeat="msg in messageList" class="message-preview">
@@ -93,7 +93,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="dropdown no_font_audiowide">
+                <li class="dropdown no_font_audiowide" ng-show="authenticated">
                     <a href="#/" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
                     <ul class="dropdown-menu alert-dropdown profile">
                         <li>
@@ -108,7 +108,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="dropdown no_font_audiowide">
+                <li class="dropdown no_font_audiowide" ng-show="authenticated">
                     <a href="#/" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Camargo Ribeiro <b class="caret"></b></a>
                     <ul class="dropdown-menu profile">
                         <li>
@@ -122,13 +122,33 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#/"><i class="fa fa-fw fa-power-off"></i> Sair</a>
+                            <a href="" ng-click="logoff()"><i class="fa fa-fw fa-power-off"></i> Sair</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown no_font_audiowide" ng-show="!authenticated">
+                  <a href="" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+                    <ul id="login-dp" class="dropdown-menu">
+                        <li>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                     <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                     <input type="text" ng-model="user" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                     <label class="sr-only" for="exampleInputPassword2">Password</label>
+                                     <input type="password" ng-model="password" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                     <button type="submit" ng-click="login()" class="btn btn-primary  btn-block">Entrar</button>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </li>
             </ul>
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="collapse navbar-collapse navbar-ex1-collapse" ng-show="authenticated">
                 <ul class="nav navbar-nav side-nav">
                     <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#entries"><i class="fa fa-floppy-o"></i> Cadastros <i class="fa fa-fw fa-caret-down"></i></a>
@@ -178,7 +198,7 @@
             <!-- /.navbar-collapse -->
         </nav>
 
-        <div class="no_font_audiowide" ng-view></div>
+        <div class="no_font_audiowide" ng-show="authenticated" ng-view></div>
 
     <!-- jQuery -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
