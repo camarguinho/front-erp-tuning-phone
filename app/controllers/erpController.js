@@ -1,9 +1,7 @@
 app.controller('erpController', function($scope, $location, sharedValues) {
-	$scope.clientsList = null;
-	$scope.authenticated = sharedValues.getAuthenticated();
-
 	$scope.user = null;
 	$scope.password = null;
+	$scope.authenticated = sharedValues.getAuthenticated();
 
 	$scope.login = function(){
 		if($scope.user != 'admin' || $scope.password != 1234){
@@ -11,12 +9,15 @@ app.controller('erpController', function($scope, $location, sharedValues) {
 		} else {
 			$scope.authenticated = true;
 		}
+		sharedValues.setAuthenticated($scope.authenticated);
+		$location.path("/");
 	};
 
 	$scope.logoff = function(){
+		$scope.user = null;
+		$scope.password = null;
 		$scope.authenticated = false;
-		
-		$location.path("login");
+		$location.path("/");
 	};
 
 	$scope.goToClientsList = function(){
