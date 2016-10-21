@@ -21,11 +21,11 @@
                         <div id="clients-data" class="tab-pane fade in active">
                             <div class="form-group">
                                 <label for="name">Nome:</label>
-                                <input id="name" type="text" ng-maxlength="50" size="50"/>
+                                <input id="name" type="text" ng-model="client.name" ng-maxlength="50" size="50"/>
                             </div>
                             <div class="form-group">
                                 <label for="nickname">Apelido:</label>
-                                <input id="nickname" type="text" ng-maxlength="25" size="25"/>
+                                <input id="nickname" type="text" ng-model="client.nick_name" ng-maxlength="25" size="25"/>
                             </div>
                         </div>
 
@@ -33,7 +33,7 @@
                         <div id="clients-document" class="tab-pane fade">
                             <div class="form-group">
                                 <label for="type">Tipo:</label>
-                                <select ng-model="documents" id="type">
+                                <select ng-model="documents" id="type" ng-model="client.document.type">
                                   <option value="">-- Escolha o tipo --</option>
                                   <option value="">RG</option>
                                   <option value="">CPF</option>
@@ -42,7 +42,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="number">Número:</label>
-                                <input id="number" type="number" ng-max="14" size="4"/>
+                                <input id="number" type="number" ng-model="client.document.number" ng-max="14" size="4"/>
                             </div>
                         </div>
 
@@ -50,31 +50,31 @@
                         <div id="clients-address" class="tab-pane fade">
                             <div class="form-group">
                                 <label for="zip_code">CEP:</label>
-                                <input id="zip_code" type="number" ng-max="8" size="8"/>
+                                <input id="zip_code" type="number" ng-model="client.address.zip_code" ng-max="8" size="8"/>
                             </div>
                             <div class="form-group">
                                 <label for="address">Endereço:</label>
-                                <input id="address" type="text" ng-maxlength="50" size="50"/>
+                                <input id="address" type="text" ng-model="client.address.address" ng-maxlength="50" size="50"/>
                             </div>
                             <div class="form-group">
                                 <label for="number">Número:</label>
-                                <input id="number" type="text" ng-maxlength="8" size="8"/>
+                                <input id="number" type="text" ng-model="client.address.number" ng-maxlength="8" size="8"/>
                             </div>
                             <div class="form-group">
                                 <label for="complement">Complemento:</label>
-                                <input id="complement" type="text" ng-maxlength="25" size="25"/>
+                                <input id="complement" type="text" ng-model="client.address.complement" ng-maxlength="25" size="25"/>
                             </div>
                             <div class="form-group">
                                 <label for="neighborhood">Bairro:</label>
-                                <input id="neighborhood" type="text" ng-maxlength="25" size="25"/>
+                                <input id="neighborhood" type="text" ng-model="client.address.neighborhood" ng-maxlength="25" size="25"/>
                             </div>
                             <div class="form-group">
                                 <label for="ibge_code">IBGE:</label>
-                                <input id="ibge_code" type="number" ng-max="7" size="7"/>
+                                <input id="ibge_code" type="number" ng-model="client.address.ibge_code" ng-max="7" size="7"/>
                             </div>
                             <div class="form-group">                            
                                 <label for="contry">País:</label>
-                                <select id="contry" ng-model="country">
+                                <select id="contry" ng-model="client.address.country">
                                   <option value="">-- Escolha o país --</option>
                                   <option value="">Brasil</option>
                                   <option value="">Chile</option>
@@ -83,7 +83,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="state">Estado:</label> 
-                                <select id="state" ng-model="state">
+                                <select id="state" ng-model="client.address.state">
                                   <option value="">-- Escolha o estado --</option>
                                   <option value="">SP</option>
                                   <option value="">RJ</option>
@@ -92,7 +92,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="city">Cidade:</label> 
-                                <select id="city" ng-model="city">
+                                <select id="city" ng-model="client.address.city">
                                   <option value="">-- Escolha a cidade --</option>
                                   <option value="">São Paulo</option>
                                   <option value="">Rio de Janeiro</option>
@@ -105,23 +105,23 @@
                         <div id="clients-contact" class="tab-pane fade">
                             <div class="form-group">
                                 <label for="email_1" >E-mail 1:</label>
-                                <input id="email_1" type="text" ng-maxlength="50" size="50"/>
+                                <input id="email_1" type="text" ng-model="client.contact.email_1" ng-maxlength="50" size="50"/>
                             </div>
                             <div class="form-group">
                                 <label for="email_2" >E-mail 2:</label>
-                                <input id="email_2" type="text" ng-maxlength="50" size="50"/>
+                                <input id="email_2" type="text" ng-model="client.contact.email_2" ng-maxlength="50" size="50"/>
                             </div>
                             <div class="form-group">
                                 <label for="phone_1" >Número 1:</label>
-                                <input id="phone_1" type="number" ng-max="13" size="13"/>
+                                <input id="phone_1" type="number" ng-model="client.contact.phone_1" ng-max="13" size="13"/>
                             </div>
                             <div class="form-group">
                                 <label for="phone_2" >Número 2:</label>
-                                <input id="phone_2" type="number" ng-max="13" size="13"/>
+                                <input id="phone_2" type="number" ng-model="client.contact.phone_2" ng-max="13" size="13"/>
                             </div>
                             <div class="form-group">
                                 <label for="observations" >Observações:</label>
-                                <textarea id="observations" rows="4" cols="50" ng-maxlength="150" size="150">
+                                <textarea id="observations" rows="4" cols="50" ng-model="client.contact.observations" ng-maxlength="150" size="150">
                                 </textarea>
                             </div>
                         </div>
