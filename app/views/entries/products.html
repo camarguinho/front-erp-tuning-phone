@@ -11,43 +11,45 @@
 				<form><br/>
 					<div class="form-group">
 						<label for="name">Nome:</label>
-						<input type="text" id="name" ng-maxlength="50" size="50">
+						<input type="text" id="name" ng-model="product.name"  ng-maxlength="50" size="50">
 					</div>
 					<div class="form-group">
 						<label for="value_purchase">Valor de Compra:</label>
-						<input id="value_purchase" type="number" ng-max="6" size="6">
+						<input id="value_purchase" type="number" ng-model="product.value_purchase"  size="6">
 					</div>
 					<div class="form-group">
 						<label for="value_sale">Valor de Venda:</label>
-						<input id="value_sale" type="number" ng-max="6" size="6">
+						<input id="value_sale" type="number" ng-model="product.value_sale"  size="6">
 					</div>
 					<div class="form-group">
 						<label for="specifications">Especificações:</label>
-						<input id="specifications" type="text" ng-maxlength="100" size="100">
+						<input id="specifications" type="text" ng-model="product.specifications"  ng-maxlength="100" size="100">
 					</div>
 					<div class="form-group">	
 						<label for="specifications">Cor:</label>
-						<input id="specifications" type="text" ng-maxlength="20" size="20">
+						<input id="specifications" type="text" ng-model="product.color"  ng-maxlength="20" size="20">
 					</div>
 					<div class="form-group">	
 						<label for="available_quantity">Quantidade disponível:</label>
-						<input id="available_quantity" type="number" ng-max="4" size="4">
+						<input id="available_quantity" type="number" ng-model="product.available_quantity"  size="4">
 					</div>
 					<div class="form-group">
 						<label for="status">Status:</label>
-							<label><input id="status" type="radio" value="Ativo"/>Ativo</label>
-							<label><input id="status" type="radio" value="Inativo"/>Inativo</label>
-					</div>
-					<div class="form-group">	
-						<label for="creation_date">Data de criação:</label>
-						<input id="creation_date" type="date" placeholder="dd/MM/yyyy">
+							<label><input type="radio" ng-model="product.status"  value="true">Ativo</label>
+							<label><input type="radio" ng-model="product.status"  value="false">Inativo</label>
 					</div>
 					<div class="form-group">	
 						<label for="provider">Fornecedor:</label> 
-							<select id="provider" ng-model="suppliers">
-						      <option value="">-- Escolha o fornecedor --</option>
-						      <option value="">Fornecedor 1</option>
-						      <option value="">Fornecedor 2</option>
+							<select id="provider" ng-model="product.supplier.company_name" >
+						      <option>-- Escolha o fornecedor --</option>
+						      <option>SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD</option>
+						      <option>SHENZHEN RN TECH CO., LTD</option>
+						      <option>FIVE CITY DIGITAL STORE</option>
+						      <option>CHINA WHOLESALE ONLINE STORE</option>
+						      <option>GUANGZHOU DREAMS ELECTTRONIC TECHNOLOGY CO., LTD.</option>
+						      <option>XINGHAI</option>
+						      <option>EDWARD TECHNOLOGY CO,LTD</option>
+						      <option>MOCOLO ONLINE SHOP</option>
 						    </select> 
 					</div>
 				</form>
@@ -55,7 +57,7 @@
 		</div><br/>
 		<div class="row">
             <div class="col-lg-12"><br/>
-                <a class="btn btn-warning" role="button">Limpar</a>
+            	<a class="btn btn-warning" ng-click="return()" role="button">Voltar</a>
                 <a class="btn btn-success" role="button">Salvar</a>
             </div>
         </div>

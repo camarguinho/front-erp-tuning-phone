@@ -15,11 +15,15 @@ app.controller('clientsController', function($scope, $location, sharedValues) {
   $scope.read = function(val){
   	$scope.client = val;
   	sharedValues.setObject($scope.client);
-  	$location.path("entries/clients");
+    $location.path("client-details");
   };
 
   $scope.remove = function(val) {
     $scope.clientsList.splice($scope.clientsList.indexOf(val),1);
   };
+
+  $scope.return = function(){
+    $location.path("clients");
+  }
 
 });

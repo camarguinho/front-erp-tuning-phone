@@ -6,7 +6,8 @@
     nick_name: '{{random("zezinho", "gugu", "pedroca", "marcelinha", "terê", "luquinhas", "mi", "mirela", "lulu").toUpperCase()}}',
     document: {
     id: '{{integer(1, 300)}}', 
-    type: '{{random("rg", "cpf", "cnpj").toUpperCase()}}'      
+    type: '{{random("rg", "cpf", "cnpj").toUpperCase()}}',
+    number: '{{integer(10000000000, 10000000000000)}}'
   },
     address: {
     id: '{{integer(1, 300)}}', 
@@ -18,7 +19,7 @@
     ibge_code: '{{integer(1000000, 9020000)}}',
     city: '{{random("são paulo", "rio de janeiro", "florianópolis").toUpperCase()}}',
     state: '{{random("são paulo", "rio de janeiro", "santa catarina").toUpperCase()}}',
-    contry: '{{random("brasil", "bolívia", "santa peru").toUpperCase()}}'
+    contry: '{{random("brasil", "bolívia", "chile").toUpperCase()}}'
       
   },
     contact: {

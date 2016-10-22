@@ -30,15 +30,15 @@
                                 <td>{{product.value_sale}}</td>
                                 <td>{{product.supplier.company_name}}</td>
                                 <td>
-                                    <div class="col-lg-2">
-                                        <a href="#/read/products"><i class="fa fa-search fa-2x"></i></a>
+                                   <div class="col-lg-2">
+                                        <a href="" ng-click="read(product)"><i class="fa fa-search fa-2x"></i></a>
                                     </div>
                                     <div class="col-lg-2">
-                                        <a href="#/entries/products"><i class="fa fa-pencil-square-o fa-2x"></i></a>
+                                        <a href="" ng-click="edit(product)"><i class="fa fa-pencil-square-o fa-2x"></i></a>
                                     </div>
                                     <div class="col-lg-2">
-                                        <a href="#/stocks/films"><i class="fa fa-times fa-2x"></i></a>
-                                    </div>                               
+                                        <a href="" ng-click="remove(product)"><i class="fa fa-times fa-2x"></i></a>
+                                    </div>                              
                                 </td>
                             </tr>
                         </tbody>

@@ -2,6 +2,7 @@ app.service('sharedValues', function() {
    var list;
    var object;
    var authenticated;
+   var operation;
 
    return {
    	   setList : function(val){
@@ -23,6 +24,13 @@ app.service('sharedValues', function() {
 	   },
 	   getAuthenticated : function(){
 	   		return authenticated;
+	   },
+
+	   setOperation : function(val){
+	   		operation = val;
+	   },
+	   getOperation : function(){
+	   		return operation;
 	   }
    }
 });

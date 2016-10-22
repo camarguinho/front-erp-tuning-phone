@@ -33,16 +33,16 @@
                         <div id="clients-document" class="tab-pane fade">
                             <div class="form-group">
                                 <label for="type">Tipo:</label>
-                                <select ng-model="documents" id="type" ng-model="client.document.type">
-                                  <option value="">-- Escolha o tipo --</option>
-                                  <option value="">RG</option>
-                                  <option value="">CPF</option>
-                                  <option value="">Outro</option>
+                                <select id="type" ng-model="client.document.type">
+                                  <option>-- Escolha o tipo --</option>
+                                  <option>RG</option>
+                                  <option>CPF</option>
+                                  <option>CNPJ</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="number">Número:</label>
-                                <input id="number" type="number" ng-model="client.document.number" ng-max="14" size="4"/>
+                                <input id="number" type="number" ng-model="client.document.number" size="14"/>
                             </div>
                         </div>
 
@@ -50,7 +50,7 @@
                         <div id="clients-address" class="tab-pane fade">
                             <div class="form-group">
                                 <label for="zip_code">CEP:</label>
-                                <input id="zip_code" type="number" ng-model="client.address.zip_code" ng-max="8" size="8"/>
+                                <input id="zip_code" type="number" ng-model="client.address.zip_code" size="8"/>
                             </div>
                             <div class="form-group">
                                 <label for="address">Endereço:</label>
@@ -70,33 +70,33 @@
                             </div>
                             <div class="form-group">
                                 <label for="ibge_code">IBGE:</label>
-                                <input id="ibge_code" type="number" ng-model="client.address.ibge_code" ng-max="7" size="7"/>
+                                <input id="ibge_code" type="number" ng-model="client.address.ibge_code"  size="7"/>
                             </div>
                             <div class="form-group">                            
                                 <label for="contry">País:</label>
-                                <select id="contry" ng-model="client.address.country">
-                                  <option value="">-- Escolha o país --</option>
-                                  <option value="">Brasil</option>
-                                  <option value="">Chile</option>
-                                  <option value="">Argentina</option>
+                                <select id="contry" ng-model="client.address.contry">
+                                  <option>-- Escolha o país --</option>
+                                  <option>BRASIL</option>
+                                  <option>BOLÍVIA</option>
+                                  <option>CHILE</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="state">Estado:</label> 
                                 <select id="state" ng-model="client.address.state">
-                                  <option value="">-- Escolha o estado --</option>
-                                  <option value="">SP</option>
-                                  <option value="">RJ</option>
-                                  <option value="">MG</option>
+                                  <option>-- Escolha o estado --</option>
+                                  <option>SÃO PAULO</option>
+                                  <option>RIO DE JANEIRO</option>
+                                  <option>SANTA CATARINA</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="city">Cidade:</label> 
                                 <select id="city" ng-model="client.address.city">
-                                  <option value="">-- Escolha a cidade --</option>
-                                  <option value="">São Paulo</option>
-                                  <option value="">Rio de Janeiro</option>
-                                  <option value="">Salvador</option>
+                                  <option>-- Escolha a cidade --</option>
+                                  <option>SÃO PAULO</option>
+                                  <option>RIO DE JANEIRO</option>
+                                  <option>FLORIANÓPOLIS</option>
                                 </select>
                             </div>
                         </div>
@@ -113,11 +113,11 @@
                             </div>
                             <div class="form-group">
                                 <label for="phone_1" >Número 1:</label>
-                                <input id="phone_1" type="number" ng-model="client.contact.phone_1" ng-max="13" size="13"/>
+                                <input id="phone_1" type="number" ng-model="client.contact.phone_1" size="13"/>
                             </div>
                             <div class="form-group">
                                 <label for="phone_2" >Número 2:</label>
-                                <input id="phone_2" type="number" ng-model="client.contact.phone_2" ng-max="13" size="13"/>
+                                <input id="phone_2" type="number" ng-model="client.contact.phone_2" size="13"/>
                             </div>
                             <div class="form-group">
                                 <label for="observations" >Observações:</label>
@@ -130,7 +130,7 @@
             </div><br/>
             <div class="row">
                 <div class="col-lg-12"><br/>
-                    <a class="btn btn-warning" role="button">Limpar</a>
+                    <a class="btn btn-warning" ng-click="return()" role="button">Voltar</a>
                     <a class="btn btn-success" role="button">Salvar</a>
                 </div>
             </div>

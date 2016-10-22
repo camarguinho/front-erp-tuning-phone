@@ -9,18 +9,8 @@ app.config(function($routeProvider)
       controller : "erpController",  
    })
 
-   .when('/read/products', {
-      templateUrl : 'views/read/products.html',
-      controller : "entriesController",  
-   })
-
    .when('/entries/products', {
       templateUrl : 'views/entries/products.html',
-      controller : "entriesController",  
-   })
-
-   .when('/read/suppliers', {
-      templateUrl : 'views/entries/suppliers.html',
       controller : "entriesController",  
    })
 

@@ -72,7 +72,7 @@
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
-                <li class="dropdown no_font_audiowide" ng-controller="msgController" ng-show="authenticated">
+                <li class="dropdown no_font_audiowide" ng-controller="msgController" >
                     <a href="#/" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
                     <ul class="dropdown-menu message-dropdown profile">
                         <li ng-repeat="msg in messageList" class="message-preview">
@@ -95,7 +95,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="dropdown no_font_audiowide" ng-show="authenticated">
+                <li class="dropdown no_font_audiowide" >
                     <a href="#/" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
                     <ul class="dropdown-menu alert-dropdown profile">
                         <li>
@@ -110,7 +110,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="dropdown no_font_audiowide" ng-show="authenticated">
+                <li class="dropdown no_font_audiowide" >
                     <a href="#/" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Camargo Ribeiro <b class="caret"></b></a>
                     <ul class="dropdown-menu profile">
                         <li>
@@ -128,7 +128,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="dropdown no_font_audiowide" ng-show="!authenticated">
+                <li class="dropdown no_font_audiowide" >
                   <a href="" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
                     <ul id="login-dp" class="dropdown-menu message-dropdown profile">
                         <li class="message-preview">
@@ -151,7 +151,7 @@
             </ul>
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul ng-show="authenticated" class="nav navbar-nav side-nav">
+                <ul  class="nav navbar-nav side-nav">
                     <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#entries"><i class="fa fa-floppy-o"></i> Cadastros <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="entries" class="collapse">

@@ -3,8 +3,8 @@
   {
     id: '{{integer(1, 300)}}',
     name: '{{random("Cabo USB Lightning Apple", "Fone de ouvido Earpods Apple").toUpperCase()}}',
-    value_purchase: '{{floating(40, 75, 2, "$0,0.00")}}',
-    value_sale: '{{floating(80, 150, 2, "$0,0.00")}}',
+    value_purchase: '{{integer(100, 300)}}',
+    value_sale: '{{integer(1, 300)}}',
     specifications: '{{random("Lightning | Reversível | 8 Pinos", "Controle de chamadas/reprodução").toUpperCase()}}',
     color: '{{random("branco", "branco").toUpperCase()}}',
     available_quantity: '{{integer(1, 240)}}',
