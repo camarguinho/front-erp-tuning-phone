@@ -6,86 +6,16 @@ app.config(function($routeProvider)
 
    .when('/', {
       templateUrl : 'views/home.html',
-      controller : "erpController",  
-   })
-
-   .when('/entries/products', {
-      templateUrl : 'views/entries/products.html',
-      controller : "entriesController",  
-   })
-
-   .when('/entries/suppliers', {
-      templateUrl : 'views/entries/suppliers.html',
-      controller : "entriesController",  
-   })
-
-         .when('/suppliers-data', {
-            templateUrl : 'views/entries/suppliers.html',
-            controller : "entriesController",  
-         })
-
-         .when('/suppliers-document', {
-            templateUrl : 'views/entries/suppliers.html',
-            controller : "entriesController",  
-         })
-
-         .when('/suppliers-address', {
-            templateUrl : 'views/entries/suppliers.html',
-            controller : "entriesController",  
-         })
-
-         .when('/suppliers-contact', {
-            templateUrl : 'views/entries/suppliers.html',
-            controller : "entriesController",  
-         })
-
-   .when('/tracking/clients', {
-      templateUrl : 'views/tracking/tracking.html',
-      controller : "trackingController",  
-   })
-
-   .when('/entries/clients', {
-      templateUrl : 'views/entries/clients.html',
-      controller : "entriesController",  
-   })
-
-            .when('/clients-data', {
-               templateUrl : 'views/entries/clients.html',
-               controller : "entriesController",  
-            })
-
-            .when('/clients-document', {
-               templateUrl : 'views/entries/clients.html',
-               controller : "entriesController",  
-            })
-
-            .when('/clients-address', {
-               templateUrl : 'views/entries/clients.html',
-               controller : "entriesController",  
-            })
-
-            .when('/clients-contact', {
-               templateUrl : 'views/entries/clients.html',
-               controller : "entriesController",  
-            })
- 
-   .when('/stocks/films', {
-      templateUrl : 'views/stocks/films.html',
-      controller : "stocksController",  
-   })
-
-   .when('/stocks/covers', {
-      templateUrl : 'views/stocks/covers.html',
-      controller : "stocksController",  
-   })
-
-   .when('/stocks/appleProducts', {
-      templateUrl : 'views/stocks/appleProducts.html',
-      controller : "stocksController",  
+      controller : "",  
    })
 
    .when('/clients', {
       templateUrl : 'views/clients/clients.html',
+      controller : "clientsController",  
+   })
+
+   .when('/client', {
+      templateUrl : 'views/clients/client.html',
       controller : "clientsController",  
    })
 
@@ -94,9 +24,24 @@ app.config(function($routeProvider)
       controller : "clientsController",  
    })
 
-   .when('/reports', {
-      templateUrl : 'views/reports/general.html',
-      controller : "reportsController",  
+   .when('/clients-data', {
+      templateUrl : 'views/clients/client.html',
+      controller : "clientsController",  
+   })
+
+   .when('/clients-document', {
+      templateUrl : 'views/clients/client.html',
+      controller : "clientsController",  
+   })
+
+   .when('/clients-address', {
+      templateUrl : 'views/clients/client.html',
+      controller : "clientsController",  
+   })
+
+   .when('/clients-contact', {
+      templateUrl : 'views/clients/client.html',
+      controller : "clientsController",  
    })
  
    .otherwise ({ redirectTo: '/' });

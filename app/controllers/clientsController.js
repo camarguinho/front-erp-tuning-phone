@@ -9,7 +9,7 @@ app.controller('clientsController', function($scope, $location, sharedValues) {
   $scope.edit = function(val){
   	$scope.client = val;
   	sharedValues.setObject($scope.client);
-  	$location.path("entries/clients");
+  	$location.path("client");
   };
 
   $scope.read = function(val){
