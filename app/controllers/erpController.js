@@ -24,6 +24,18 @@ app.controller('erpController', function($scope, $location, sharedValues) {
 		$location.path("clients");
 	};
 
+	$scope.goToAppleProducts = function(){
+		$location.path("appleProducts");
+	};
+
+	$scope.goToCovers = function(){
+		$location.path("covers");
+	};
+
+	$scope.goToFilms = function(){
+		$location.path("films");
+	};
+
 	sharedValues.setAuthenticated($scope.authenticated);
 
 });

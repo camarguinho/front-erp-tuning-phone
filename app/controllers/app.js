@@ -43,6 +43,26 @@ app.config(function($routeProvider)
       templateUrl : 'views/clients/client.html',
       controller : "clientsController",  
    })
+
+   .when('/appleProducts', {
+      templateUrl : 'views/products/appleProducts.html',
+      controller : "productsController",  
+   })
+
+   .when('/covers', {
+      templateUrl : 'views/products/covers.html',
+      controller : "productsController",  
+   })
+
+   .when('/films', {
+      templateUrl : 'views/products/films.html',
+      controller : "productsController",  
+   })
+
+   .when('/product', {
+      templateUrl : 'views/products/product.html',
+      controller : "productsController",  
+   })
  
    .otherwise ({ redirectTo: '/' });
 });
