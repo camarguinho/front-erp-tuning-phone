@@ -6,6 +6,11 @@ app.controller('clientsController', function($scope, $location, sharedValues) {
     $scope.clientsList = json;
   });
 
+  $scope.new = function(){
+    sharedValues.setObject(null);
+    $location.path("client");
+  };
+
   $scope.edit = function(val){
   	$scope.client = val;
   	sharedValues.setObject($scope.client);
