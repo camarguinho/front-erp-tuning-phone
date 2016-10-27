@@ -37,8 +37,11 @@ app.controller('erpController', function($scope, $location, sharedValues) {
 	};
 
 	$scope.goToSuppliers = function(){
-		console.log("Chamou");
 		$location.path("suppliers");
+	};
+
+	$scope.goToReportsAndCharts = function(){
+		$location.path("reportsAndCharts");
 	};
 
 	sharedValues.setAuthenticated($scope.authenticated);

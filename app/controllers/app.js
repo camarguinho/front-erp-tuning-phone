@@ -98,6 +98,11 @@ app.config(function($routeProvider)
       templateUrl : 'views/suppliers/supplier.html',
       controller : "suppliersController",  
    })
+
+   .when('/reportsAndCharts', {
+      templateUrl : 'views/reports/general.html',
+      controller : "reportsAndChartsController",  
+   })
  
    .otherwise ({ redirectTo: '/' });
 });
