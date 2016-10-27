@@ -33,12 +33,18 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
 
+
     <!-- Controllers -->
     <script src="controllers/app.js"></script>
-    <script src="controllers/stocksController.js"></script>
-    <script src="controllers/reportsController.js"></script>
+    <script src="controllers/services.js"></script>
+    <script src="controllers/erpController.js"></script>
+    <script src="controllers/loginController.js"></script>
+    <script src="controllers/productsController.js"></script>
+    <script src="controllers/reportsAndChartsController.js"></script>
     <script src="controllers/clientsController.js"></script>
-    <script src="controllers/entriesController.js"></script>
+    <script src="controllers/suppliersController.js"></script>
+    <script src="controllers/trackingController.js"></script>
+    <script src="controllers/msgController.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -62,79 +68,49 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#/">SOFTWARE DE GESTÃO {{company}}</a>
+                <a class="navbar-brand" href="#/">SOFTWARE DE GESTÃO</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
-                <li class="dropdown no_font_audiowide">
+                <li class="dropdown no_font_audiowide" ng-controller="msgController" >
                     <a href="#/" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
                     <ul class="dropdown-menu message-dropdown profile">
-                        <li class="message-preview">
+                        <li ng-repeat="msg in messageList" class="message-preview">
                             <a href="#/">
                                 <div class="media">
                                     <span class="pull-left">
                                         <img class="media-object" src="http://placehold.it/50x50" alt="">
                                     </span>
                                     <div class="media-body">
-                                        <h5 class="media-heading"><strong>André Luis</strong>
+                                        <h5 class="media-heading"><strong>{{msg.name}}</strong>
                                         </h5>
-                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> 13/09/2016 16:57 </p>
-                                        <p>Olá, ainda possui o produto a pronta entrega?</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="message-preview">
-                            <a href="#/">
-                                <div class="media">
-                                    <span class="pull-left">
-                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
-                                    </span>
-                                    <div class="media-body">
-                                        <h5 class="media-heading"><strong>Pedro Paulo</strong>
-                                        </h5>
-                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> 13/09/2016 16:57 </p>
-                                        <p>Oi, quais cores você possui?</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="message-preview">
-                            <a href="#/">
-                                <div class="media">
-                                    <span class="pull-left">
-                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
-                                    </span>
-                                    <div class="media-body">
-                                        <h5 class="media-heading"><strong>Marcelo Cavalcante</strong>
-                                        </h5>
-                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> 13/09/2016 16:57 </p>
-                                        <p>Amigo, ainda está vendendo?</p>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> {{msg.date}} </p>
+                                        <p>{{msg.message}}</p>
                                     </div>
                                 </div>
                             </a>
                         </li>
                         <li class="message-footer">
-                            <a href="#">Ver todas as mensagens</a>
+                            <a href="#/">Ver todas as mensagens</a>
                         </li>
                     </ul>
                 </li>
-                <li class="dropdown no_font_audiowide">
+                <li class="dropdown no_font_audiowide" >
                     <a href="#/" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
                     <ul class="dropdown-menu alert-dropdown profile">
                         <li>
-                            <a href="#"><span class="label label-default">Películas acabando</span></a>
+                            <a href="#/"><span class="label label-default">Películas acabando</span></a>
                         </li>
                         <li>
-                            <a href="#"><span class="label label-primary">DAS à vencer</span></a>
+                            <a href="#/"><span class="label label-primary">DAS à vencer</span></a>
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#">Ver todos os alertas</a>
+                            <a href="#/">Ver todos os alertas</a>
                         </li>
                     </ul>
                 </li>
-                <li class="dropdown no_font_audiowide">
+                <li class="dropdown no_font_audiowide" >
                     <a href="#/" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Camargo Ribeiro <b class="caret"></b></a>
                     <ul class="dropdown-menu profile">
                         <li>
@@ -148,56 +124,59 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#/"><i class="fa fa-fw fa-power-off"></i> Sair</a>
+                            <a href="#/" ng-click="logoff()"><i class="fa fa-fw fa-power-off"></i> Sair</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown no_font_audiowide" >
+                  <a href="" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+                    <ul id="login-dp" class="dropdown-menu message-dropdown profile">
+                        <li class="message-preview">
+                            <div class="col-lg-12"><br/>
+                                <div class="form-group">
+                                     <label class="sr-only" for="exampleInputEmail2">Usuário</label>
+                                     <input type="text" ng-model="user" class="form-control" size="50">
+                                </div>
+                                <div class="form-group">
+                                     <label class="sr-only" for="exampleInputPassword2">Senha</label>
+                                     <input type="password" ng-model="password" class="form-control" size="50">
+                                </div>
+                                <div class="form-group">
+                                     <a href="" ng-click="login()" class="btn btn-primary  btn-block">Entrar</a>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </li>
             </ul>
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav side-nav">
+                <ul  class="nav navbar-nav side-nav">
                     <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#entries"><i class="fa fa-floppy-o"></i> Cadastros <i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="entries" class="collapse">
+                        <a href="javascript:;" data-toggle="collapse" data-target="#products"><i class="fa fa-archive"></i> Produtos <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="products" class="collapse">
                             <li>
-                                <a href="#entries/suppliers">Fornecedores</a>
+                                <a href="" ng-click="goToFilms()">Películas</a>
                             </li>
                             <li>
-                                <a href="#entries/products">Produtos</a>
+                                <a href="" ng-click="goToCovers()">Capas</a>
                             </li>
                             <li>
-                                <a href="#entries/clients">Clientes</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#stocks"><i class="fa fa-archive"></i> Estoques <i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="stocks" class="collapse">
-                            <li>
-                                <a href="#stocks/films">Películas</a>
-                            </li>
-                            <li>
-                                <a href="#stocks/covers">Capas</a>
-                            </li>
-                            <li>
-                                <a href="#stocks/appleProducts">Produtos Apple</a>
+                                <a href="" ng-click="goToAppleProducts()">Produtos Apple</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#tracking/clients"><i class="fa fa-search"></i> Rastrear</a>
+                        <a href="" ng-click="goToClients()"><i class="fa fa-users"></i> Clientes</a>
                     </li>
                     <li>
-                        <a href="#clients"><i class="fa fa-users"></i> Clientes</a>
+                        <a href="" ng-click="goToSuppliers()"><i class="fa fa-truck"></i> Fornecedores</a>
                     </li>
                     <li>
-                        <a href="#/"><i class="fa fa-money"></i> Vendas</a>
+                        <a href="" ng-click=""><i class="fa fa-shopping-cart"></i> Vendas</a>
                     </li>
                     <li>
-                        <a href="#/"><i class="fa fa-file-text"></i> Notas Fiscais</a>
-                    </li>
-                    <li>
-                        <a href="#reports"><i class="fa fa-bar-chart"></i> Relatórios</a>
+                        <a href="" ng-click="goToReportsAndCharts()"><i class="fa fa-area-chart"></i> Relatórios e Gráficos</a>
                     </li>
                 </ul>
             </div>
@@ -211,6 +190,9 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Pagination -->
+    <script src="bower_components/angularUtils-pagination/dirPagination.js"></script>
 
     <!-- Flot Charts JavaScript -->
     <!--[if lte IE 8]><script src="js/excanvas.min.js"></script><![endif]-->

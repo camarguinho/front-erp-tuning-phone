@@ -1,8 +1,4 @@
-var app = angular.module('app',['ngRoute']);
-
-app.controller('erpController', function($scope) {
-   $scope.company = "TUNING-PHONE";
-});
+var app = angular.module('app',['ngRoute', 'angularUtils.directives.dirPagination']);
 
 app.config(function($routeProvider)
 {
@@ -10,96 +6,16 @@ app.config(function($routeProvider)
 
    .when('/', {
       templateUrl : 'views/home.html',
-      controller : "erpController",  
-   })
-
-   .when('/read/products', {
-      templateUrl : 'views/read/products.html',
-      controller : "entriesController",  
-   })
-
-   .when('/entries/products', {
-      templateUrl : 'views/entries/products.html',
-      controller : "entriesController",  
-   })
-
-   .when('/read/suppliers', {
-      templateUrl : 'views/entries/suppliers.html',
-      controller : "entriesController",  
-   })
-
-   .when('/entries/suppliers', {
-      templateUrl : 'views/entries/suppliers.html',
-      controller : "entriesController",  
-   })
-
-         .when('/suppliers-data', {
-            templateUrl : 'views/entries/suppliers.html',
-            controller : "entriesController",  
-         })
-
-         .when('/suppliers-document', {
-            templateUrl : 'views/entries/suppliers.html',
-            controller : "entriesController",  
-         })
-
-         .when('/suppliers-address', {
-            templateUrl : 'views/entries/suppliers.html',
-            controller : "entriesController",  
-         })
-
-         .when('/suppliers-contact', {
-            templateUrl : 'views/entries/suppliers.html',
-            controller : "entriesController",  
-         })
-
-   .when('/tracking/clients', {
-      templateUrl : 'views/tracking/tracking.html',
-      controller : "trackingController",  
-   })
-
-   .when('/entries/clients', {
-      templateUrl : 'views/entries/clients.html',
-      controller : "entriesController",  
-   })
-
-            .when('/clients-data', {
-               templateUrl : 'views/entries/clients.html',
-               controller : "entriesController",  
-            })
-
-            .when('/clients-document', {
-               templateUrl : 'views/entries/clients.html',
-               controller : "entriesController",  
-            })
-
-            .when('/clients-address', {
-               templateUrl : 'views/entries/clients.html',
-               controller : "entriesController",  
-            })
-
-            .when('/clients-contact', {
-               templateUrl : 'views/entries/clients.html',
-               controller : "entriesController",  
-            })
- 
-   .when('/stocks/films', {
-      templateUrl : 'views/stocks/films.html',
-      controller : "stocksController",  
-   })
-
-   .when('/stocks/covers', {
-      templateUrl : 'views/stocks/covers.html',
-      controller : "stocksController",  
-   })
-
-   .when('/stocks/appleProducts', {
-      templateUrl : 'views/stocks/appleProducts.html',
-      controller : "stocksController",  
+      controller : "",  
    })
 
    .when('/clients', {
       templateUrl : 'views/clients/clients.html',
+      controller : "clientsController",  
+   })
+
+   .when('/client', {
+      templateUrl : 'views/clients/client.html',
       controller : "clientsController",  
    })
 
@@ -108,12 +24,88 @@ app.config(function($routeProvider)
       controller : "clientsController",  
    })
 
-   .when('/reports', {
+   .when('/clients-data', {
+      templateUrl : 'views/clients/client.html',
+      controller : "clientsController",  
+   })
+
+   .when('/clients-document', {
+      templateUrl : 'views/clients/client.html',
+      controller : "clientsController",  
+   })
+
+   .when('/clients-address', {
+      templateUrl : 'views/clients/client.html',
+      controller : "clientsController",  
+   })
+
+   .when('/clients-contact', {
+      templateUrl : 'views/clients/client.html',
+      controller : "clientsController",  
+   })
+
+   .when('/appleProducts', {
+      templateUrl : 'views/products/appleProducts.html',
+      controller : "productsController",  
+   })
+
+   .when('/covers', {
+      templateUrl : 'views/products/covers.html',
+      controller : "productsController",  
+   })
+
+   .when('/films', {
+      templateUrl : 'views/products/films.html',
+      controller : "productsController",  
+   })
+
+   .when('/product', {
+      templateUrl : 'views/products/product.html',
+      controller : "productsController",  
+   })
+
+   .when('/supplier', {
+      templateUrl : 'views/suppliers/supplier.html',
+      controller : "suppliersController",  
+   })
+
+   .when('/suppliers', {
+      templateUrl : 'views/suppliers/suppliers.html',
+      controller : "suppliersController",  
+   })
+
+   .when('/supplier-details', {
+      templateUrl : 'views/suppliers/supplier-details.html',
+      controller : "suppliersController",  
+   })
+
+   .when('/suppliers-data', {
+      templateUrl : 'views/suppliers/supplier.html',
+      controller : "suppliersController",  
+   })
+
+   .when('/suppliers-document', {
+      templateUrl : 'views/suppliers/supplier.html',
+      controller : "suppliersController",  
+   })
+
+   .when('/suppliers-address', {
+      templateUrl : 'views/suppliers/supplier.html',
+      controller : "suppliersController",  
+   })
+
+   .when('/suppliers-contact', {
+      templateUrl : 'views/suppliers/supplier.html',
+      controller : "suppliersController",  
+   })
+
+   .when('/reportsAndCharts', {
       templateUrl : 'views/reports/general.html',
-      controller : "reportsController",  
+      controller : "reportsAndChartsController",  
    })
  
    .otherwise ({ redirectTo: '/' });
 });
+
 
 

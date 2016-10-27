@@ -1,0 +1,27 @@
+{
+  "name": "erp-tuning-phone",
+  "version": "0.0.1",
+  "description": "Software de controle de gestão",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://camarguinho@bitbucket.org/camarguinho/front-erp-tuning-phone.git"
+  },
+  "keywords": [
+    "estoque",
+    "vendas",
+    "cadastros",
+    "contratos",
+    "relatórios",
+    "notas",
+    "fiscais",
+    "finanças"
+  ],
+  "author": "Camargo Ribeiro",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/camarguinho/front-erp-tuning-phone#readme"
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": 259,
+    "name": "CABO USB LIGHTNING APPLE",
+    "value_purchase": 129,
+    "value_sale": 294,
+    "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
+    "color": "BRANCO",
+    "available_quantity": 87,
+    "status": true,
+    "creation_date": "2014-12-22T12:25:21 +02:00",
+    "compatibility": {
+      "id": 221,
+      "supported_devices": "TODOS"
+    },
+    "product_type": {
+      "id": 106,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 138,
+      "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
+      "fantasy_name": "",
+      "municipal_registration": 149075725768796,
+      "state_registration": 858540737284743,
+      "capital_social": "$14,177.83",
+      "document": {
+        "id": 146,
+        "type": "CPF",
+        "number": 45873247508883
+      },
+      "address": {
+        "id": 200,
+        "zip_code": 52115119,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 71474999,
+        "complement": "APARTAMENTO 56 | TORRE 2",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 4461788,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 248,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 4119583911136,
+        "phone_2": 1806999808936,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 286,
+    "name": "FONE DE OUVIDO EARPODS APPLE",
+    "value_purchase": 154,
+    "value_sale": 264,
+    "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
+    "color": "BRANCO",
+    "available_quantity": 22,
+    "status": true,
+    "creation_date": "2015-07-19T12:23:36 +03:00",
+    "compatibility": {
+      "id": 286,
+      "supported_devices": "TODOS"
+    },
+    "product_type": {
+      "id": 269,
+      "name": "PRODUTOS APPLE"
+    },
+    "supplier": {
+      "id": 109,
+      "company_name": "SHENZHEN RN TECH CO., LTD",
+      "fantasy_name": "",
+      "municipal_registration": 805871168559126,
+      "state_registration": 686694946278712,
+      "capital_social": "$22,021.31",
+      "document": {
+        "id": 96,
+        "type": "RG",
+        "number": 15067651071633
+      },
+      "address": {
+        "id": 257,
+        "zip_code": 87403312,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 60007048,
+        "complement": "APARTAMENTO 56 | TORRE 2",
+        "neighborhood": "ITAIM BIBI",
+        "ibge_code": 3769542,
+        "city": "SÃO PAULO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 159,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 4194292545448,
+        "phone_2": 7459197305890,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  }
+]

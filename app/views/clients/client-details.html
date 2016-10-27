@@ -2,7 +2,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-12">
-				<h2 class="page-header">Detalhes do cliente ###</h2>
+				<h2 class="page-header">DETALHES DO CLIENTE {{client.name}}</h2>
 			</div>
 		</div>
 
@@ -23,12 +23,8 @@
 	                        </thead>
 	                        <tbody>
 	                            <tr>
-	                                <td>RG</td>
-	                                <td>14.568.308-8</td>
-	                            </tr>
-	                            <tr>
-	                                <td>CPF</td>
-	                                <td>25.50.98.958.98</td>
+	                                <td>{{client.document.type}}</td>
+	                                <td>{{client.document.number}}</td>
 	                            </tr>
 	                        </tbody>
 						</table>
@@ -53,18 +49,11 @@
 	                        </thead>
 	                        <tbody>
 	                            <tr>
-	                                <td>(11)1111-2222</td>
-	                                <td>(11)2222-3333</td>
-	                                <td>email_1@email.com</td>
-	                                <td>email_2@email.com</td>
-	                                <td>Fone 1 das 08h às 19h</td>
-	                            </tr>
-	                            <tr>
-	                                <td>(11)5555-2222</td>
-	                                <td>(11)2222-7777</td>
-	                                <td>email_a@email.com</td>
-	                                <td>email_b@email.com</td>
-	                                <td>Não ligar aos sábados</td>
+	                                <td>{{client.contact.phone_1}}</td>
+	                                <td>{{client.contact.phone_2}}</td>
+	                                <td>{{client.contact.email_1}}</td>
+	                                <td>{{client.contact.email_2}}</td>
+	                                <td>{{client.contact.observations}}</td>
 	                            </tr>
 	                        </tbody>
 						</table>
@@ -93,15 +82,15 @@
 	                        </thead>
 	                        <tbody>
 	                            <tr>
-	                                <td>05878-770</td>
-	                                <td>RUA PARATI</td>
-	                                <td>13</td>
-	                                <td>SOBRADO AMARELO</td>
-	                                <td>JARDIM ANA ROSA</td>
-	                                <td>4646978</td>
-	                                <td>SAO PAULO</td>
-	                                <td>SP</td>
-	                                <td>BRASIL</td>
+	                                <td>{{client.address.zip_code}}</td>
+	                                <td>{{client.address.address}}</td>
+	                                <td>{{client.address.number}}</td>
+	                                <td>{{client.address.complement}}</td>
+	                                <td>{{client.address.neighborhood}}</td>
+	                                <td>{{client.address.ibge_code}}</td>
+	                                <td>{{client.address.city}}</td>
+	                                <td>{{client.address.state}}</td>
+	                                <td>{{client.address.contry}}</td>
 	                            </tr>
 	                        </tbody>
 						</table>
@@ -120,7 +109,7 @@
 					</div>
 				</div>
 
-			    <a class="btn btn-primary" href="#clients" role="button">Voltar</a>
+			    <a class="btn btn-primary" href="" ng-click="return()" role="button">Voltar</a>
 
 			</div>
 		</div>
