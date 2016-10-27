@@ -1,0 +1,154 @@
+<div id="page-wrapper" ng-controller="suppliersController">
+    <div class="container-fluid">
+        <div class="row crud-guide">
+            <div class="col-lg-12">
+                <div class="crud-guide">
+                    <h2>CADASTRO DE FORNECEDORES</h2>
+
+                    <!-- Guias -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#suppliers-data">Dados básicos</a></li>
+                        <li><a data-toggle="tab" href="#suppliers-document">Documentos</a></li>
+                        <li><a data-toggle="tab" href="#suppliers-address">Endereços</a></li>
+                        <li><a data-toggle="tab" href="#suppliers-contact">Contatos</a></li>
+                    </ul>
+                </div><br/>
+
+                <form>
+                  <!-- Conteúdo das guias -->
+                  <div class="tab-content">
+
+                      <!-- Dados básicos -->
+                      <div id="suppliers-data" class="tab-pane fade in active">
+                          <div class="form-group">
+                            <label for="">Razão Social:</label>
+                            <input type="text" ng-maxlength="100" size="100" ng-model="supplier.company_name"/>
+                          </div>
+                          <div class="form-group">
+                            <label for="">Nome Fantasia:</label>
+                            <input type="text" ng-maxlength="50" size="50" ng-model="supplier.fantasy_name"/>
+                          </div>
+                          <div class="form-group">
+                            <label for="">Inscrição Municipal:</label>
+                            <input type="number" ng-maxlength"15" size="15" ng-model="supplier.municipal_registration"/>
+                          </div>
+                          <div class="form-group">
+                            <label for="">Inscrição Estadual:</label>
+                            <input type="number" ng-maxlength"15" size="15" ng-model="supplier.state_registration"/>
+                          </div>
+                          <div class="form-group">
+                            <label for="">Capital Social:</label>
+                            <input type="number" ng-maxlength"10" size="10" ng-model="supplier.capital_social"/>
+                          </div>
+                      </div>
+
+                      <!-- Documentos -->
+                      <div id="suppliers-document" class="tab-pane fade">
+                          <div class="form-group">
+                              <label for="type">Tipo:</label>
+                              <select id="type" ng-model="supplier.document.type">
+                                <option>-- Escolha o tipo --</option>
+                                <option>CNPJ</option>
+                                <option>IE</option>
+                              </select>
+                          </div>
+                          <div class="form-group">
+                              <label for="number">Número:</label>
+                              <input id="number" type="number" ng-maxlength"14" size="4" ng-model="supplier.document.number"/>
+                          </div>
+                      </div>
+
+                      <!-- Endereço -->
+                      <div id="suppliers-address" class="tab-pane fade">
+                          <div class="form-group">
+                              <label for="zip_code">CEP:</label>
+                              <input id="zip_code" type="number" ng-maxlength"8" size="8" ng-model="supplier.address.zip_code"/>
+                          </div>
+                          <div class="form-group">
+                              <label for="address">Endereço:</label>
+                              <input id="address" type="text" ng-maxlength="50" size="50" ng-model="supplier.address.address"/>
+                          </div>
+                          <div class="form-group">
+                              <label for="number">Número:</label>
+                              <input id="number" type="text" ng-maxlength="8" size="8" ng-model="supplier.address.number"/>
+                          </div>
+                          <div class="form-group">
+                              <label for="complement">Complemento:</label>
+                              <input id="complement" type="text" ng-maxlength="25" size="25" ng-model="supplier.address.complement"/>
+                          </div>
+                          <div class="form-group">
+                              <label for="neighborhood">Bairro:</label>
+                              <input id="neighborhood" type="text" ng-maxlength="25" size="25" ng-model="supplier.address.neighborhood"/>
+                          </div>
+                          <div class="form-group">
+                              <label for="ibge_code">IBGE:</label>
+                              <input id="ibge_code" type="number" ng-maxlength"7" size="7" ng-model="supplier.address.ibge_code"/>
+                          </div>
+                          <div class="form-group">                            
+                              <label for="contry">País:</label>
+                              <select id="contry" ng-model="supplier.address.contry">
+                                <option>-- Escolha o país --</option>
+                                <option>BRASIL</option>
+                                <option>CHILE</option>
+                                <option>ARGENTINA</option>
+                              </select>
+                          </div>
+                          <div class="form-group">
+                              <label for="state">Estado:</label> 
+                              <select id="state" ng-model="supplier.address.state">
+                                <option>-- Escolha o estado --</option>
+                                <option>SÃO PAULO</option>
+                                <option>RIO DE JANEIRO</option>
+                                <option>SANTA CATARINA</option>
+                              </select>
+                          </div>
+                          <div class="form-group">
+                              <label for="city">Cidade:</label> 
+                              <select id="city" ng-model="supplier.address.city">
+                                <option>-- Escolha a cidade --</option>
+                                <option>SÃO PAULO</option>
+                                <option>RIO DE JANEIRO</option>
+                                <option>FLORIANÓPOLIS</option>
+                              </select>
+                          </div>
+                      </div>
+
+                      <!-- Contatos -->
+                      <div id="suppliers-contact" class="tab-pane fade">
+                          <div class="form-group">
+                              <label for="email_1" >E-mail 1:</label>
+                              <input id="email_1" type="text" ng-maxlength="50" size="50" ng-model="supplier.contact.email_1"/>
+                          </div>
+                          <div class="form-group">
+                              <label for="email_2" >E-mail 2:</label>
+                              <input id="email_2" type="text" ng-maxlength="50" size="50" ng-model="supplier.contact.email_2"/>
+                          </div>
+                          <div class="form-group">
+                              <label for="phone_1" >Número 1:</label>
+                              <input id="phone_1" type="number" ng-maxlength"13" size="13" ng-model="supplier.contact.phone_1"/>
+                          </div>
+                          <div class="form-group">
+                              <label for="phone_2" >Número 2:</label>
+                              <input id="phone_2" type="number" ng-maxlength"13" size="13" ng-model="supplier.contact.phone_2"/>
+                          </div>
+                          <div class="form-group">
+                              <label for="observations" >Observações:</label>
+                              <textarea id="observations" rows="4" cols="50" ng-maxlength="150" size="150" ng-model="supplier.contact.observations">
+                              </textarea>
+                          </div>
+                      </div>
+                  </div> 
+                </form>  
+            </div><br/>
+            <div class="row">
+                <div class="col-lg-12"><br/>
+                    <a class="btn btn-warning" ng-click="return()" role="button">Voltar</a>
+                    <a class="btn btn-success" role="button">Salvar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#page-wrapper -->
+
+</div>
+<!-- /#wrapper -->

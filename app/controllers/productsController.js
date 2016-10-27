@@ -1,6 +1,7 @@
 app.controller('productsController', function($scope, $location, $http, sharedValues) {
   $scope.module = "Estoque";
   $scope.product = sharedValues.getObject();
+  $scope.operation = sharedValues.getOperation();
 
   $.getJSON("mocks/appleProducts/products.json", function(json) {
     $scope.appleProductsList = json;

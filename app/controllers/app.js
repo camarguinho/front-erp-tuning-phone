@@ -63,6 +63,41 @@ app.config(function($routeProvider)
       templateUrl : 'views/products/product.html',
       controller : "productsController",  
    })
+
+   .when('/supplier', {
+      templateUrl : 'views/suppliers/supplier.html',
+      controller : "suppliersController",  
+   })
+
+   .when('/suppliers', {
+      templateUrl : 'views/suppliers/suppliers.html',
+      controller : "suppliersController",  
+   })
+
+   .when('/supplier-details', {
+      templateUrl : 'views/suppliers/supplier-details.html',
+      controller : "suppliersController",  
+   })
+
+   .when('/suppliers-data', {
+      templateUrl : 'views/suppliers/supplier.html',
+      controller : "suppliersController",  
+   })
+
+   .when('/suppliers-document', {
+      templateUrl : 'views/suppliers/supplier.html',
+      controller : "suppliersController",  
+   })
+
+   .when('/suppliers-address', {
+      templateUrl : 'views/suppliers/supplier.html',
+      controller : "suppliersController",  
+   })
+
+   .when('/suppliers-contact', {
+      templateUrl : 'views/suppliers/supplier.html',
+      controller : "suppliersController",  
+   })
  
    .otherwise ({ redirectTo: '/' });
 });

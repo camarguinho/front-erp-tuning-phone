@@ -1,0 +1,109 @@
+<div id="page-wrapper" ng-controller="suppliersController">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2 class="page-header">DETALHES DO FORNECEDOR {{supplier.name}}</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="panel panel-info">				
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="fa fa-folder-open"></i> Documentos
+						</h3>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-bordered table-hover">
+							<thead>
+	                            <tr>
+	                                <th>CNPJ</th>
+	                                <th>IE</th>
+	                                <th>IM</th>
+	                                <th>Cap. Social</th>
+	                            </tr>
+	                        </thead>
+	                        <tbody>
+	                            <tr>
+	                                <td>{{supplier.document.number}}</td>
+	                                <td>{{supplier.state_registration}}</td>
+	                                <td>{{supplier.municipal_registration}}</td>
+	                                <td>{{supplier.capital_social}}</td>
+	                            </tr>
+	                        </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-8">
+				<div class="panel panel-info">				
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="fa fa-phone"></i> Contatos</h3>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-bordered table-hover">
+							<thead>
+	                            <tr>
+	                                <th>Fone 1</th>
+	                                <th>Fone 2</th>
+	                                <th>E-mail 1</th>
+	                                <th>E-mail 2</th>
+	                                <th>Obs.</th>
+	                            </tr>
+	                        </thead>
+	                        <tbody>
+	                            <tr>
+	                                <td>{{supplier.contact.phone_1}}</td>
+	                                <td>{{supplier.contact.phone_2}}</td>
+	                                <td>{{supplier.contact.email_1}}</td>
+	                                <td>{{supplier.contact.email_2}}</td>
+	                                <td>{{supplier.contact.observations}}</td>
+	                            </tr>
+	                        </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12">
+				<div class="panel panel-info">				
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="fa fa-map-marker"></i> Endereços</h3>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-bordered table-hover">
+							<thead>
+	                            <tr>
+	                                <th>CEP</th>
+	                                <th>Logradouro</th>
+	                                <th>Número</th>
+	                                <th>Complemento</th>
+	                                <th>Bairro</th>
+	                                <th>IBGE</th>
+	                                <th>Cidade</th>
+	                                <th>UF</th>
+	                                <th>País</th>
+	                            </tr>
+	                        </thead>
+	                        <tbody>
+	                            <tr>
+	                                <td>{{supplier.address.zip_code}}</td>
+	                                <td>{{supplier.address.address}}</td>
+	                                <td>{{supplier.address.number}}</td>
+	                                <td>{{supplier.address.complement}}</td>
+	                                <td>{{supplier.address.neighborhood}}</td>
+	                                <td>{{supplier.address.ibge_code}}</td>
+	                                <td>{{supplier.address.city}}</td>
+	                                <td>{{supplier.address.state}}</td>
+	                                <td>{{supplier.address.contry}}</td>
+	                            </tr>
+	                        </tbody>
+						</table>
+					</div>
+				</div>
+
+			    <a class="btn btn-primary" href="" ng-click="return()" role="button">Voltar</a>
+
+			</div>
+		</div>
+	</div>
+</div>

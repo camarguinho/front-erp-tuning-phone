@@ -11,36 +11,36 @@
 				<form><br/>
 					<div class="form-group">
 						<label for="name">Nome:</label>
-						<input type="text" id="name" ng-model="product.name"  ng-maxlength="50" size="50">
+						<input type="text" id="name" ng-model="product.name"  ng-maxlength="50" size="50" ng-disabled="operation == 'read'">
 					</div>
 					<div class="form-group">
 						<label for="value_purchase">Valor de Compra:</label>
-						<input id="value_purchase" type="number" ng-model="product.value_purchase"  size="6">
+						<input id="value_purchase" type="number" ng-model="product.value_purchase"  size="6" ng-disabled="operation == 'read'">
 					</div>
 					<div class="form-group">
 						<label for="value_sale">Valor de Venda:</label>
-						<input id="value_sale" type="number" ng-model="product.value_sale"  size="6">
+						<input id="value_sale" type="number" ng-model="product.value_sale"  size="6" ng-disabled="operation == 'read'">
 					</div>
 					<div class="form-group">
 						<label for="specifications">Especificações:</label>
-						<input id="specifications" type="text" ng-model="product.specifications"  ng-maxlength="100" size="100">
+						<input id="specifications" type="text" ng-model="product.specifications"  ng-maxlength="100" size="100" ng-disabled="operation == 'read'">
 					</div>
 					<div class="form-group">	
 						<label for="specifications">Cor:</label>
-						<input id="specifications" type="text" ng-model="product.color"  ng-maxlength="20" size="20">
+						<input id="specifications" type="text" ng-model="product.color"  ng-maxlength="20" size="20" ng-disabled="operation == 'read'">
 					</div>
 					<div class="form-group">	
 						<label for="available_quantity">Quantidade disponível:</label>
-						<input id="available_quantity" type="number" ng-model="product.available_quantity"  size="4">
+						<input id="available_quantity" type="number" ng-model="product.available_quantity"  size="4" ng-disabled="operation == 'read'">
 					</div>
 					<div class="form-group">
 						<label for="status">Status:</label>
-							<label><input type="radio" ng-model="product.status"  value="true">Ativo</label>
-							<label><input type="radio" ng-model="product.status"  value="false">Inativo</label>
+							<label><input type="radio" ng-model="product.status"  value="true" ng-disabled="operation == 'read'">Ativo</label>
+							<label><input type="radio" ng-model="product.status"  value="false" ng-disabled="operation == 'read'">Inativo</label>
 					</div>
 					<div class="form-group">	
 						<label for="provider">Fornecedor:</label> 
-							<select id="provider" ng-model="product.supplier.company_name" >
+							<select id="provider" ng-model="product.supplier.company_name"  ng-disabled="operation == 'read'">
 						      <option>-- Escolha o fornecedor --</option>
 						      <option>SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD</option>
 						      <option>SHENZHEN RN TECH CO., LTD</option>
