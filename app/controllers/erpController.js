@@ -48,6 +48,10 @@ app.controller('erpController', function($scope, $location, sharedValues) {
 		$location.path("tracking");
 	};
 
+	$scope.goToSales = function(){
+		$location.path("sales");
+	};
+
 	sharedValues.setAuthenticated($scope.authenticated);
 
 });
