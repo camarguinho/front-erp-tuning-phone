@@ -103,6 +103,11 @@ app.config(function($routeProvider)
       templateUrl : 'views/reports/general.html',
       controller : "reportsAndChartsController",  
    })
+
+   .when('/tracking', {
+      templateUrl : 'views/tracking/tracking.html',
+      controller : "trackingController",  
+   })
  
    .otherwise ({ redirectTo: '/' });
 });

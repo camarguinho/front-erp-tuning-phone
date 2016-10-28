@@ -44,6 +44,10 @@ app.controller('erpController', function($scope, $location, sharedValues) {
 		$location.path("reportsAndCharts");
 	};
 
+	$scope.goToTracking = function(){
+		$location.path("tracking");
+	};
+
 	sharedValues.setAuthenticated($scope.authenticated);
 
 });
