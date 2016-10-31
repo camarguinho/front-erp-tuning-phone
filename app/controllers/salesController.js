@@ -1,4 +1,4 @@
-app.controller('salesController', function($scope) {
+app.controller('salesController', function($scope, $location, sharedValues) {
    $scope.module = "Vendas";
 
    $.getJSON("mocks/sales/sales.json", function(json) {
@@ -8,17 +8,21 @@ app.controller('salesController', function($scope) {
    $scope.edit = function(val){
   	 $scope.client = val;
   	 sharedValues.setObject($scope.client);
-  	 $location.path("client");
+  	 $location.path("sales");
    };
 
   $scope.read = function(val){
   	$scope.client = val;
   	sharedValues.setObject($scope.client);
-    $location.path("client-details");
+    $location.path("sales-details");
   };
 
   $scope.remove = function(val) {
     $scope.salesList.splice($scope.salesList.indexOf(val),1);
   };
+
+  $scope.return = function(){
+    $location.path("sales");
+  }
 
 });
