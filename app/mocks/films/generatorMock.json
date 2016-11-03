@@ -2,6 +2,7 @@
   '{{repeat(11, 22)}}',
   {
     id: '{{integer(1, 300)}}',
+    ncm: '{{integer(10000000, 90000000)}}',
     name: '{{random("Película de vidro temperado Standard", "Película de vidro temperado Standard", "Película de vidro temperado Standard", "Película de vidro temperado Anti-Spy", "Película de vidro temperado Anti-Spy", "Película de vidro temperado Anti-Spy", "Película de vidro temperado S-Thin Mocolo", "Película de vidro temperado S-Thin Mocolo", "Película de vidro temperado S-Thin Mocolo", "Película de vidro temperado 3D Mocolo", "Película de vidro temperado 3D Mocolo" ).toUpperCase()}}',
     value_purchase: '{{integer(5, 19)}}',
     value_sale: '{{integer(15, 59)}}',

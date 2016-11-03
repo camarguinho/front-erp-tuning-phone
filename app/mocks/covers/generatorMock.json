@@ -2,6 +2,7 @@
   '{{repeat(6, 12)}}',
   {
     id: '{{integer(1, 300)}}',
+    ncm: '{{integer(10000000, 90000000)}}',
     name: '{{random("Capas de luxo Rock Royce", "Capas de luxo Rock Royce", "Capas de luxo Rock Royce", "Capas de luxo Motomo", "Capas de luxo Motomo", "Capas de luxo Motomo").toUpperCase()}}',
     value_purchase: '{{integer(10, 100)}}',
     value_sale: '{{integer(30, 300)}}',

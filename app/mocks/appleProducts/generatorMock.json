@@ -2,6 +2,7 @@
   '{{repeat(2, 2)}}',
   {
     id: '{{integer(1, 300)}}',
+    ncm: '{{integer(10000000, 90000000)}}',
     name: '{{random("Cabo USB Lightning Apple", "Fone de ouvido Earpods Apple").toUpperCase()}}',
     value_purchase: '{{integer(100, 300)}}',
     value_sale: '{{integer(1, 300)}}',

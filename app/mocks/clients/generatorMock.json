@@ -9,7 +9,20 @@
     type: '{{random("rg", "cpf", "cnpj").toUpperCase()}}',
     number: '{{integer(10000000000, 10000000000000)}}'
   },
-    address: {
+    delivery_address: {
+    id: '{{integer(1, 300)}}', 
+    zip_code: '{{integer(10000000, 90000000)}}',
+    address: '{{random("Rua Joaquim Floriano", "Rua José Ribeiro Ramos").toUpperCase()}}',
+    number: '{{integer(0, 1000)}}',
+    complement: '{{random("Conjunto 1", "Conjunto 2", "Conjunto 3").toUpperCase()}}',
+    neighborhood: '{{random("Parque independência", "jardim ângela", "piraporinha").toUpperCase()}}',
+    ibge_code: '{{integer(1000000, 9020000)}}',
+    city: '{{random("são paulo", "rio de janeiro", "florianópolis").toUpperCase()}}',
+    state: '{{random("são paulo", "rio de janeiro", "santa catarina").toUpperCase()}}',
+    contry: '{{random("brasil", "bolívia", "chile").toUpperCase()}}'
+      
+  },
+    billing_address: {
     id: '{{integer(1, 300)}}', 
     zip_code: '{{integer(10000000, 90000000)}}',
     address: '{{random("Rua Joaquim Floriano", "Rua José Ribeiro Ramos").toUpperCase()}}',

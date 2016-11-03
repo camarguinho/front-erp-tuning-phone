@@ -5,6 +5,7 @@
     amount: '{{integer(25, 320)}}',
     quantity: '{{integer(1, 5)}}',
     buyer_message: '{{lorem(1, "paragraphs")}}',
+    use_auth_protocol: '{{integer(100000000000000, 900000000000000)}}',
     sale_date: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}',
     status: '{{random("delivered", "paid", "closed", "closed_reason", "closed_date", "processed", "processed_date", "contact_data_status", "order_status").toUpperCase()}}',
     tracking_code: '{{objectId()}}',
@@ -12,39 +13,57 @@
     observations: '{{lorem(1, "paragraphs")}}',
     sales_channel: '{{random("mercadoshops", "mercadolivre").toUpperCase()}}',
     value_of_shipment: '{{integer(1, 9)}}',
+    taxes: {
+id: '{{integer(1, 20)}}',
+icms_base_calculation: '{{integer(1, 3)}}',
+value_icms: '{{integer(1, 3)}}',
+icms_subst_base_calculation: '{{integer(1, 3)}}',
+value_icms_subst: '{{integer(1, 3)}}',
+total_value_of_the_products: '{{integer(1, 3)}}',
+cost_of_freight: '{{integer(1, 3)}}',
+safe_price: '{{integer(1, 3)}}',
+discount: '{{integer(1, 3)}}',
+other_expenses: '{{integer(1, 3)}}',
+value_ipi: '{{integer(1, 3)}}',
+total_note_value: '{{integer(1, 3)}}'
+    },
     client: {
     id: '{{integer(1, 300)}}',
     name: '{{random("josé carlos", "antonio augusto", "pedro paulo", "marcela cardoso", "maria tereza", "lucas santos", "michele couto", "mirela pacheco", "luiza caldeira").toUpperCase()}}',
-    nick_name: '{{random("zezinho", "gugu", "pedroca", "marcelinha", "terê", "luquinhas", "mi", "mirela", "lulu").toUpperCase()}}'
-    },
+    nick_name: '{{random("zezinho", "gugu", "pedroca", "marcelinha", "terê", "luquinhas", "mi", "mirela", "lulu").toUpperCase()}}',
+    document: {
+    id: '{{integer(1, 300)}}', 
+    type: '{{random("rg", "cpf", "cnpj").toUpperCase()}}',
+    number: '{{integer(10000000000, 10000000000000)}}',
     delivery_address: {
-    id: '{{integer(1, 300)}}', 
-    zip_code: '{{integer(10000000, 90000000)}}',
-    address: '{{random("Rua Joaquim Floriano", "Rua José Ribeiro Ramos").toUpperCase()}}',
-    number: '{{integer(0, 1000)}}',
-    complement: '{{random("Conjunto 1", "Conjunto 2", "Conjunto 3").toUpperCase()}}',
-    neighborhood: '{{random("Parque independência", "jardim ângela", "piraporinha").toUpperCase()}}',
-    ibge_code: '{{integer(1000000, 9020000)}}',
-    city: '{{random("são paulo", "rio de janeiro", "florianópolis").toUpperCase()}}',
-    state: '{{random("são paulo", "rio de janeiro", "santa catarina").toUpperCase()}}',
-    contry: '{{random("brasil", "bolívia", "chile").toUpperCase()}}'
-  },
+      "id": 34,
+      "zip_code": 27308092,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 884,
+      "complement": "CONJUNTO 2",
+      "neighborhood": "JARDIM ÂNGELA",
+      "ibge_code": 7032030,
+      "city": "RIO DE JANEIRO",
+      "state": "SANTA CATARINA",
+      "contry": "BOLÍVIA"
+    },
     billing_address: {
-    id: '{{integer(1, 300)}}', 
-    zip_code: '{{integer(10000000, 90000000)}}',
-    address: '{{random("Rua Joaquim Floriano", "Rua José Ribeiro Ramos").toUpperCase()}}',
-    number: '{{integer(0, 1000)}}',
-    complement: '{{random("Conjunto 1", "Conjunto 2", "Conjunto 3").toUpperCase()}}',
-    neighborhood: '{{random("Parque independência", "jardim ângela", "piraporinha").toUpperCase()}}',
-    ibge_code: '{{integer(1000000, 9020000)}}',
-    city: '{{random("são paulo", "rio de janeiro", "florianópolis").toUpperCase()}}',
-    state: '{{random("são paulo", "rio de janeiro", "santa catarina").toUpperCase()}}',
-    contry: '{{random("brasil", "bolívia", "chile").toUpperCase()}}'
-  },
+      "id": 240,
+      "zip_code": 18033245,
+      "address": "RUA JOSÉ RIBEIRO RAMOS",
+      "number": 489,
+      "complement": "CONJUNTO 1",
+      "neighborhood": "JARDIM ÂNGELA",
+      "ibge_code": 5624328,
+      "city": "RIO DE JANEIRO",
+      "state": "SÃO PAULO",
+      "contry": "BRASIL"
+    },
     products: [
   '{{repeat(2, 2)}}',
   {
     id: '{{integer(1, 300)}}',
+    ncm: '{{integer(10000000, 90000000)}}',
     name: '{{random("Cabo USB Lightning Apple", "Fone de ouvido Earpods Apple").toUpperCase()}}',
     value_purchase: '{{integer(100, 300)}}',
     value_sale: '{{integer(1, 300)}}',
@@ -98,4 +117,5 @@
 ]
     
   }
-]
+  }
+  }]
