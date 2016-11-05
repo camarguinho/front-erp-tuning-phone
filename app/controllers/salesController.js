@@ -1,19 +1,26 @@
 app.controller('salesController', function($scope, $location, sharedValues) {
    $scope.module = "Vendas";
+   $scope.sale = sharedValues.getObject();
 
-   $.getJSON("mocks/sales/sales.json", function(json) {
+  $.getJSON("mocks/sales/sales.json", function(json) {
     $scope.salesList = json;
-   });
+  });
 
-   $scope.edit = function(val){
-  	 $scope.client = val;
-  	 sharedValues.setObject($scope.client);
-  	 $location.path("sales");
-   };
+  $scope.new = function(){
+    sharedValues.setObject(null);
+    $location.path("sale");
+  };
+
+  $scope.edit = function(val){
+  	 $scope.sale = val;
+  	 sharedValues.setObject($scope.sale);
+     $scope.products = $scope.sale.products;
+  	 $location.path("sale");
+  };
 
   $scope.read = function(val){
-  	$scope.client = val;
-  	sharedValues.setObject($scope.client);
+  	$scope.sale = val;
+  	sharedValues.setObject($scope.sale);
     $location.path("sales-details");
   };
 
@@ -24,5 +31,6 @@ app.controller('salesController', function($scope, $location, sharedValues) {
   $scope.return = function(){
     $location.path("sales");
   }
+
 
 });

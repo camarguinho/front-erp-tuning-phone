@@ -10,7 +10,7 @@
 			<div class="col-lg-12">
 				<div class="panel panel-info">				
 					<div class="panel-heading">
-						<h3 class="panel-title"><i class="glyphicon glyphicon-file"></i> Detalhes do Documento
+						<h3 class="panel-title"><i class="glyphicon glyphicon-file"></i> Detalhes da Nota
 						</h3>
 					</div>
 					<div class="table-responsive">
@@ -20,7 +20,6 @@
 	                                <th>Data de emissão</th>
 	                                <th>Data de entrada / saída</th>
 	                                <th>Natureza da operação</th>
-	                                <th>Protocolo de autorização de uso</th>
 	                                <th>Chave de acesso</th>
 	                                <th>Tipo operação</th>
 	                                <th>Protocolo de autorização</th>
@@ -28,7 +27,12 @@
 	                        </thead>
 	                        <tbody>
 	                            <tr>
-	                                <td></td>
+	                                <td>{{sale.invoice.date_of_issue}}</td>
+	                                <td>{{sale.invoice.input_output_date}}</td>
+	                                <td>{{sale.invoice.type}}</td>
+	                                <td>{{sale.invoice.access_key}}</td>
+	                                <td>{{sale.invoice.operation_type}}</td>
+	                                <td>{{sale.invoice.use_auth_protocol}}</td>
 	                            </tr>
 	                        </tbody>
 						</table>
@@ -41,7 +45,7 @@
 			<div class="col-lg-12">
 				<div class="panel panel-info">				
 					<div class="panel-heading">
-						<h3 class="panel-title"><i class="fa fa-info-circle" aria-hidden="true"></i> Dados da venda
+						<h3 class="panel-title"><i class="fa fa-info-circle" aria-hidden="true"></i> Dados de Impostos
 						</h3>
 					</div>
 					<div class="table-responsive">
@@ -61,7 +65,15 @@
 	                        </thead>
 	                        <tbody>
 	                            <tr>
-	                                <td></td>
+	                                <td>{{sale.taxes.icms_base_calculation}}</td>
+	                                <td>{{sale.taxes.value_icms}}</td>
+	                                <td>{{sale.taxes.icms_subst_base_calculation}}</td>
+	                                <td>{{sale.taxes.value_icms_subst}}</td>
+	                                <td>{{sale.taxes.total_value_of_the_products}}</td>
+	                                <td>{{sale.taxes.cost_of_freight}}</td>
+	                                <td>{{sale.taxes.discount}}</td>
+	                                <td>{{sale.taxes.value_ipi}}</td>
+	                                <td>{{sale.taxes.total_note_value}}</td>
 	                            </tr>
 	                        </tbody>
 						</table>
@@ -85,15 +97,20 @@
 	                                <th>Descrição</th>
 	                                <th>NCM</th>
 	                                <th>CFOP</th>
-	                                <th>Unit.</th>
-	                                <th>Qtde.</th>
 	                                <th>Valor unit.</th>
-	                                <th>Valor total</th>
+	                                <th>Un.</th>
+	                                <th>Qtde.</th>
 	                            </tr>
 	                        </thead>
 	                        <tbody>
-	                            <tr>
-	                                <td></td>
+	                            <tr ng-repeat="product in sale.products">
+	                                <td>{{product.id}}</td>
+	                                <td>{{product.name}}</td>
+	                                <td>{{product.ncm}}</td>
+	                                <td>{{sale.invoice.cfop}}}</td>
+	                                <td>{{product.value_sale}}</td>
+	                                <td>UN</td>
+	                                <td>1</td>
 	                            </tr>
 	                        </tbody>
 						</table>
@@ -115,12 +132,12 @@
 	                            <tr>
 	                                <th>Nome / razão social</th>
 	                                <th>Documento</th>
-	                                <th>Inscrição estadual</th>
 	                            </tr>
 	                        </thead>
 	                        <tbody>
 	                            <tr>
-	                                <td></td>
+	                                <td>{{sale.client.name}}</td>
+	                                <td>{{sale.client.document.number}}</td>
 	                            </tr>
 	                        </tbody>
 						</table>
@@ -145,11 +162,11 @@
 	                        </thead>
 	                        <tbody>
 	                            <tr>
-	                                <td>{{client.contact.phone_1}}</td>
-	                                <td>{{client.contact.phone_2}}</td>
-	                                <td>{{client.contact.email_1}}</td>
-	                                <td>{{client.contact.email_2}}</td>
-	                                <td>{{client.contact.observations}}</td>
+	                                <td>{{sale.client.contact.phone_1}}</td>
+	                                <td>{{sale.client.contact.phone_2}}</td>
+	                                <td>{{sale.client.contact.email_1}}</td>
+	                                <td>{{sale.client.contact.email_2}}</td>
+	                                <td>{{sale.client.contact.observations}}</td>
 	                            </tr>
 	                        </tbody>
 						</table>
@@ -182,15 +199,15 @@
 	                        </thead>
 	                        <tbody>
 	                            <tr>
-	                                <td>{{client.address.zip_code}}</td>
-	                                <td>{{client.address.address}}</td>
-	                                <td>{{client.address.number}}</td>
-	                                <td>{{client.address.complement}}</td>
-	                                <td>{{client.address.neighborhood}}</td>
-	                                <td>{{client.address.ibge_code}}</td>
-	                                <td>{{client.address.city}}</td>
-	                                <td>{{client.address.state}}</td>
-	                                <td>{{client.address.contry}}</td>
+	                                <td>{{sale.client.delivery_address.zip_code}}</td>
+	                                <td>{{sale.client.delivery_address.address}}</td>
+	                                <td>{{sale.client.delivery_address.number}}</td>
+	                                <td>{{sale.client.delivery_address.complement}}</td>
+	                                <td>{{sale.client.delivery_address.neighborhood}}</td>
+	                                <td>{{sale.client.delivery_address.ibge_code}}</td>
+	                                <td>{{sale.client.delivery_address.city}}</td>
+	                                <td>{{sale.client.delivery_address.state}}</td>
+	                                <td>{{sale.client.delivery_address.contry}}</td>
 	                            </tr>
 	                        </tbody>
 						</table>
@@ -223,15 +240,15 @@
 	                        </thead>
 	                        <tbody>
 	                            <tr>
-	                                <td>{{client.address.zip_code}}</td>
-	                                <td>{{client.address.address}}</td>
-	                                <td>{{client.address.number}}</td>
-	                                <td>{{client.address.complement}}</td>
-	                                <td>{{client.address.neighborhood}}</td>
-	                                <td>{{client.address.ibge_code}}</td>
-	                                <td>{{client.address.city}}</td>
-	                                <td>{{client.address.state}}</td>
-	                                <td>{{client.address.contry}}</td>
+	                                <td>{{sale.client.billing_address.zip_code}}</td>
+	                                <td>{{sale.client.billing_address.address}}</td>
+	                                <td>{{sale.client.billing_address.number}}</td>
+	                                <td>{{sale.client.billing_address.complement}}</td>
+	                                <td>{{sale.client.billing_address.neighborhood}}</td>
+	                                <td>{{sale.client.billing_address.ibge_code}}</td>
+	                                <td>{{sale.client.billing_address.city}}</td>
+	                                <td>{{sale.client.billing_address.state}}</td>
+	                                <td>{{sale.client.billing_address.contry}}</td>
 	                            </tr>
 	                        </tbody>
 						</table>
