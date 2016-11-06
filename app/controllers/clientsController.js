@@ -29,6 +29,6 @@ app.controller('clientsController', function($scope, $location, sharedValues) {
 
   $scope.return = function(){
     $location.path("clients");
-  }
+  };
 
 });

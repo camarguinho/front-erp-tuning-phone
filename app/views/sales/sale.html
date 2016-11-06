@@ -108,56 +108,53 @@
                                             <th>Características</th>
                                             <th>Valor venda</th>
                                             <th>Fornecedor</th>
-                                            <th>Selecionar</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr ng-repeat="product in products track by $index">
+                                        <tr ng-repeat="product in products | itemsPerPage: 6 track by $index">
                                             <td>{{product.id}}</td>
                                             <td>{{product.name}}</td>
                                             <td>{{product.compatibility.supported_devices}}</td>
                                             <td>{{product.specifications}}</td>
                                             <td>{{product.value_sale}}</td>
                                             <td>{{product.supplier.company_name}}</td>
-                                            <td>
-                                               <input type="checkbox" />                            
-                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
+                            </div>
+                            <div class="text-center">
+                                <dir-pagination-controls></dir-pagination-controls>
                             </div>
                         </div>
 
                         <!-- Dados do Cliente -->
                         <div id="sales-client" class="tab-pane fade">
-                            <div class="form-group">
-                                <label for="name">Nome:</label>
-                                <input id="name" type="text" ng-model="sale.client.name" ng-maxlength="50" size="50"/>
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Nome</th>
+                                            <th>Tipo Documento</th>
+                                            <th>Documento</th>
+                                            <th>E-mail</th>
+                                            <th>Contato</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr dir-paginate="client in clients | itemsPerPage: 6 track by $index">
+                                            <td>{{client.id}}</td>
+                                            <td>{{client.name}}</td>
+                                            <td>{{client.document.type}}</td>
+                                            <td>{{client.document.number}}</td>
+                                            <td>{{client.contact.email_1}}</td>
+                                            <td>{{client.contact.phone_1}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
-                            <div class="form-group">
-                                <label for="number">Documento:</label>
-                                <input id="number" type="number" ng-model="sale.client.document.number" />
-                            </div>
-                            <div class="form-group">
-                                <label for="email_1" >E-mail 1:</label>
-                                <input id="email_1" type="text" ng-model="sale.client.contact.email_1" ng-maxlength="50" size="50"/>
-                            </div>
-                            <div class="form-group">
-                                <label for="email_2" >E-mail 2:</label>
-                                <input id="email_2" type="text" ng-model="sale.client.contact.email_2" ng-maxlength="50" size="50"/>
-                            </div>
-                            <div class="form-group">
-                                <label for="phone_1" >Número 1:</label>
-                                <input id="phone_1" type="number" ng-model="sale.client.contact.phone_1" size="13"/>
-                            </div>
-                            <div class="form-group">
-                                <label for="phone_2" >Número 2:</label>
-                                <input id="phone_2" type="number" ng-model="sale.client.contact.phone_2" size="13"/>
-                            </div>
-                            <div class="form-group">
-                                <label for="observations" >Observações:</label>
-                                <textarea id="observations" rows="4" cols="50" ng-model="sale.client.contact.observations" ng-maxlength="150" size="150">
-                                </textarea>
+                            <div class="text-center">
+                                <dir-pagination-controls></dir-pagination-controls>
                             </div>
                         </div>
 

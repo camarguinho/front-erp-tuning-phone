@@ -4,6 +4,10 @@ app.service('sharedValues', function() {
    var authenticated;
    var operation;
 
+   /*temp*/
+   var clients;
+   var products;
+
    return {
    	   setList : function(val){
 	      list = val;
@@ -31,6 +35,22 @@ app.service('sharedValues', function() {
 	   },
 	   getOperation : function(){
 	   		return operation;
+	   },
+
+
+	   /*temp*/
+	   setClients : function(val){
+	   		clients = val;
+	   },
+	   getClients : function(){
+	   		return clients;
+	   },
+
+	   setProducts : function(val){
+	   		products = val;
+	   },
+	   getProducts : function(){
+	   		return products;
 	   }
    }
 });
