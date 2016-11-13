@@ -27,8 +27,8 @@
 	                        </thead>
 	                        <tbody>
 	                            <tr>
-	                                <td>{{sale.invoice.date_of_issue}}</td>
-	                                <td>{{sale.invoice.input_output_date}}</td>
+	                                <td>{{sale.invoice.date_of_issue | date: "dd/MM/yyyy hh:mm:ss"}}</td>
+	                                <td>{{sale.invoice.input_output_date | date: "dd/MM/yyyy hh:mm:ss"}}</td>
 	                                <td>{{sale.invoice.type}}</td>
 	                                <td>{{sale.invoice.access_key}}</td>
 	                                <td>{{sale.invoice.operation_type}}</td>

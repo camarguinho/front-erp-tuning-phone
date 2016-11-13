@@ -5,7 +5,7 @@
     amount: '{{integer(25, 320)}}',
     buyer_message: '{{lorem(1, "paragraphs")}}',
     use_auth_protocol: '{{integer(100000000000000,900000000000000)}}',
-    sale_date: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}',
+    sale_date: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-dd hh:mm:ss")}}',
     status: '{{random("delivered", "paid", "closed", "closed_reason", "closed_date", "processed", "processed_date", "contact_data_status", "order_status").toUpperCase()}}',
     tracking_code: '{{objectId()}}',
     form_of_payment: '{{random("cartão de crédito", "cartão de débito", "boleto bancário", "paypal").toUpperCase()}}',
@@ -25,7 +25,7 @@
         color: '{{random("branco", "branco").toUpperCase()}}',
         available_quantity: '{{integer(1, 240)}}',
         status: '{{bool()}}',
-        creation_date: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}',
+        creation_date: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-dd hh:mm:ss")}}',
         compatibility: {
           id: '{{integer(1, 300)}}',
           supported_devices: 'TODOS'
