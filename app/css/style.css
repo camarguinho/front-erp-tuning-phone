@@ -290,8 +290,12 @@ form label{
     font-size: 0.75em;
 }
 
-table{
-    font-size: 0.75em;
+table thead{
+    font-size: 1em;
+}
+
+table tbody{
+    font-size: 0.85em;
 }
 
 table thead {
@@ -301,4 +305,8 @@ table thead {
 
 h2 {
     text-align: center;
+}
+
+.action{
+    width: 12.5%;
 }
