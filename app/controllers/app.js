@@ -144,12 +144,7 @@ app.config(function($routeProvider)
       controller : "salesController",  
    })
 
-   .when('/sales-billing-address', {
-      templateUrl : 'views/sales/sale.html',
-      controller : "salesController",  
-   })
-
-   .when('/sales-delivery-address', {
+   .when('/sales-address', {
       templateUrl : 'views/sales/sale.html',
       controller : "salesController",  
    })
