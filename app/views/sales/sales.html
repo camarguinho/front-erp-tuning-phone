@@ -17,7 +17,6 @@
                                 <th>Valor</th>
                                 <th>Data</th>
                                 <th>Status</th>
-                                <th>Quantidade</th>
                                 <th>Ação</th>
                             </tr>
                         </thead>
@@ -26,9 +25,8 @@
                                 <td>{{sale.id}}</td>
                                 <td>{{sale.client.name}}</td>
                                 <td>{{sale.amount}}</td>
-                                <td>{{sale.sale_date}}</td>
+                                <td>{{sale.sale_date | date: "dd/MM/yyyy hh:mm:ss"}}</td>
                                 <td>{{sale.status}}</td>
-                                <td>{{sale.quantity}}</td>
                                 <td>
                                     <div class="col-lg-2">
                                         <a href="" ng-click="read(sale)"><i class="fa fa-search fa-2x"></i></a>
