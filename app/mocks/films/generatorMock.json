@@ -2,55 +2,51 @@
   '{{repeat(11, 22)}}',
   {
     id: '{{integer(1, 300)}}',
-    ncm: '{{integer(10000000, 90000000)}}',
     name: '{{random("Película de vidro temperado Standard", "Película de vidro temperado Standard", "Película de vidro temperado Standard", "Película de vidro temperado Anti-Spy", "Película de vidro temperado Anti-Spy", "Película de vidro temperado Anti-Spy", "Película de vidro temperado S-Thin Mocolo", "Película de vidro temperado S-Thin Mocolo", "Película de vidro temperado S-Thin Mocolo", "Película de vidro temperado 3D Mocolo", "Película de vidro temperado 3D Mocolo" ).toUpperCase()}}',
+    ncm: '{{integer(10000000, 90000000)}}',
     value_purchase: '{{floating(10, 100, 2, "0.00")}}',
     value_sale: '{{floating(10, 100, 2, "0.00")}}',
-    specifications: '{{random("plana", "+ fina", "3d").toUpperCase()}}',
+    specifications: 'FILMS',
     color: '{{random("Transparente", "Escura", "Black", "White").toUpperCase()}}',
     available_quantity: '{{integer(1, 240)}}',
     status: '{{bool()}}',
-    creation_date: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}',
-    compatibility: {
-    id: '{{integer(1, 300)}}',
-    supported_devices: '{{random("iphone 5", "iphone 6", "iphone 6 plus").toUpperCase()}}'
-  },
+    creation_date: null,
     product_type: {
-    id: '{{integer(1, 300)}}',
-    name: '{{random("films", "films").toUpperCase()}}'
-  },
+      id: '{{integer(1, 300)}}',
+      description_type: 'FILMS'
+    },
     supplier: {
-    id: '{{integer(1, 300)}}',
-    company_name: '{{random("Guangzhou Dreams Electtronic Technology Co., Ltd.", "Xinghai", "Edward Technology Co,ltd", "Mocolo Online Shop").toUpperCase()}}',
-    fantasy_name: '{{random("", "").toUpperCase()}}',
-    municipal_registration: '{{integer(100000000000000, 900000000000000)}}',
-    state_registration: '{{integer(100000000000000, 900000000000000)}}',
-    capital_social: '{{floating(10000, 50000, 2, "$0,0.00")}}',
+      id: '{{integer(1, 300)}}',
+      company_name: '{{random("Guangzhou Dreams Electtronic Technology Co., Ltd.", "Xinghai", "Edward Technology Co,ltd", "Mocolo Online Shop").toUpperCase()}}',
+      fantasy_name: '{{random("", "").toUpperCase()}}',
+      municipal_registration: '{{integer(100000000000000, 900000000000000)}}',
+      state_registration: '{{integer(100000000000000, 900000000000000)}}',
+      capital_social: '{{floating(10000, 50000, 2, "0.00")}}',
       document: {
-    id: '{{integer(1, 300)}}', 
-    type: '{{random("rg", "cpf", "cnpj").toUpperCase()}}',
-    number: '{{integer(10000000000, 90000000000000)}}'
-  },
+        id: '{{integer(1, 300)}}', 
+        type: '{{random("rg", "cpf", "cnpj").toUpperCase()}}',
+        number: '{{integer(10000000000, 90000000000000)}}'
+      },
       address: {
-    id: '{{integer(1, 300)}}', 
-    zip_code: '{{integer(10000000, 90000000)}}',
-    address: '{{random("Rua Joaquim Floriano", "Rua José Ribeiro Ramos").toUpperCase()}}',
-    number: '{{integer(10000000, 90000000)}}',
-    complement: '{{random("Apartamento 56 | torre 2", "Nenhum").toUpperCase()}}',
-    neighborhood: '{{random("Parque Independência", "Itaim Bibi").toUpperCase()}}',
-    ibge_code: '{{integer(1000000, 9000000)}}',
-    city: '{{random("são paulo", "rio de janeiro").toUpperCase()}}',
-    state: '{{random("são paulo", "rio de janeiro").toUpperCase()}}',
-    contry: '{{random("brasil", "brasil").toUpperCase()}}'
-  },
+        id: '{{integer(1, 300)}}', 
+        zip_code: '{{integer(10000000, 90000000)}}',
+        address: '{{random("Rua Joaquim Floriano", "Rua José Ribeiro Ramos").toUpperCase()}}',
+        number: '{{integer(10000000, 90000000)}}',
+        complement: '{{random("Apartamento 56 | torre 2", "Nenhum").toUpperCase()}}',
+        neighborhood: '{{random("Parque Independência", "Itaim Bibi").toUpperCase()}}',
+        ibge_code: '{{integer(1000000, 9000000)}}',
+        city: '{{random("são paulo", "rio de janeiro").toUpperCase()}}',
+        state: '{{random("são paulo", "rio de janeiro").toUpperCase()}}',
+        contry: '{{random("brasil", "brasil").toUpperCase()}}'
+      },
       contact: {
-    id: '{{integer(1, 300)}}',
-    email_1: '{{random("email_1@gmail.com","email_1@icloud.com").toUpperCase()}}',
-        email_2: '{{random("email_2@gmail.com","email_2@icloud.com").toUpperCase()}}',
-    phone_1: '{{integer(1000000000000, 9000000000000)}}',
-    phone_2: '{{integer(1000000000000, 9000000000000)}}',
-    observations: '{{random("não ligar pela manhã","não deixar recado com criança").toUpperCase()}}'
-  }
+        id: '{{integer(1, 300)}}',
+        email_1: '{{random("email_1@gmail.com","email_1@icloud.com").toUpperCase()}}',
+            email_2: '{{random("email_2@gmail.com","email_2@icloud.com").toUpperCase()}}',
+        phone_1: '{{integer(1000000000000, 9000000000000)}}',
+        phone_2: '{{integer(1000000000000, 9000000000000)}}',
+        observations: '{{random("não ligar pela manhã","não deixar recado com criança").toUpperCase()}}'
+      }
     }
   }
 ]
