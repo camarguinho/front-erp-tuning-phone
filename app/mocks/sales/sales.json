@@ -1,258 +1,790 @@
 [
   {
-    "id": 258,
-    "amount": 34,
-    "quantity": 1,
-    "buyer_message": "Fugiat do do duis esse quis sint excepteur irure laborum ex. Nulla incididunt velit ipsum eiusmod. Eiusmod dolore deserunt irure dolor. Exercitation ad aliqua minim commodo proident sint amet exercitation labore consectetur cupidatat sunt nostrud elit. Eu do amet occaecat cupidatat ipsum sunt in est aute.\r\n",
-    "sale_date": "2015-09-26T10:44:44 +03:00",
-    "status": "PAID",
-    "tracking_code": "58129838103ad814362fb292",
+    "id": 274,
+    "amount": 4.1,
+    "buyer_message": "Dolor et anim nulla ipsum incididunt ut do sunt reprehenderit velit id. Duis incididunt sunt nisi cillum. Lorem commodo voluptate Lorem sint velit veniam labore dolor officia. Anim nulla et laboris deserunt Lorem deserunt. Voluptate eiusmod dolore duis cupidatat duis esse quis eu officia cupidatat dolor officia id. Lorem reprehenderit fugiat Lorem eiusmod elit aliquip amet laborum Lorem. Veniam veniam amet labore ut adipisicing incididunt laboris.\r\n",
+    "use_auth_protocol": 837021150197691,
+    "sale_date": "2015-07-18 09:16:56",
+    "status": "PROCESSED",
+    "tracking_code": "58289a4b6f5c0e0d3941b8a4",
     "form_of_payment": "CARTÃO DE DÉBITO",
-    "observations": "Proident ex eiusmod exercitation esse aliquip amet nisi enim eiusmod consectetur officia. Excepteur ea est excepteur laboris tempor anim amet exercitation velit pariatur. Incididunt aliqua labore adipisicing dolor eiusmod minim deserunt do in nostrud proident reprehenderit irure. Labore esse tempor ex eiusmod sit esse. Consequat aliqua aliqua aliqua cupidatat Lorem sit esse ipsum sit commodo exercitation. Aliquip magna proident cillum laboris duis est cupidatat occaecat reprehenderit nisi aliquip reprehenderit dolore.\r\n",
+    "observations": "Ad occaecat officia sit occaecat. Aliqua adipisicing magna occaecat sit pariatur magna. Lorem cillum et fugiat reprehenderit incididunt. Velit ipsum consectetur elit sunt irure et Lorem et cupidatat nisi ea ipsum incididunt incididunt. Enim enim ipsum Lorem velit adipisicing do amet irure ad Lorem. Reprehenderit officia ea occaecat elit anim sunt ipsum. Excepteur amet dolore enim ullamco id deserunt tempor incididunt qui aute.\r\n",
     "sales_channel": "MERCADOSHOPS",
-    "value_of_shipment": 8,
-    "client": {
-      "id": 45,
-      "name": "MIRELA PACHECO",
-      "nick_name": "GUGU"
-    },
-    "delivery_address": {
-      "id": 104,
-      "zip_code": 37185321,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 162,
-      "complement": "CONJUNTO 3",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 6125908,
-      "city": "FLORIANÓPOLIS",
-      "state": "RIO DE JANEIRO",
-      "contry": "CHILE"
-    },
-    "billing_address": {
-      "id": 149,
-      "zip_code": 72530153,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 95,
-      "complement": "CONJUNTO 3",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 7605769,
-      "city": "RIO DE JANEIRO",
-      "state": "SÃO PAULO",
-      "contry": "CHILE"
-    },
+    "value_of_shipment": 2,
     "products": [
       {
-        "id": 64,
+        "id": 8,
+        "ncm": 81989372,
         "name": "FONE DE OUVIDO EARPODS APPLE",
-        "value_purchase": 264,
-        "value_sale": 216,
+        "value_purchase": 7.31,
+        "value_sale": 13.99,
         "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
         "color": "BRANCO",
-        "available_quantity": 4,
+        "available_quantity": 195,
         "status": true,
-        "creation_date": "2014-07-05T11:09:09 +03:00",
+        "creation_date": "2014-01-16 04:20:50",
         "compatibility": {
-          "id": 244,
+          "id": 232,
           "supported_devices": "TODOS"
         },
         "product_type": {
-          "id": 103,
+          "id": 26,
           "name": "PRODUTOS APPLE"
         },
         "supplier": {
-          "id": 127,
-          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
+          "id": 229,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
           "fantasy_name": "",
-          "municipal_registration": 166177919307830,
-          "state_registration": 139954377536129,
-          "capital_social": "$18,972.64",
+          "municipal_registration": 761205247475759,
+          "state_registration": 880808904408769,
+          "capital_social": "$46,616.60",
           "document": {
-            "id": 4,
-            "type": "RG",
-            "number": 81324821914063
-          },
-          "address": {
-            "id": 291,
-            "zip_code": 46591307,
-            "address": "RUA JOAQUIM FLORIANO",
-            "number": 51268540,
-            "complement": "NENHUM",
-            "neighborhood": "ITAIM BIBI",
-            "ibge_code": 1591933,
-            "city": "RIO DE JANEIRO",
-            "state": "SÃO PAULO",
-            "contry": "BRASIL"
-          },
-          "contact": {
-            "id": 278,
-            "email_1": "EMAIL_1@ICLOUD.COM",
-            "email_2": "EMAIL_2@ICLOUD.COM",
-            "phone_1": 1653635112535,
-            "phone_2": 2354888944101,
-            "observations": "NÃO LIGAR PELA MANHÃ"
-          }
-        }
-      },
-      {
-        "id": 33,
-        "name": "FONE DE OUVIDO EARPODS APPLE",
-        "value_purchase": 232,
-        "value_sale": 151,
-        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
-        "color": "BRANCO",
-        "available_quantity": 167,
-        "status": true,
-        "creation_date": "2014-11-29T01:58:51 +02:00",
-        "compatibility": {
-          "id": 155,
-          "supported_devices": "TODOS"
-        },
-        "product_type": {
-          "id": 174,
-          "name": "PRODUTOS APPLE"
-        },
-        "supplier": {
-          "id": 236,
-          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
-          "fantasy_name": "",
-          "municipal_registration": 646962815050023,
-          "state_registration": 284526242812784,
-          "capital_social": "$41,076.50",
-          "document": {
-            "id": 97,
+            "id": 41,
             "type": "CPF",
-            "number": 24164835121037
+            "number": 33381866791152
           },
           "address": {
-            "id": 14,
-            "zip_code": 80186023,
+            "id": 55,
+            "zip_code": 49803259,
             "address": "RUA JOSÉ RIBEIRO RAMOS",
-            "number": 71189327,
+            "number": 29190706,
             "complement": "APARTAMENTO 56 | TORRE 2",
-            "neighborhood": "PARQUE INDEPENDÊNCIA",
-            "ibge_code": 3690785,
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 4723915,
             "city": "RIO DE JANEIRO",
             "state": "RIO DE JANEIRO",
             "contry": "BRASIL"
           },
           "contact": {
-            "id": 113,
+            "id": 164,
             "email_1": "EMAIL_1@ICLOUD.COM",
-            "email_2": "EMAIL_2@GMAIL.COM",
-            "phone_1": 2072711361536,
-            "phone_2": 2024895046906,
-            "observations": "NÃO LIGAR PELA MANHÃ"
-          }
-        }
-      }
-    ]
-  },
-  {
-    "id": 131,
-    "amount": 264,
-    "quantity": 5,
-    "buyer_message": "Ad in consectetur consequat excepteur aliqua ex. Eu aliqua incididunt duis consectetur. Consectetur eiusmod dolor cupidatat mollit labore pariatur eiusmod elit mollit cupidatat qui voluptate deserunt laborum. Cillum nulla nisi cupidatat aute culpa veniam fugiat tempor veniam sit. Magna Lorem commodo pariatur esse.\r\n",
-    "sale_date": "2015-03-27T03:19:23 +03:00",
-    "status": "CLOSED",
-    "tracking_code": "58129838f2e5c5bce6475c29",
-    "form_of_payment": "CARTÃO DE DÉBITO",
-    "observations": "Cillum Lorem ea id id cupidatat. Excepteur enim ex dolore reprehenderit labore nulla ex officia id est commodo anim minim. Ex tempor voluptate cillum irure quis labore in eiusmod ex cillum consequat amet.\r\n",
-    "sales_channel": "MERCADOSHOPS",
-    "value_of_shipment": 8,
-    "client": {
-      "id": 136,
-      "name": "MIRELA PACHECO",
-      "nick_name": "MIRELA"
-    },
-    "delivery_address": {
-      "id": 227,
-      "zip_code": 35462042,
-      "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 196,
-      "complement": "CONJUNTO 2",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 5991440,
-      "city": "RIO DE JANEIRO",
-      "state": "RIO DE JANEIRO",
-      "contry": "BRASIL"
-    },
-    "billing_address": {
-      "id": 103,
-      "zip_code": 48938282,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 321,
-      "complement": "CONJUNTO 2",
-      "neighborhood": "PARQUE INDEPENDÊNCIA",
-      "ibge_code": 8088154,
-      "city": "FLORIANÓPOLIS",
-      "state": "RIO DE JANEIRO",
-      "contry": "BOLÍVIA"
-    },
-    "products": [
-      {
-        "id": 254,
-        "name": "FONE DE OUVIDO EARPODS APPLE",
-        "value_purchase": 132,
-        "value_sale": 275,
-        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
-        "color": "BRANCO",
-        "available_quantity": 37,
-        "status": true,
-        "creation_date": "2015-06-22T07:14:19 +03:00",
-        "compatibility": {
-          "id": 49,
-          "supported_devices": "TODOS"
-        },
-        "product_type": {
-          "id": 290,
-          "name": "PRODUTOS APPLE"
-        },
-        "supplier": {
-          "id": 150,
-          "company_name": "SHENZHEN RN TECH CO., LTD",
-          "fantasy_name": "",
-          "municipal_registration": 620310791373301,
-          "state_registration": 417259555107451,
-          "capital_social": "$41,974.04",
-          "document": {
-            "id": 199,
-            "type": "CNPJ",
-            "number": 86829438863163
-          },
-          "address": {
-            "id": 24,
-            "zip_code": 24653837,
-            "address": "RUA JOAQUIM FLORIANO",
-            "number": 34298938,
-            "complement": "NENHUM",
-            "neighborhood": "PARQUE INDEPENDÊNCIA",
-            "ibge_code": 5642631,
-            "city": "SÃO PAULO",
-            "state": "SÃO PAULO",
-            "contry": "BRASIL"
-          },
-          "contact": {
-            "id": 176,
-            "email_1": "EMAIL_1@ICLOUD.COM",
-            "email_2": "EMAIL_2@GMAIL.COM",
-            "phone_1": 8459127311770,
-            "phone_2": 3316461928030,
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 6920352358460,
+            "phone_2": 6510833114852,
             "observations": "NÃO LIGAR PELA MANHÃ"
           }
         }
       },
       {
-        "id": 266,
-        "name": "FONE DE OUVIDO EARPODS APPLE",
-        "value_purchase": 242,
-        "value_sale": 251,
+        "id": 95,
+        "ncm": 80625833,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 8.18,
+        "value_sale": 10.45,
         "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
         "color": "BRANCO",
-        "available_quantity": 158,
-        "status": false,
-        "creation_date": "2016-09-26T06:01:06 +03:00",
+        "available_quantity": 157,
+        "status": true,
+        "creation_date": "2015-05-29 05:16:42",
         "compatibility": {
-          "id": 148,
+          "id": 131,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 76,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 98,
+          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
+          "fantasy_name": "",
+          "municipal_registration": 224406350215764,
+          "state_registration": 219697176245111,
+          "capital_social": "$49,647.08",
+          "document": {
+            "id": 202,
+            "type": "RG",
+            "number": 38312644297590
+          },
+          "address": {
+            "id": 204,
+            "zip_code": 29921694,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 30482184,
+            "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "PARQUE INDEPENDÊNCIA",
+            "ibge_code": 1376932,
+            "city": "RIO DE JANEIRO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 168,
+            "email_1": "EMAIL_1@ICLOUD.COM",
+            "email_2": "EMAIL_2@GMAIL.COM",
+            "phone_1": 2376665919081,
+            "phone_2": 1439009620888,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      }
+    ],
+    "invoice": {
+      "id": 102,
+      "type": "ENTRADA",
+      "number": 853488,
+      "serie": 8,
+      "sheet": 2,
+      "access_key": "8df7241a-4009-4917-831d-bb9f0f77f038",
+      "operation_type": "COMPRA",
+      "use_auth_protocol": 655979458084120,
+      "cfop": 6654,
+      "date_of_issue": "2015-07-02T05:24:56 +03:00",
+      "input_output_date": "2015-09-03T07:42:49 +03:00"
+    },
+    "taxes": {
+      "id": 6.35,
+      "icms_base_calculation": 6.61,
+      "value_icms": 3.53,
+      "icms_subst_base_calculation": 0.32,
+      "value_icms_subst": 1.48,
+      "total_value_of_the_products": 9.21,
+      "cost_of_freight": 2.36,
+      "safe_price": 6.2,
+      "discount": 3.61,
+      "other_expenses": 3.14,
+      "value_ipi": 9.84,
+      "total_note_value": 5.68
+    },
+    "client": {
+      "id": 73,
+      "name": "PEDRO PAULO",
+      "nick_name": "MIRELA",
+      "document": {
+        "id": 239,
+        "type": "RG",
+        "number": 1156965034752
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 141,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 6812437253359,
+        "phone_2": 6837201151608,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  },
+  {
+    "id": 1,
+    "amount": 1.33,
+    "buyer_message": "Ea esse nostrud exercitation cupidatat eiusmod irure. Aliquip aliqua nisi et ullamco aute culpa deserunt ipsum nostrud aliqua do eu. Id qui commodo nostrud proident quis sint. Nisi ex mollit aliquip sunt enim. Sint qui duis proident aliqua nulla enim est excepteur nostrud.\r\n",
+    "use_auth_protocol": 270720104699755,
+    "sale_date": "2016-08-22 05:10:55",
+    "status": "CLOSED_REASON",
+    "tracking_code": "58289a4b31e90ed2b88b2aa1",
+    "form_of_payment": "BOLETO BANCÁRIO",
+    "observations": "Magna nostrud elit Lorem qui enim eu. Culpa occaecat aliqua consectetur cupidatat dolor. Esse incididunt mollit elit laborum non.\r\n",
+    "sales_channel": "MERCADOSHOPS",
+    "value_of_shipment": 7,
+    "products": [
+      {
+        "id": 39,
+        "ncm": 25877058,
+        "name": "FONE DE OUVIDO EARPODS APPLE",
+        "value_purchase": 18.72,
+        "value_sale": 6.62,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 9,
+        "status": false,
+        "creation_date": "2014-05-25 02:29:36",
+        "compatibility": {
+          "id": 143,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 64,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 225,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 201548804379380,
+          "state_registration": 547783949711004,
+          "capital_social": "$27,573.92",
+          "document": {
+            "id": 134,
+            "type": "CNPJ",
+            "number": 9575925377337
+          },
+          "address": {
+            "id": 171,
+            "zip_code": 85125482,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 89960889,
+            "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 4561852,
+            "city": "RIO DE JANEIRO",
+            "state": "SÃO PAULO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 37,
+            "email_1": "EMAIL_1@ICLOUD.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 2311724045408,
+            "phone_2": 1880724197812,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      },
+      {
+        "id": 129,
+        "ncm": 38588731,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 19.59,
+        "value_sale": 12.75,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 11,
+        "status": true,
+        "creation_date": "2014-05-03 04:17:37",
+        "compatibility": {
+          "id": 239,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 238,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 280,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 693989504105706,
+          "state_registration": 497227832114279,
+          "capital_social": "$36,032.44",
+          "document": {
+            "id": 38,
+            "type": "CNPJ",
+            "number": 29646207973946
+          },
+          "address": {
+            "id": 156,
+            "zip_code": 32784127,
+            "address": "RUA JOAQUIM FLORIANO",
+            "number": 33802618,
+            "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 6096740,
+            "city": "RIO DE JANEIRO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 168,
+            "email_1": "EMAIL_1@ICLOUD.COM",
+            "email_2": "EMAIL_2@GMAIL.COM",
+            "phone_1": 2554138581949,
+            "phone_2": 4920704520347,
+            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+          }
+        }
+      }
+    ],
+    "invoice": {
+      "id": 273,
+      "type": "ENTRADA",
+      "number": 143055,
+      "serie": 3,
+      "sheet": 5,
+      "access_key": "17d8be20-c478-4b07-b06c-b7b8a7f7cb1a",
+      "operation_type": "COMPRA",
+      "use_auth_protocol": 169179700219000,
+      "cfop": 7540,
+      "date_of_issue": "2016-04-26T10:19:11 +03:00",
+      "input_output_date": "2014-06-17T04:12:06 +03:00"
+    },
+    "taxes": {
+      "id": 7.98,
+      "icms_base_calculation": 5.67,
+      "value_icms": 1.1,
+      "icms_subst_base_calculation": 6.82,
+      "value_icms_subst": 4.49,
+      "total_value_of_the_products": 5.97,
+      "cost_of_freight": 5.31,
+      "safe_price": 2.74,
+      "discount": 0.54,
+      "other_expenses": 5.32,
+      "value_ipi": 0.72,
+      "total_note_value": 7.12
+    },
+    "client": {
+      "id": 60,
+      "name": "MARIA TEREZA",
+      "nick_name": "GUGU",
+      "document": {
+        "id": 250,
+        "type": "CNPJ",
+        "number": 4246763223385
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 213,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 4575466735029,
+        "phone_2": 8201361882697,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  },
+  {
+    "id": 27,
+    "amount": 9.37,
+    "buyer_message": "Eiusmod pariatur dolor pariatur laboris mollit sunt excepteur mollit et cupidatat sunt elit minim veniam. Amet excepteur proident qui magna in id consectetur laboris magna adipisicing sint occaecat quis. Dolor eu irure consectetur officia sunt labore. Elit occaecat nostrud minim do anim fugiat ullamco ad nulla laborum. Proident nulla esse incididunt duis voluptate ea excepteur sunt ad. Duis elit culpa qui sunt voluptate. Ullamco reprehenderit deserunt amet ad mollit ad consequat.\r\n",
+    "use_auth_protocol": 398429361629317,
+    "sale_date": "2015-02-24 08:09:11",
+    "status": "CLOSED_DATE",
+    "tracking_code": "58289a4bbc21e85b143c1737",
+    "form_of_payment": "PAYPAL",
+    "observations": "Dolore id non voluptate nostrud officia mollit. Sint enim ullamco nisi duis cillum do cillum officia cillum sit. Adipisicing pariatur occaecat veniam proident consectetur cillum ex dolore incididunt.\r\n",
+    "sales_channel": "MERCADOSHOPS",
+    "value_of_shipment": 7,
+    "products": [
+      {
+        "id": 58,
+        "ncm": 24673046,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 13.99,
+        "value_sale": 6.58,
+        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
+        "color": "BRANCO",
+        "available_quantity": 43,
+        "status": true,
+        "creation_date": "2014-05-13 02:24:37",
+        "compatibility": {
+          "id": 252,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 297,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 42,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 264268046298040,
+          "state_registration": 734284026294107,
+          "capital_social": "$12,414.30",
+          "document": {
+            "id": 265,
+            "type": "CNPJ",
+            "number": 70600168662361
+          },
+          "address": {
+            "id": 164,
+            "zip_code": 41399387,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 15119130,
+            "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "PARQUE INDEPENDÊNCIA",
+            "ibge_code": 3404238,
+            "city": "SÃO PAULO",
+            "state": "SÃO PAULO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 255,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@GMAIL.COM",
+            "phone_1": 4168372288825,
+            "phone_2": 8234069608630,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      },
+      {
+        "id": 163,
+        "ncm": 67689491,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 2.09,
+        "value_sale": 11.34,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 53,
+        "status": true,
+        "creation_date": "2014-07-28 02:01:41",
+        "compatibility": {
+          "id": 285,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 216,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 245,
+          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
+          "fantasy_name": "",
+          "municipal_registration": 128536060935419,
+          "state_registration": 399182203091991,
+          "capital_social": "$12,520.43",
+          "document": {
+            "id": 74,
+            "type": "RG",
+            "number": 29222771629802
+          },
+          "address": {
+            "id": 104,
+            "zip_code": 48210863,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 12753826,
+            "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 6496375,
+            "city": "SÃO PAULO",
+            "state": "SÃO PAULO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 31,
+            "email_1": "EMAIL_1@ICLOUD.COM",
+            "email_2": "EMAIL_2@GMAIL.COM",
+            "phone_1": 2423233681594,
+            "phone_2": 1947864823935,
+            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+          }
+        }
+      }
+    ],
+    "invoice": {
+      "id": 283,
+      "type": "SAIDA",
+      "number": 297652,
+      "serie": 3,
+      "sheet": 6,
+      "access_key": "1e798d79-bc89-4863-9fc7-0089069e2d0e",
+      "operation_type": "COMPRA",
+      "use_auth_protocol": 194573841371549,
+      "cfop": 1084,
+      "date_of_issue": "2014-06-13T04:00:35 +03:00",
+      "input_output_date": "2015-09-25T02:11:17 +03:00"
+    },
+    "taxes": {
+      "id": 3.69,
+      "icms_base_calculation": 3.79,
+      "value_icms": 1.24,
+      "icms_subst_base_calculation": 8.69,
+      "value_icms_subst": 4.14,
+      "total_value_of_the_products": 2.81,
+      "cost_of_freight": 7.88,
+      "safe_price": 3.94,
+      "discount": 4.88,
+      "other_expenses": 6.18,
+      "value_ipi": 4.3,
+      "total_note_value": 4.73
+    },
+    "client": {
+      "id": 280,
+      "name": "LUCAS SANTOS",
+      "nick_name": "LUQUINHAS",
+      "document": {
+        "id": 226,
+        "type": "CNPJ",
+        "number": 3096706385244
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 103,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 8976242013144,
+        "phone_2": 3293891071452,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  },
+  {
+    "id": 115,
+    "amount": 7.09,
+    "buyer_message": "Et irure occaecat mollit eiusmod nisi ea dolore reprehenderit minim ad labore. Veniam veniam eu aute cillum ullamco cupidatat nulla consectetur labore occaecat consectetur voluptate. Proident exercitation eiusmod exercitation cillum consectetur id. Irure eu exercitation non cupidatat mollit excepteur anim eiusmod. Mollit proident in qui laborum. Nostrud nulla enim nostrud enim ex eu nulla est tempor anim anim irure culpa labore. Et ea officia ad reprehenderit esse id ea nisi voluptate.\r\n",
+    "use_auth_protocol": 744647074035393,
+    "sale_date": "2015-03-25 08:04:38",
+    "status": "CONTACT_DATA_STATUS",
+    "tracking_code": "58289a4b4c0ae46a6208e387",
+    "form_of_payment": "CARTÃO DE CRÉDITO",
+    "observations": "Officia ea minim aliquip aliquip ex. Magna cupidatat Lorem consequat est ullamco ea qui Lorem est et do eu ea. Deserunt fugiat adipisicing Lorem veniam labore veniam veniam culpa ut fugiat. Eu enim reprehenderit laborum cillum veniam duis. Consequat aliquip laboris enim aliqua et ex eu cupidatat excepteur fugiat labore. Ad pariatur irure non consequat irure cupidatat anim occaecat. Cupidatat consectetur ullamco cillum veniam magna velit et commodo laborum.\r\n",
+    "sales_channel": "MERCADOSHOPS",
+    "value_of_shipment": 8,
+    "products": [
+      {
+        "id": 279,
+        "ncm": 20055441,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 14.3,
+        "value_sale": 18.3,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 48,
+        "status": true,
+        "creation_date": "2014-02-05 02:21:49",
+        "compatibility": {
+          "id": 201,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 20,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 10,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 429474839867846,
+          "state_registration": 340609100700974,
+          "capital_social": "$37,298.21",
+          "document": {
+            "id": 98,
+            "type": "RG",
+            "number": 30383522525185
+          },
+          "address": {
+            "id": 176,
+            "zip_code": 54394692,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 27777234,
+            "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 2142396,
+            "city": "SÃO PAULO",
+            "state": "SÃO PAULO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 17,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 2230028796645,
+            "phone_2": 7513926818080,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      },
+      {
+        "id": 36,
+        "ncm": 27470678,
+        "name": "FONE DE OUVIDO EARPODS APPLE",
+        "value_purchase": 8.31,
+        "value_sale": 4.84,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 149,
+        "status": false,
+        "creation_date": "2014-05-08 04:18:39",
+        "compatibility": {
+          "id": 255,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 273,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 88,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 588907825884072,
+          "state_registration": 309678314930246,
+          "capital_social": "$38,276.80",
+          "document": {
+            "id": 52,
+            "type": "CNPJ",
+            "number": 13757051734863
+          },
+          "address": {
+            "id": 44,
+            "zip_code": 63908609,
+            "address": "RUA JOAQUIM FLORIANO",
+            "number": 20133020,
+            "complement": "NENHUM",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 5377688,
+            "city": "RIO DE JANEIRO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 286,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@GMAIL.COM",
+            "phone_1": 7788066904065,
+            "phone_2": 7498549428880,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      }
+    ],
+    "invoice": {
+      "id": 1,
+      "type": "SAIDA",
+      "number": 287581,
+      "serie": 5,
+      "sheet": 9,
+      "access_key": "14b7dc2d-feb8-498d-b519-09a8394eab59",
+      "operation_type": "VENDA",
+      "use_auth_protocol": 711487555919796,
+      "cfop": 7005,
+      "date_of_issue": "2015-04-28T06:03:44 +03:00",
+      "input_output_date": "2015-03-14T07:41:14 +03:00"
+    },
+    "taxes": {
+      "id": 3.81,
+      "icms_base_calculation": 2.64,
+      "value_icms": 1.37,
+      "icms_subst_base_calculation": 3.77,
+      "value_icms_subst": 6.52,
+      "total_value_of_the_products": 7.97,
+      "cost_of_freight": 7.08,
+      "safe_price": 0.85,
+      "discount": 6.59,
+      "other_expenses": 0.1,
+      "value_ipi": 5.79,
+      "total_note_value": 5.79
+    },
+    "client": {
+      "id": 177,
+      "name": "MICHELE COUTO",
+      "nick_name": "GUGU",
+      "document": {
+        "id": 127,
+        "type": "CNPJ",
+        "number": 4894702273499
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 143,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 5487752089627,
+        "phone_2": 2160656482258,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 158,
+    "amount": 3.16,
+    "buyer_message": "Ad anim ullamco sunt tempor ullamco aute consequat aliqua. Consequat ipsum qui incididunt cupidatat aute tempor eiusmod cillum cillum Lorem laboris. Labore nulla elit amet irure labore esse qui cillum ad quis anim. Esse est nulla aute quis pariatur in non magna officia.\r\n",
+    "use_auth_protocol": 711620079814395,
+    "sale_date": "2015-09-19 06:34:18",
+    "status": "CLOSED",
+    "tracking_code": "58289a4b4aad3fcda71c0d04",
+    "form_of_payment": "PAYPAL",
+    "observations": "Nisi incididunt nulla cillum non in ex et dolore eiusmod nulla ad officia. Do amet duis in fugiat aute esse adipisicing. Ullamco voluptate amet adipisicing pariatur excepteur. Ad mollit duis eu dolor enim ad tempor laborum mollit. Aliquip commodo nisi deserunt nostrud in enim ex elit officia ad amet adipisicing exercitation. Ea et cupidatat qui laborum laborum veniam eiusmod sit commodo. Id excepteur elit amet consectetur occaecat ad cupidatat qui non.\r\n",
+    "sales_channel": "MERCADOLIVRE",
+    "value_of_shipment": 2,
+    "products": [
+      {
+        "id": 4,
+        "ncm": 67593946,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 19.93,
+        "value_sale": 13.38,
+        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
+        "color": "BRANCO",
+        "available_quantity": 74,
+        "status": false,
+        "creation_date": "2014-04-08 10:09:26",
+        "compatibility": {
+          "id": 103,
           "supported_devices": "TODOS"
         },
         "product_type": {
@@ -260,983 +792,569 @@
           "name": "PRODUTOS APPLE"
         },
         "supplier": {
-          "id": 230,
-          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
+          "id": 41,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
           "fantasy_name": "",
-          "municipal_registration": 170843384171086,
-          "state_registration": 198419126629409,
-          "capital_social": "$13,662.93",
+          "municipal_registration": 841611484050239,
+          "state_registration": 159119499403360,
+          "capital_social": "$12,387.51",
           "document": {
-            "id": 35,
-            "type": "CNPJ",
-            "number": 46651012915924
+            "id": 186,
+            "type": "RG",
+            "number": 55859498588846
           },
           "address": {
-            "id": 9,
-            "zip_code": 54679002,
-            "address": "RUA JOAQUIM FLORIANO",
-            "number": 50018713,
-            "complement": "APARTAMENTO 56 | TORRE 2",
+            "id": 203,
+            "zip_code": 49605591,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 56846673,
+            "complement": "NENHUM",
             "neighborhood": "PARQUE INDEPENDÊNCIA",
-            "ibge_code": 5024759,
-            "city": "RIO DE JANEIRO",
+            "ibge_code": 3066188,
+            "city": "SÃO PAULO",
             "state": "SÃO PAULO",
             "contry": "BRASIL"
           },
           "contact": {
-            "id": 86,
-            "email_1": "EMAIL_1@GMAIL.COM",
+            "id": 51,
+            "email_1": "EMAIL_1@ICLOUD.COM",
             "email_2": "EMAIL_2@GMAIL.COM",
-            "phone_1": 5446716709241,
-            "phone_2": 6955105580307,
-            "observations": "NÃO LIGAR PELA MANHÃ"
+            "phone_1": 7820862580569,
+            "phone_2": 2602821617530,
+            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
           }
         }
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "amount": 198,
-    "quantity": 1,
-    "buyer_message": "Ex nisi ullamco sint labore qui id. Qui adipisicing ea ut veniam elit aute. Laboris occaecat dolor aliquip deserunt laborum. Incididunt pariatur do non non ut. Occaecat dolor cillum consequat consectetur officia amet.\r\n",
-    "sale_date": "2016-08-01T06:10:11 +03:00",
-    "status": "DELIVERED",
-    "tracking_code": "58129838c966e35ccad8ac82",
-    "form_of_payment": "CARTÃO DE CRÉDITO",
-    "observations": "Laboris ipsum qui ad commodo magna consectetur duis veniam id ipsum dolore voluptate magna. Anim mollit consectetur occaecat nostrud dolor. Elit officia occaecat ex est nisi. Do excepteur cupidatat elit aliqua sit eiusmod do consequat cupidatat. Est laboris ad consequat adipisicing eu dolor esse quis Lorem sit et sit sint in. Aliqua in eu proident Lorem elit reprehenderit ullamco ex nisi.\r\n",
-    "sales_channel": "MERCADOSHOPS",
-    "value_of_shipment": 1,
-    "client": {
-      "id": 47,
-      "name": "LUIZA CALDEIRA",
-      "nick_name": "MI"
-    },
-    "delivery_address": {
-      "id": 32,
-      "zip_code": 69308354,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 222,
-      "complement": "CONJUNTO 1",
-      "neighborhood": "PARQUE INDEPENDÊNCIA",
-      "ibge_code": 8546969,
-      "city": "FLORIANÓPOLIS",
-      "state": "RIO DE JANEIRO",
-      "contry": "CHILE"
-    },
-    "billing_address": {
-      "id": 5,
-      "zip_code": 51762672,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 271,
-      "complement": "CONJUNTO 2",
-      "neighborhood": "PIRAPORINHA",
-      "ibge_code": 7009722,
-      "city": "RIO DE JANEIRO",
-      "state": "SANTA CATARINA",
-      "contry": "BOLÍVIA"
-    },
-    "products": [
+      },
       {
-        "id": 265,
+        "id": 108,
+        "ncm": 38462825,
         "name": "CABO USB LIGHTNING APPLE",
-        "value_purchase": 265,
-        "value_sale": 273,
-        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "value_purchase": 8.33,
+        "value_sale": 11,
+        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
         "color": "BRANCO",
-        "available_quantity": 225,
+        "available_quantity": 3,
         "status": false,
-        "creation_date": "2015-08-03T07:15:14 +03:00",
+        "creation_date": "2014-04-16 11:52:05",
         "compatibility": {
-          "id": 119,
+          "id": 188,
           "supported_devices": "TODOS"
         },
         "product_type": {
-          "id": 165,
+          "id": 101,
           "name": "PRODUTOS APPLE"
         },
         "supplier": {
-          "id": 210,
+          "id": 265,
           "company_name": "SHENZHEN RN TECH CO., LTD",
           "fantasy_name": "",
-          "municipal_registration": 774763866949752,
-          "state_registration": 146857475872075,
-          "capital_social": "$19,817.91",
+          "municipal_registration": 303911863760091,
+          "state_registration": 392201856279638,
+          "capital_social": "$41,455.89",
           "document": {
-            "id": 154,
+            "id": 165,
             "type": "CNPJ",
-            "number": 45366679478821
+            "number": 55306878112602
           },
           "address": {
-            "id": 91,
-            "zip_code": 17268769,
+            "id": 280,
+            "zip_code": 70650134,
             "address": "RUA JOSÉ RIBEIRO RAMOS",
-            "number": 34072695,
-            "complement": "APARTAMENTO 56 | TORRE 2",
-            "neighborhood": "ITAIM BIBI",
-            "ibge_code": 8957253,
+            "number": 35321324,
+            "complement": "NENHUM",
+            "neighborhood": "PARQUE INDEPENDÊNCIA",
+            "ibge_code": 1087294,
             "city": "RIO DE JANEIRO",
             "state": "RIO DE JANEIRO",
             "contry": "BRASIL"
           },
           "contact": {
-            "id": 161,
-            "email_1": "EMAIL_1@GMAIL.COM",
-            "email_2": "EMAIL_2@ICLOUD.COM",
-            "phone_1": 3697193276253,
-            "phone_2": 2419130508360,
-            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
-          }
-        }
-      },
-      {
-        "id": 250,
-        "name": "CABO USB LIGHTNING APPLE",
-        "value_purchase": 247,
-        "value_sale": 153,
-        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
-        "color": "BRANCO",
-        "available_quantity": 19,
-        "status": true,
-        "creation_date": "2015-10-18T03:09:16 +02:00",
-        "compatibility": {
-          "id": 135,
-          "supported_devices": "TODOS"
-        },
-        "product_type": {
-          "id": 106,
-          "name": "PRODUTOS APPLE"
-        },
-        "supplier": {
-          "id": 261,
-          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
-          "fantasy_name": "",
-          "municipal_registration": 822389116106743,
-          "state_registration": 594492213859378,
-          "capital_social": "$35,491.39",
-          "document": {
-            "id": 203,
-            "type": "RG",
-            "number": 44119160813198
-          },
-          "address": {
-            "id": 151,
-            "zip_code": 21874645,
-            "address": "RUA JOSÉ RIBEIRO RAMOS",
-            "number": 40598113,
-            "complement": "NENHUM",
-            "neighborhood": "ITAIM BIBI",
-            "ibge_code": 6367608,
-            "city": "RIO DE JANEIRO",
-            "state": "SÃO PAULO",
-            "contry": "BRASIL"
-          },
-          "contact": {
-            "id": 196,
+            "id": 205,
             "email_1": "EMAIL_1@ICLOUD.COM",
-            "email_2": "EMAIL_2@ICLOUD.COM",
-            "phone_1": 4048192852350,
-            "phone_2": 2415462238597,
-            "observations": "NÃO LIGAR PELA MANHÃ"
-          }
-        }
-      }
-    ]
-  },
-  {
-    "id": 255,
-    "amount": 154,
-    "quantity": 1,
-    "buyer_message": "Lorem aute ad nulla proident proident labore proident sit esse eu cillum sit. Anim tempor fugiat voluptate eu voluptate consequat anim exercitation irure velit pariatur pariatur duis consequat. Aute est consequat occaecat voluptate. Velit sit dolore do in aute dolor excepteur est enim elit reprehenderit et consequat enim. Eu in nulla in sit sit ullamco commodo voluptate ad velit ad. Laborum in elit aliqua dolor velit voluptate anim commodo officia nostrud do.\r\n",
-    "sale_date": "2015-07-03T03:19:05 +03:00",
-    "status": "PROCESSED",
-    "tracking_code": "58129838fdc901e0cdd63222",
-    "form_of_payment": "BOLETO BANCÁRIO",
-    "observations": "Elit eiusmod sint ut sint duis cupidatat ex velit id et do eiusmod. Elit dolore deserunt velit in anim eiusmod esse cillum. Sunt aliqua laboris et culpa nulla non voluptate dolore eu eiusmod. Velit fugiat duis nisi et pariatur dolore culpa exercitation dolore.\r\n",
-    "sales_channel": "MERCADOSHOPS",
-    "value_of_shipment": 2,
-    "client": {
-      "id": 92,
-      "name": "LUIZA CALDEIRA",
-      "nick_name": "MARCELINHA"
-    },
-    "delivery_address": {
-      "id": 151,
-      "zip_code": 21820945,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 778,
-      "complement": "CONJUNTO 1",
-      "neighborhood": "PARQUE INDEPENDÊNCIA",
-      "ibge_code": 5069255,
-      "city": "FLORIANÓPOLIS",
-      "state": "SANTA CATARINA",
-      "contry": "BRASIL"
-    },
-    "billing_address": {
-      "id": 37,
-      "zip_code": 65685035,
-      "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 516,
-      "complement": "CONJUNTO 2",
-      "neighborhood": "PIRAPORINHA",
-      "ibge_code": 2612510,
-      "city": "FLORIANÓPOLIS",
-      "state": "SÃO PAULO",
-      "contry": "BRASIL"
-    },
-    "products": [
-      {
-        "id": 281,
-        "name": "CABO USB LIGHTNING APPLE",
-        "value_purchase": 119,
-        "value_sale": 113,
-        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
-        "color": "BRANCO",
-        "available_quantity": 180,
-        "status": true,
-        "creation_date": "2014-05-08T01:34:56 +03:00",
-        "compatibility": {
-          "id": 158,
-          "supported_devices": "TODOS"
-        },
-        "product_type": {
-          "id": 105,
-          "name": "PRODUTOS APPLE"
-        },
-        "supplier": {
-          "id": 278,
-          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
-          "fantasy_name": "",
-          "municipal_registration": 847664223282717,
-          "state_registration": 258823462672882,
-          "capital_social": "$43,704.52",
-          "document": {
-            "id": 26,
-            "type": "CPF",
-            "number": 24023115373342
-          },
-          "address": {
-            "id": 124,
-            "zip_code": 40277068,
-            "address": "RUA JOAQUIM FLORIANO",
-            "number": 59327875,
-            "complement": "NENHUM",
-            "neighborhood": "PARQUE INDEPENDÊNCIA",
-            "ibge_code": 5134943,
-            "city": "RIO DE JANEIRO",
-            "state": "SÃO PAULO",
-            "contry": "BRASIL"
-          },
-          "contact": {
-            "id": 126,
-            "email_1": "EMAIL_1@GMAIL.COM",
             "email_2": "EMAIL_2@GMAIL.COM",
-            "phone_1": 6567285375833,
-            "phone_2": 2364763207106,
+            "phone_1": 7989741166070,
+            "phone_2": 4082892838939,
             "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
           }
         }
-      },
-      {
-        "id": 265,
-        "name": "CABO USB LIGHTNING APPLE",
-        "value_purchase": 218,
-        "value_sale": 257,
-        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
-        "color": "BRANCO",
-        "available_quantity": 204,
-        "status": false,
-        "creation_date": "2015-12-19T02:32:55 +02:00",
-        "compatibility": {
-          "id": 228,
-          "supported_devices": "TODOS"
-        },
-        "product_type": {
-          "id": 210,
-          "name": "PRODUTOS APPLE"
-        },
-        "supplier": {
-          "id": 177,
-          "company_name": "SHENZHEN RN TECH CO., LTD",
-          "fantasy_name": "",
-          "municipal_registration": 893003981359227,
-          "state_registration": 821084950386578,
-          "capital_social": "$37,896.71",
-          "document": {
-            "id": 110,
-            "type": "RG",
-            "number": 11924912186462
-          },
-          "address": {
-            "id": 186,
-            "zip_code": 25264776,
-            "address": "RUA JOAQUIM FLORIANO",
-            "number": 35619969,
-            "complement": "NENHUM",
-            "neighborhood": "ITAIM BIBI",
-            "ibge_code": 3343303,
-            "city": "RIO DE JANEIRO",
-            "state": "SÃO PAULO",
-            "contry": "BRASIL"
-          },
-          "contact": {
-            "id": 162,
-            "email_1": "EMAIL_1@GMAIL.COM",
-            "email_2": "EMAIL_2@GMAIL.COM",
-            "phone_1": 3477537513566,
-            "phone_2": 3295394567076,
-            "observations": "NÃO LIGAR PELA MANHÃ"
-          }
-        }
       }
-    ]
+    ],
+    "invoice": {
+      "id": 171,
+      "type": "SAIDA",
+      "number": 756965,
+      "serie": 5,
+      "sheet": 7,
+      "access_key": "bc85753e-ba54-4251-ae44-b0829d21f9dc",
+      "operation_type": "COMPRA",
+      "use_auth_protocol": 272480887780218,
+      "cfop": 4582,
+      "date_of_issue": "2015-02-16T02:49:55 +02:00",
+      "input_output_date": "2014-03-22T10:33:48 +03:00"
+    },
+    "taxes": {
+      "id": 4.78,
+      "icms_base_calculation": 4.23,
+      "value_icms": 9.64,
+      "icms_subst_base_calculation": 3.47,
+      "value_icms_subst": 3.44,
+      "total_value_of_the_products": 1.54,
+      "cost_of_freight": 6.26,
+      "safe_price": 1.94,
+      "discount": 9.81,
+      "other_expenses": 1.14,
+      "value_ipi": 0.92,
+      "total_note_value": 4.64
+    },
+    "client": {
+      "id": 143,
+      "name": "LUIZA CALDEIRA",
+      "nick_name": "ZEZINHO",
+      "document": {
+        "id": 266,
+        "type": "CNPJ",
+        "number": 4233950815477
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 246,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 2748759114591,
+        "phone_2": 3846370020279,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
   },
   {
-    "id": 43,
-    "amount": 261,
-    "quantity": 5,
-    "buyer_message": "Proident commodo consectetur veniam commodo ut excepteur veniam Lorem Lorem ullamco nostrud excepteur. Nisi non Lorem dolore quis sint ad. Culpa minim reprehenderit magna et officia ullamco exercitation. Sint esse pariatur ea eu ipsum adipisicing ea dolore laborum esse quis amet.\r\n",
-    "sale_date": "2015-04-10T06:06:04 +03:00",
-    "status": "CONTACT_DATA_STATUS",
-    "tracking_code": "581298386ca5dd7665c1c72d",
-    "form_of_payment": "CARTÃO DE DÉBITO",
-    "observations": "Ad enim minim voluptate eiusmod incididunt. Enim consequat et aliquip aute aliqua nisi pariatur commodo minim magna commodo. Lorem culpa tempor veniam irure sint. Est proident reprehenderit quis elit officia ea eiusmod duis in duis voluptate in consectetur consectetur. Cupidatat culpa velit esse minim amet et nostrud. Fugiat nulla ipsum excepteur in officia eiusmod minim quis nostrud voluptate. Minim quis ex occaecat eu anim.\r\n",
+    "id": 180,
+    "amount": 4.97,
+    "buyer_message": "Ad amet esse ad dolore laboris aute ad. In nulla esse non ad ut exercitation voluptate duis nulla voluptate exercitation laborum fugiat do. Qui excepteur fugiat cillum enim nulla id dolor pariatur. Non culpa aute culpa dolore mollit elit Lorem ex magna ea Lorem nostrud mollit irure. Magna amet exercitation ut nulla voluptate.\r\n",
+    "use_auth_protocol": 561895052341007,
+    "sale_date": "2016-01-02 09:41:23",
+    "status": "PAID",
+    "tracking_code": "58289a4bc0d55d4a849e720b",
+    "form_of_payment": "CARTÃO DE CRÉDITO",
+    "observations": "Nisi sint nulla aliqua laboris ipsum. Laborum quis consectetur officia et tempor exercitation ad. Nulla incididunt deserunt consequat deserunt sint nisi incididunt velit. Occaecat ullamco ut consectetur consectetur aliquip. Laborum eu dolore ullamco cillum duis ut consequat quis nulla voluptate.\r\n",
     "sales_channel": "MERCADOSHOPS",
-    "value_of_shipment": 7,
-    "client": {
-      "id": 153,
-      "name": "ANTONIO AUGUSTO",
-      "nick_name": "LULU"
-    },
-    "delivery_address": {
-      "id": 151,
-      "zip_code": 78717324,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 61,
-      "complement": "CONJUNTO 3",
-      "neighborhood": "PARQUE INDEPENDÊNCIA",
-      "ibge_code": 1672539,
-      "city": "FLORIANÓPOLIS",
-      "state": "SANTA CATARINA",
-      "contry": "BRASIL"
-    },
-    "billing_address": {
-      "id": 137,
-      "zip_code": 35251233,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 659,
-      "complement": "CONJUNTO 3",
-      "neighborhood": "PIRAPORINHA",
-      "ibge_code": 1880277,
-      "city": "SÃO PAULO",
-      "state": "SANTA CATARINA",
-      "contry": "CHILE"
-    },
+    "value_of_shipment": 5,
     "products": [
       {
-        "id": 204,
+        "id": 274,
+        "ncm": 10492443,
         "name": "CABO USB LIGHTNING APPLE",
-        "value_purchase": 171,
-        "value_sale": 226,
+        "value_purchase": 2.16,
+        "value_sale": 14.1,
         "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
         "color": "BRANCO",
-        "available_quantity": 201,
+        "available_quantity": 68,
         "status": false,
-        "creation_date": "2016-04-15T02:13:44 +03:00",
+        "creation_date": "2016-05-30 08:07:08",
         "compatibility": {
-          "id": 9,
+          "id": 130,
           "supported_devices": "TODOS"
         },
         "product_type": {
-          "id": 1,
+          "id": 161,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 90,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 581586551352114,
+          "state_registration": 826920588293154,
+          "capital_social": "$15,514.08",
+          "document": {
+            "id": 159,
+            "type": "RG",
+            "number": 82435996578571
+          },
+          "address": {
+            "id": 91,
+            "zip_code": 85399529,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 38956381,
+            "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "PARQUE INDEPENDÊNCIA",
+            "ibge_code": 1095929,
+            "city": "RIO DE JANEIRO",
+            "state": "SÃO PAULO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 66,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 5811828279748,
+            "phone_2": 2808337894592,
+            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+          }
+        }
+      },
+      {
+        "id": 120,
+        "ncm": 62151984,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 19,
+        "value_sale": 10.3,
+        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
+        "color": "BRANCO",
+        "available_quantity": 222,
+        "status": true,
+        "creation_date": "2014-03-03 08:37:14",
+        "compatibility": {
+          "id": 35,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 251,
           "name": "PRODUTOS APPLE"
         },
         "supplier": {
           "id": 200,
-          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
           "fantasy_name": "",
-          "municipal_registration": 880099008825462,
-          "state_registration": 257171273442196,
-          "capital_social": "$10,918.66",
+          "municipal_registration": 284488659976438,
+          "state_registration": 881733681734599,
+          "capital_social": "$18,913.18",
           "document": {
-            "id": 287,
-            "type": "RG",
-            "number": 41039201719467
+            "id": 238,
+            "type": "CPF",
+            "number": 80709947066057
           },
           "address": {
-            "id": 275,
-            "zip_code": 54722310,
-            "address": "RUA JOAQUIM FLORIANO",
-            "number": 37148853,
+            "id": 249,
+            "zip_code": 54172989,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 65560113,
             "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "PARQUE INDEPENDÊNCIA",
+            "ibge_code": 5256685,
+            "city": "RIO DE JANEIRO",
+            "state": "SÃO PAULO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 55,
+            "email_1": "EMAIL_1@ICLOUD.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 7543732011402,
+            "phone_2": 2597825404284,
+            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+          }
+        }
+      }
+    ],
+    "invoice": {
+      "id": 202,
+      "type": "SAIDA",
+      "number": 415753,
+      "serie": 2,
+      "sheet": 1,
+      "access_key": "c13eb34f-b256-4709-afcb-4c41d0d09cd5",
+      "operation_type": "VENDA",
+      "use_auth_protocol": 205153731133584,
+      "cfop": 4691,
+      "date_of_issue": "2015-02-27T08:31:29 +03:00",
+      "input_output_date": "2015-05-01T07:49:40 +03:00"
+    },
+    "taxes": {
+      "id": 0.24,
+      "icms_base_calculation": 4.29,
+      "value_icms": 0.48,
+      "icms_subst_base_calculation": 8.62,
+      "value_icms_subst": 7.17,
+      "total_value_of_the_products": 4.95,
+      "cost_of_freight": 5.97,
+      "safe_price": 0.58,
+      "discount": 7.79,
+      "other_expenses": 0.66,
+      "value_ipi": 4.03,
+      "total_note_value": 6.41
+    },
+    "client": {
+      "id": 198,
+      "name": "LUIZA CALDEIRA",
+      "nick_name": "PEDROCA",
+      "document": {
+        "id": 88,
+        "type": "CPF",
+        "number": 7566929473264
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 100,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 4596479674887,
+        "phone_2": 7101781734600,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 281,
+    "amount": 7.11,
+    "buyer_message": "Elit ex duis duis non. Dolor ullamco mollit labore consequat commodo labore culpa ut fugiat. Dolor eiusmod sint labore id cupidatat. Fugiat aute culpa magna in officia tempor consectetur.\r\n",
+    "use_auth_protocol": 855752973620900,
+    "sale_date": "2015-06-09 05:21:08",
+    "status": "CLOSED",
+    "tracking_code": "58289a4b31b1b8071ca810b9",
+    "form_of_payment": "PAYPAL",
+    "observations": "Anim occaecat proident ea ullamco. Esse Lorem amet nulla laborum aliqua eu mollit nulla quis laborum ea ut. Irure elit ipsum aliqua cillum ea sit irure dolore pariatur. Quis dolor exercitation id est sit cupidatat id. Tempor magna minim exercitation mollit anim esse minim duis. Voluptate mollit nisi in sint amet nulla esse ex ad fugiat.\r\n",
+    "sales_channel": "MERCADOLIVRE",
+    "value_of_shipment": 3,
+    "products": [
+      {
+        "id": 268,
+        "ncm": 66000569,
+        "name": "FONE DE OUVIDO EARPODS APPLE",
+        "value_purchase": 12.96,
+        "value_sale": 3.04,
+        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
+        "color": "BRANCO",
+        "available_quantity": 160,
+        "status": true,
+        "creation_date": "2015-10-04 03:47:56",
+        "compatibility": {
+          "id": 49,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 267,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 22,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 724034365772620,
+          "state_registration": 386391870657821,
+          "capital_social": "$25,580.42",
+          "document": {
+            "id": 167,
+            "type": "CNPJ",
+            "number": 2390462112942
+          },
+          "address": {
+            "id": 238,
+            "zip_code": 45104901,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 35419781,
+            "complement": "NENHUM",
             "neighborhood": "ITAIM BIBI",
-            "ibge_code": 1657773,
+            "ibge_code": 7487680,
+            "city": "RIO DE JANEIRO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 188,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@GMAIL.COM",
+            "phone_1": 1739730100631,
+            "phone_2": 1626338068971,
+            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+          }
+        }
+      },
+      {
+        "id": 186,
+        "ncm": 74113598,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 8.91,
+        "value_sale": 6.07,
+        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
+        "color": "BRANCO",
+        "available_quantity": 54,
+        "status": false,
+        "creation_date": "2016-05-28 01:25:18",
+        "compatibility": {
+          "id": 270,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 258,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 204,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 127396394700532,
+          "state_registration": 550636907221338,
+          "capital_social": "$17,011.03",
+          "document": {
+            "id": 20,
+            "type": "RG",
+            "number": 51800636654182
+          },
+          "address": {
+            "id": 237,
+            "zip_code": 77056226,
+            "address": "RUA JOAQUIM FLORIANO",
+            "number": 17413762,
+            "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "PARQUE INDEPENDÊNCIA",
+            "ibge_code": 4264717,
             "city": "SÃO PAULO",
             "state": "SÃO PAULO",
             "contry": "BRASIL"
           },
           "contact": {
-            "id": 296,
-            "email_1": "EMAIL_1@ICLOUD.COM",
+            "id": 49,
+            "email_1": "EMAIL_1@GMAIL.COM",
             "email_2": "EMAIL_2@GMAIL.COM",
-            "phone_1": 2130873540266,
-            "phone_2": 2112264915564,
-            "observations": "NÃO LIGAR PELA MANHÃ"
-          }
-        }
-      },
-      {
-        "id": 280,
-        "name": "CABO USB LIGHTNING APPLE",
-        "value_purchase": 157,
-        "value_sale": 33,
-        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
-        "color": "BRANCO",
-        "available_quantity": 238,
-        "status": true,
-        "creation_date": "2015-01-26T07:00:57 +02:00",
-        "compatibility": {
-          "id": 129,
-          "supported_devices": "TODOS"
-        },
-        "product_type": {
-          "id": 117,
-          "name": "PRODUTOS APPLE"
-        },
-        "supplier": {
-          "id": 92,
-          "company_name": "SHENZHEN RN TECH CO., LTD",
-          "fantasy_name": "",
-          "municipal_registration": 242707930674035,
-          "state_registration": 394347490532693,
-          "capital_social": "$32,975.23",
-          "document": {
-            "id": 137,
-            "type": "CPF",
-            "number": 56020314026869
-          },
-          "address": {
-            "id": 21,
-            "zip_code": 69124315,
-            "address": "RUA JOSÉ RIBEIRO RAMOS",
-            "number": 88904552,
-            "complement": "NENHUM",
-            "neighborhood": "ITAIM BIBI",
-            "ibge_code": 6822303,
-            "city": "RIO DE JANEIRO",
-            "state": "RIO DE JANEIRO",
-            "contry": "BRASIL"
-          },
-          "contact": {
-            "id": 79,
-            "email_1": "EMAIL_1@ICLOUD.COM",
-            "email_2": "EMAIL_2@ICLOUD.COM",
-            "phone_1": 3331552772643,
-            "phone_2": 3955428139245,
+            "phone_1": 6702683199898,
+            "phone_2": 8766536259312,
             "observations": "NÃO LIGAR PELA MANHÃ"
           }
         }
       }
-    ]
-  },
-  {
-    "id": 270,
-    "amount": 301,
-    "quantity": 4,
-    "buyer_message": "Ipsum eu dolore ad laboris laboris fugiat eu do duis qui ad. Elit labore eu aliquip quis qui in ad qui labore duis. Id qui consequat laboris amet irure id. Et ut proident laboris laboris nisi cillum magna in id laboris Lorem. Dolor pariatur cupidatat cillum aliquip commodo do laborum deserunt fugiat ullamco. Enim laborum ipsum tempor est labore voluptate consequat velit veniam fugiat cillum.\r\n",
-    "sale_date": "2014-03-17T12:12:24 +03:00",
-    "status": "CONTACT_DATA_STATUS",
-    "tracking_code": "581298381fceaf5cfa1176de",
-    "form_of_payment": "BOLETO BANCÁRIO",
-    "observations": "Exercitation elit qui cillum quis labore. Do anim reprehenderit quis adipisicing aliquip minim irure pariatur adipisicing qui. Ipsum labore cillum amet eu. Irure laborum tempor esse ex dolor proident. Eu do dolore in aliqua Lorem deserunt exercitation nulla duis et ad sit ullamco aliqua. Eu enim nisi est officia laboris exercitation nostrud ullamco adipisicing sint. Officia non adipisicing magna quis enim ipsum.\r\n",
-    "sales_channel": "MERCADOSHOPS",
-    "value_of_shipment": 4,
+    ],
+    "invoice": {
+      "id": 129,
+      "type": "SAIDA",
+      "number": 780584,
+      "serie": 3,
+      "sheet": 4,
+      "access_key": "0279cc04-0a58-49cb-8945-630e703a4ce3",
+      "operation_type": "COMPRA",
+      "use_auth_protocol": 595206012731450,
+      "cfop": 7490,
+      "date_of_issue": "2014-06-03T03:45:56 +03:00",
+      "input_output_date": "2014-08-25T12:24:32 +03:00"
+    },
+    "taxes": {
+      "id": 2.36,
+      "icms_base_calculation": 1.81,
+      "value_icms": 0.2,
+      "icms_subst_base_calculation": 1.78,
+      "value_icms_subst": 6.87,
+      "total_value_of_the_products": 3.62,
+      "cost_of_freight": 4.19,
+      "safe_price": 1.19,
+      "discount": 1.09,
+      "other_expenses": 9.04,
+      "value_ipi": 8.43,
+      "total_note_value": 6.59
+    },
     "client": {
-      "id": 128,
-      "name": "LUIZA CALDEIRA",
-      "nick_name": "MARCELINHA"
-    },
-    "delivery_address": {
-      "id": 236,
-      "zip_code": 40567664,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 804,
-      "complement": "CONJUNTO 3",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 5784271,
-      "city": "SÃO PAULO",
-      "state": "SÃO PAULO",
-      "contry": "BRASIL"
-    },
-    "billing_address": {
-      "id": 191,
-      "zip_code": 22242209,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 0,
-      "complement": "CONJUNTO 2",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 7529621,
-      "city": "RIO DE JANEIRO",
-      "state": "SANTA CATARINA",
-      "contry": "CHILE"
-    },
-    "products": [
-      {
-        "id": 83,
-        "name": "FONE DE OUVIDO EARPODS APPLE",
-        "value_purchase": 222,
-        "value_sale": 131,
-        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
-        "color": "BRANCO",
-        "available_quantity": 162,
-        "status": false,
-        "creation_date": "2015-07-07T08:37:46 +03:00",
-        "compatibility": {
-          "id": 268,
-          "supported_devices": "TODOS"
-        },
-        "product_type": {
-          "id": 105,
-          "name": "PRODUTOS APPLE"
-        },
-        "supplier": {
-          "id": 84,
-          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
-          "fantasy_name": "",
-          "municipal_registration": 737024341745212,
-          "state_registration": 182358654512173,
-          "capital_social": "$36,002.59",
-          "document": {
-            "id": 69,
-            "type": "CNPJ",
-            "number": 51721897772775
-          },
-          "address": {
-            "id": 193,
-            "zip_code": 18169736,
-            "address": "RUA JOSÉ RIBEIRO RAMOS",
-            "number": 56838611,
-            "complement": "APARTAMENTO 56 | TORRE 2",
-            "neighborhood": "PARQUE INDEPENDÊNCIA",
-            "ibge_code": 2991854,
-            "city": "RIO DE JANEIRO",
-            "state": "RIO DE JANEIRO",
-            "contry": "BRASIL"
-          },
-          "contact": {
-            "id": 202,
-            "email_1": "EMAIL_1@ICLOUD.COM",
-            "email_2": "EMAIL_2@GMAIL.COM",
-            "phone_1": 8008794969708,
-            "phone_2": 6100503651845,
-            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
-          }
-        }
+      "id": 144,
+      "name": "LUCAS SANTOS",
+      "nick_name": "LULU",
+      "document": {
+        "id": 102,
+        "type": "CPF",
+        "number": 7155188556813
       },
-      {
-        "id": 49,
-        "name": "CABO USB LIGHTNING APPLE",
-        "value_purchase": 184,
-        "value_sale": 223,
-        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
-        "color": "BRANCO",
-        "available_quantity": 12,
-        "status": true,
-        "creation_date": "2014-12-03T06:20:32 +02:00",
-        "compatibility": {
-          "id": 250,
-          "supported_devices": "TODOS"
-        },
-        "product_type": {
-          "id": 67,
-          "name": "PRODUTOS APPLE"
-        },
-        "supplier": {
-          "id": 130,
-          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
-          "fantasy_name": "",
-          "municipal_registration": 702857393232156,
-          "state_registration": 261974260207965,
-          "capital_social": "$28,248.72",
-          "document": {
-            "id": 67,
-            "type": "RG",
-            "number": 86948130887346
-          },
-          "address": {
-            "id": 296,
-            "zip_code": 63575852,
-            "address": "RUA JOSÉ RIBEIRO RAMOS",
-            "number": 88161078,
-            "complement": "APARTAMENTO 56 | TORRE 2",
-            "neighborhood": "ITAIM BIBI",
-            "ibge_code": 3363885,
-            "city": "SÃO PAULO",
-            "state": "RIO DE JANEIRO",
-            "contry": "BRASIL"
-          },
-          "contact": {
-            "id": 182,
-            "email_1": "EMAIL_1@GMAIL.COM",
-            "email_2": "EMAIL_2@ICLOUD.COM",
-            "phone_1": 6478561028513,
-            "phone_2": 1964281263098,
-            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
-          }
-        }
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 187,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 7782686467162,
+        "phone_2": 1693273868149,
+        "observations": "NÃO LIGAR PELA MANHÃ"
       }
-    ]
+    }
   },
   {
-    "id": 161,
-    "amount": 318,
-    "quantity": 1,
-    "buyer_message": "Officia dolore occaecat magna et. Occaecat aliqua irure ipsum ipsum incididunt cupidatat sit proident minim deserunt adipisicing. Fugiat consectetur in et cillum sint minim adipisicing velit laborum veniam aliquip. Deserunt cillum in commodo irure consequat ex irure.\r\n",
-    "sale_date": "2015-08-28T09:19:55 +03:00",
-    "status": "PROCESSED_DATE",
-    "tracking_code": "581298387c2cbf1dca5f07ca",
-    "form_of_payment": "PAYPAL",
-    "observations": "Commodo sit pariatur cillum elit duis eiusmod ullamco nisi consectetur labore occaecat. Dolore proident duis est anim commodo eiusmod ut. Ipsum amet anim nulla culpa amet magna elit dolor irure. Irure eiusmod reprehenderit qui cupidatat qui pariatur adipisicing. Lorem aliqua deserunt ea dolore Lorem enim. Aliqua id sit labore ex ad eu laborum nulla exercitation ullamco incididunt. Minim cupidatat dolore aliquip ea voluptate incididunt pariatur nostrud pariatur non commodo.\r\n",
-    "sales_channel": "MERCADOSHOPS",
-    "value_of_shipment": 9,
-    "client": {
-      "id": 112,
-      "name": "MARCELA CARDOSO",
-      "nick_name": "MARCELINHA"
-    },
-    "delivery_address": {
-      "id": 208,
-      "zip_code": 18284501,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 616,
-      "complement": "CONJUNTO 3",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 4518876,
-      "city": "RIO DE JANEIRO",
-      "state": "SÃO PAULO",
-      "contry": "BRASIL"
-    },
-    "billing_address": {
-      "id": 93,
-      "zip_code": 54130701,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 535,
-      "complement": "CONJUNTO 3",
-      "neighborhood": "PIRAPORINHA",
-      "ibge_code": 2158395,
-      "city": "SÃO PAULO",
-      "state": "SÃO PAULO",
-      "contry": "BOLÍVIA"
-    },
-    "products": [
-      {
-        "id": 116,
-        "name": "FONE DE OUVIDO EARPODS APPLE",
-        "value_purchase": 141,
-        "value_sale": 115,
-        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
-        "color": "BRANCO",
-        "available_quantity": 192,
-        "status": false,
-        "creation_date": "2014-09-21T05:24:50 +03:00",
-        "compatibility": {
-          "id": 262,
-          "supported_devices": "TODOS"
-        },
-        "product_type": {
-          "id": 183,
-          "name": "PRODUTOS APPLE"
-        },
-        "supplier": {
-          "id": 298,
-          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
-          "fantasy_name": "",
-          "municipal_registration": 446895346671916,
-          "state_registration": 761214281483094,
-          "capital_social": "$12,878.25",
-          "document": {
-            "id": 39,
-            "type": "CNPJ",
-            "number": 32779591665001
-          },
-          "address": {
-            "id": 210,
-            "zip_code": 19089563,
-            "address": "RUA JOAQUIM FLORIANO",
-            "number": 21717777,
-            "complement": "NENHUM",
-            "neighborhood": "ITAIM BIBI",
-            "ibge_code": 6531708,
-            "city": "SÃO PAULO",
-            "state": "RIO DE JANEIRO",
-            "contry": "BRASIL"
-          },
-          "contact": {
-            "id": 52,
-            "email_1": "EMAIL_1@GMAIL.COM",
-            "email_2": "EMAIL_2@ICLOUD.COM",
-            "phone_1": 3757978292054,
-            "phone_2": 2851105238857,
-            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
-          }
-        }
-      },
-      {
-        "id": 116,
-        "name": "CABO USB LIGHTNING APPLE",
-        "value_purchase": 159,
-        "value_sale": 17,
-        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
-        "color": "BRANCO",
-        "available_quantity": 195,
-        "status": false,
-        "creation_date": "2015-10-04T02:33:21 +03:00",
-        "compatibility": {
-          "id": 279,
-          "supported_devices": "TODOS"
-        },
-        "product_type": {
-          "id": 75,
-          "name": "PRODUTOS APPLE"
-        },
-        "supplier": {
-          "id": 298,
-          "company_name": "SHENZHEN RN TECH CO., LTD",
-          "fantasy_name": "",
-          "municipal_registration": 106219367249386,
-          "state_registration": 214722101201311,
-          "capital_social": "$29,189.13",
-          "document": {
-            "id": 198,
-            "type": "CPF",
-            "number": 22870989856401
-          },
-          "address": {
-            "id": 294,
-            "zip_code": 81773518,
-            "address": "RUA JOAQUIM FLORIANO",
-            "number": 22649500,
-            "complement": "APARTAMENTO 56 | TORRE 2",
-            "neighborhood": "PARQUE INDEPENDÊNCIA",
-            "ibge_code": 1873126,
-            "city": "RIO DE JANEIRO",
-            "state": "RIO DE JANEIRO",
-            "contry": "BRASIL"
-          },
-          "contact": {
-            "id": 104,
-            "email_1": "EMAIL_1@GMAIL.COM",
-            "email_2": "EMAIL_2@GMAIL.COM",
-            "phone_1": 4548736228592,
-            "phone_2": 3312918384256,
-            "observations": "NÃO LIGAR PELA MANHÃ"
-          }
-        }
-      }
-    ]
-  },
-  {
-    "id": 240,
-    "amount": 272,
-    "quantity": 5,
-    "buyer_message": "Cupidatat id voluptate occaecat Lorem amet velit duis ipsum laboris aliqua fugiat. Consequat aliquip sunt veniam labore anim duis amet cupidatat cillum culpa. Id fugiat tempor ut id.\r\n",
-    "sale_date": "2016-03-14T04:01:15 +03:00",
-    "status": "DELIVERED",
-    "tracking_code": "581298383dc071ba8f6c5dec",
+    "id": 32,
+    "amount": 8.35,
+    "buyer_message": "Eu ipsum sunt elit sunt deserunt sint commodo fugiat occaecat velit aliqua deserunt elit. Ad velit adipisicing anim laboris amet fugiat incididunt anim ipsum. Sit et culpa consectetur labore officia proident magna proident do irure laborum tempor occaecat. Dolor velit officia occaecat commodo est eiusmod non. Magna occaecat proident excepteur deserunt veniam incididunt sint velit est. Ut adipisicing ad adipisicing laborum cupidatat sit ad pariatur nisi.\r\n",
+    "use_auth_protocol": 273092824077203,
+    "sale_date": "2014-10-11 02:25:23",
+    "status": "PROCESSED",
+    "tracking_code": "58289a4b44c3bc20bd06ded1",
     "form_of_payment": "CARTÃO DE CRÉDITO",
-    "observations": "Aliqua dolore quis sit anim ut eiusmod. Ipsum cillum tempor aliquip id elit voluptate ipsum irure. Ea laboris nulla fugiat quis deserunt velit dolore.\r\n",
-    "sales_channel": "MERCADOLIVRE",
-    "value_of_shipment": 5,
-    "client": {
-      "id": 250,
-      "name": "MIRELA PACHECO",
-      "nick_name": "MARCELINHA"
-    },
-    "delivery_address": {
-      "id": 24,
-      "zip_code": 60840706,
-      "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 758,
-      "complement": "CONJUNTO 2",
-      "neighborhood": "PIRAPORINHA",
-      "ibge_code": 5233122,
-      "city": "RIO DE JANEIRO",
-      "state": "SÃO PAULO",
-      "contry": "BOLÍVIA"
-    },
-    "billing_address": {
-      "id": 138,
-      "zip_code": 87665691,
-      "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 769,
-      "complement": "CONJUNTO 3",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 3645575,
-      "city": "SÃO PAULO",
-      "state": "SANTA CATARINA",
-      "contry": "BRASIL"
-    },
-    "products": [
-      {
-        "id": 7,
-        "name": "CABO USB LIGHTNING APPLE",
-        "value_purchase": 174,
-        "value_sale": 49,
-        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
-        "color": "BRANCO",
-        "available_quantity": 148,
-        "status": true,
-        "creation_date": "2016-01-01T07:51:37 +02:00",
-        "compatibility": {
-          "id": 107,
-          "supported_devices": "TODOS"
-        },
-        "product_type": {
-          "id": 4,
-          "name": "PRODUTOS APPLE"
-        },
-        "supplier": {
-          "id": 233,
-          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
-          "fantasy_name": "",
-          "municipal_registration": 285268727245918,
-          "state_registration": 439875871268803,
-          "capital_social": "$41,661.38",
-          "document": {
-            "id": 155,
-            "type": "RG",
-            "number": 57846612935492
-          },
-          "address": {
-            "id": 28,
-            "zip_code": 76580388,
-            "address": "RUA JOAQUIM FLORIANO",
-            "number": 61083949,
-            "complement": "NENHUM",
-            "neighborhood": "PARQUE INDEPENDÊNCIA",
-            "ibge_code": 6279029,
-            "city": "SÃO PAULO",
-            "state": "RIO DE JANEIRO",
-            "contry": "BRASIL"
-          },
-          "contact": {
-            "id": 281,
-            "email_1": "EMAIL_1@ICLOUD.COM",
-            "email_2": "EMAIL_2@GMAIL.COM",
-            "phone_1": 7614307610307,
-            "phone_2": 7259020396476,
-            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
-          }
-        }
-      },
-      {
-        "id": 227,
-        "name": "CABO USB LIGHTNING APPLE",
-        "value_purchase": 189,
-        "value_sale": 208,
-        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
-        "color": "BRANCO",
-        "available_quantity": 12,
-        "status": true,
-        "creation_date": "2014-02-27T01:03:46 +03:00",
-        "compatibility": {
-          "id": 45,
-          "supported_devices": "TODOS"
-        },
-        "product_type": {
-          "id": 103,
-          "name": "PRODUTOS APPLE"
-        },
-        "supplier": {
-          "id": 100,
-          "company_name": "SHENZHEN RN TECH CO., LTD",
-          "fantasy_name": "",
-          "municipal_registration": 461905534611030,
-          "state_registration": 711100931687682,
-          "capital_social": "$40,258.47",
-          "document": {
-            "id": 120,
-            "type": "RG",
-            "number": 44662078181457
-          },
-          "address": {
-            "id": 82,
-            "zip_code": 73471613,
-            "address": "RUA JOSÉ RIBEIRO RAMOS",
-            "number": 22091030,
-            "complement": "APARTAMENTO 56 | TORRE 2",
-            "neighborhood": "ITAIM BIBI",
-            "ibge_code": 1331359,
-            "city": "SÃO PAULO",
-            "state": "RIO DE JANEIRO",
-            "contry": "BRASIL"
-          },
-          "contact": {
-            "id": 134,
-            "email_1": "EMAIL_1@ICLOUD.COM",
-            "email_2": "EMAIL_2@ICLOUD.COM",
-            "phone_1": 8169579958969,
-            "phone_2": 7603765874350,
-            "observations": "NÃO LIGAR PELA MANHÃ"
-          }
-        }
-      }
-    ]
-  },
-  {
-    "id": 159,
-    "amount": 143,
-    "quantity": 5,
-    "buyer_message": "Aliqua et eiusmod cupidatat minim adipisicing laboris mollit officia. Tempor amet do adipisicing aliquip elit magna esse nostrud fugiat Lorem ea qui amet. Adipisicing deserunt ea velit reprehenderit id Lorem sunt ex aliquip adipisicing. Ad aliquip enim veniam anim incididunt reprehenderit nostrud commodo elit velit non.\r\n",
-    "sale_date": "2015-11-02T01:23:00 +02:00",
-    "status": "CLOSED",
-    "tracking_code": "5812983835605242b50b44e0",
-    "form_of_payment": "BOLETO BANCÁRIO",
-    "observations": "Anim do sunt anim ea ipsum magna qui id irure exercitation officia sit. Nostrud do commodo occaecat nulla laborum amet est. Est cillum ut ad sint cupidatat ex laborum ea magna adipisicing nostrud ea ad aute. Velit amet velit ullamco quis minim do.\r\n",
+    "observations": "Enim exercitation deserunt irure in minim ullamco exercitation deserunt officia amet consectetur. Aliqua excepteur tempor pariatur ad pariatur. Anim occaecat aute reprehenderit fugiat aliquip exercitation deserunt consectetur. Fugiat officia ipsum eu labore et quis magna laboris aute sint mollit ullamco nisi aute. Aliqua elit sit esse adipisicing qui est. Consectetur dolore anim dolore sit occaecat est do et deserunt quis aliqua ex.\r\n",
     "sales_channel": "MERCADOSHOPS",
-    "value_of_shipment": 7,
-    "client": {
-      "id": 164,
-      "name": "ANTONIO AUGUSTO",
-      "nick_name": "LUQUINHAS"
-    },
-    "delivery_address": {
-      "id": 87,
-      "zip_code": 45365398,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 1,
-      "complement": "CONJUNTO 3",
-      "neighborhood": "PIRAPORINHA",
-      "ibge_code": 4690738,
-      "city": "FLORIANÓPOLIS",
-      "state": "RIO DE JANEIRO",
-      "contry": "BOLÍVIA"
-    },
-    "billing_address": {
-      "id": 28,
-      "zip_code": 29587852,
-      "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 860,
-      "complement": "CONJUNTO 3",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 8697228,
-      "city": "RIO DE JANEIRO",
-      "state": "RIO DE JANEIRO",
-      "contry": "BOLÍVIA"
-    },
+    "value_of_shipment": 5,
     "products": [
       {
-        "id": 71,
-        "name": "FONE DE OUVIDO EARPODS APPLE",
-        "value_purchase": 182,
-        "value_sale": 289,
+        "id": 229,
+        "ncm": 51959657,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 2.28,
+        "value_sale": 12.41,
         "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
         "color": "BRANCO",
-        "available_quantity": 30,
+        "available_quantity": 128,
         "status": true,
-        "creation_date": "2016-02-17T11:15:42 +02:00",
+        "creation_date": "2014-06-17 11:31:28",
         "compatibility": {
-          "id": 94,
+          "id": 5,
           "supported_devices": "TODOS"
         },
         "product_type": {
@@ -1244,199 +1362,1899 @@
           "name": "PRODUTOS APPLE"
         },
         "supplier": {
-          "id": 23,
+          "id": 27,
           "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
           "fantasy_name": "",
-          "municipal_registration": 433350173596799,
-          "state_registration": 827739262730347,
-          "capital_social": "$41,567.17",
+          "municipal_registration": 106979252218199,
+          "state_registration": 631096663096102,
+          "capital_social": "$48,633.53",
           "document": {
-            "id": 294,
-            "type": "CPF",
-            "number": 55064277884742
+            "id": 94,
+            "type": "CNPJ",
+            "number": 64675045082674
           },
           "address": {
-            "id": 95,
-            "zip_code": 76243529,
+            "id": 97,
+            "zip_code": 46291316,
             "address": "RUA JOAQUIM FLORIANO",
-            "number": 58966295,
+            "number": 83655274,
             "complement": "NENHUM",
             "neighborhood": "PARQUE INDEPENDÊNCIA",
-            "ibge_code": 8434774,
+            "ibge_code": 6984962,
+            "city": "SÃO PAULO",
+            "state": "SÃO PAULO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 67,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@GMAIL.COM",
+            "phone_1": 1204499116922,
+            "phone_2": 7120141259569,
+            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+          }
+        }
+      },
+      {
+        "id": 242,
+        "ncm": 88667503,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 4.63,
+        "value_sale": 10.77,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 23,
+        "status": false,
+        "creation_date": "2014-04-23 12:24:34",
+        "compatibility": {
+          "id": 146,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 44,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 69,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 668216345240372,
+          "state_registration": 221861746030190,
+          "capital_social": "$11,838.81",
+          "document": {
+            "id": 157,
+            "type": "CNPJ",
+            "number": 53807565060705
+          },
+          "address": {
+            "id": 179,
+            "zip_code": 62156894,
+            "address": "RUA JOAQUIM FLORIANO",
+            "number": 48194730,
+            "complement": "NENHUM",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 1008743,
             "city": "RIO DE JANEIRO",
             "state": "SÃO PAULO",
             "contry": "BRASIL"
           },
           "contact": {
-            "id": 254,
+            "id": 97,
             "email_1": "EMAIL_1@GMAIL.COM",
-            "email_2": "EMAIL_2@GMAIL.COM",
-            "phone_1": 3801452994834,
-            "phone_2": 2649101974108,
-            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
-          }
-        }
-      },
-      {
-        "id": 240,
-        "name": "CABO USB LIGHTNING APPLE",
-        "value_purchase": 210,
-        "value_sale": 159,
-        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
-        "color": "BRANCO",
-        "available_quantity": 135,
-        "status": false,
-        "creation_date": "2015-12-04T09:40:20 +02:00",
-        "compatibility": {
-          "id": 115,
-          "supported_devices": "TODOS"
-        },
-        "product_type": {
-          "id": 275,
-          "name": "PRODUTOS APPLE"
-        },
-        "supplier": {
-          "id": 12,
-          "company_name": "SHENZHEN RN TECH CO., LTD",
-          "fantasy_name": "",
-          "municipal_registration": 287948994653302,
-          "state_registration": 409804096764827,
-          "capital_social": "$35,486.85",
-          "document": {
-            "id": 119,
-            "type": "RG",
-            "number": 36353023130730
-          },
-          "address": {
-            "id": 221,
-            "zip_code": 32339869,
-            "address": "RUA JOSÉ RIBEIRO RAMOS",
-            "number": 16029287,
-            "complement": "NENHUM",
-            "neighborhood": "ITAIM BIBI",
-            "ibge_code": 6908877,
-            "city": "SÃO PAULO",
-            "state": "SÃO PAULO",
-            "contry": "BRASIL"
-          },
-          "contact": {
-            "id": 214,
-            "email_1": "EMAIL_1@GMAIL.COM",
-            "email_2": "EMAIL_2@GMAIL.COM",
-            "phone_1": 5194270378640,
-            "phone_2": 2440125659387,
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 3542861805870,
+            "phone_2": 3290386719629,
             "observations": "NÃO LIGAR PELA MANHÃ"
           }
         }
       }
-    ]
+    ],
+    "invoice": {
+      "id": 183,
+      "type": "ENTRADA",
+      "number": 163097,
+      "serie": 4,
+      "sheet": 5,
+      "access_key": "0075e538-b632-429a-a81a-c189c816cf18",
+      "operation_type": "COMPRA",
+      "use_auth_protocol": 853797434575942,
+      "cfop": 8768,
+      "date_of_issue": "2015-12-21T03:49:08 +02:00",
+      "input_output_date": "2015-02-25T09:06:43 +03:00"
+    },
+    "taxes": {
+      "id": 7.67,
+      "icms_base_calculation": 3.36,
+      "value_icms": 9.82,
+      "icms_subst_base_calculation": 8.21,
+      "value_icms_subst": 9.53,
+      "total_value_of_the_products": 2.51,
+      "cost_of_freight": 0.67,
+      "safe_price": 8.69,
+      "discount": 1.93,
+      "other_expenses": 6.63,
+      "value_ipi": 0.46,
+      "total_note_value": 4.42
+    },
+    "client": {
+      "id": 232,
+      "name": "JOSÉ CARLOS",
+      "nick_name": "TERÊ",
+      "document": {
+        "id": 263,
+        "type": "CPF",
+        "number": 4606413615483
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 225,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 5476080448557,
+        "phone_2": 7025606023525,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
   },
   {
-    "id": 258,
-    "amount": 305,
-    "quantity": 5,
-    "buyer_message": "Cupidatat aliquip ullamco nostrud velit do sint ut occaecat eu minim. Irure anim in fugiat Lorem proident laboris laborum et est. Minim eu cillum amet duis cillum. Laboris cupidatat sit qui amet mollit laborum ullamco cillum nisi do. Qui veniam minim sit ut ad adipisicing laboris aliqua Lorem incididunt.\r\n",
-    "sale_date": "2016-10-23T09:28:07 +02:00",
-    "status": "DELIVERED",
-    "tracking_code": "581298389d2819b973ab501a",
+    "id": 185,
+    "amount": 1.3,
+    "buyer_message": "Incididunt sit tempor non nulla do consectetur culpa labore minim velit exercitation Lorem quis nisi. Elit ut anim occaecat non ea fugiat. Nisi pariatur irure cillum eiusmod quis culpa deserunt aliquip non. Dolore ad minim adipisicing voluptate non elit sunt id. Quis adipisicing id labore ex id do. Incididunt minim deserunt eiusmod dolore et aliquip laborum eu elit exercitation velit. Elit minim deserunt velit dolore culpa dolor culpa non ut amet enim.\r\n",
+    "use_auth_protocol": 222138391203386,
+    "sale_date": "2015-08-07 08:35:50",
+    "status": "PROCESSED",
+    "tracking_code": "58289a4b7a25688d140973e4",
     "form_of_payment": "PAYPAL",
-    "observations": "Lorem non aliqua laboris reprehenderit. Aliqua reprehenderit culpa officia nisi dolor ullamco dolore laboris nulla do aute commodo. Laborum est pariatur id consectetur enim laborum. Aliqua laboris fugiat dolore laborum sunt anim officia mollit quis. Ad laborum laborum id sint. Quis minim tempor eiusmod sint.\r\n",
+    "observations": "Fugiat Lorem excepteur anim aliquip est sunt consequat minim ut. Est magna do nostrud ipsum labore consequat sit non laborum ut aliqua mollit. Fugiat velit deserunt cillum culpa minim minim minim velit elit voluptate nisi eu labore. Commodo ullamco est quis sunt commodo veniam quis id laborum. Ea esse pariatur deserunt commodo dolor. Pariatur fugiat et nisi amet commodo do laboris.\r\n",
     "sales_channel": "MERCADOSHOPS",
-    "value_of_shipment": 1,
-    "client": {
-      "id": 241,
-      "name": "ANTONIO AUGUSTO",
-      "nick_name": "MIRELA"
-    },
-    "delivery_address": {
-      "id": 62,
-      "zip_code": 77073712,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 88,
-      "complement": "CONJUNTO 3",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 7011499,
-      "city": "SÃO PAULO",
-      "state": "SANTA CATARINA",
-      "contry": "CHILE"
-    },
-    "billing_address": {
-      "id": 138,
-      "zip_code": 43678697,
-      "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 583,
-      "complement": "CONJUNTO 3",
-      "neighborhood": "PARQUE INDEPENDÊNCIA",
-      "ibge_code": 8436451,
-      "city": "RIO DE JANEIRO",
-      "state": "SANTA CATARINA",
-      "contry": "CHILE"
-    },
+    "value_of_shipment": 9,
     "products": [
       {
-        "id": 1,
-        "name": "FONE DE OUVIDO EARPODS APPLE",
-        "value_purchase": 104,
-        "value_sale": 170,
+        "id": 9,
+        "ncm": 15567836,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 14.79,
+        "value_sale": 12.64,
         "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
         "color": "BRANCO",
-        "available_quantity": 159,
-        "status": true,
-        "creation_date": "2014-03-20T11:53:55 +03:00",
+        "available_quantity": 34,
+        "status": false,
+        "creation_date": "2014-04-30 07:18:32",
         "compatibility": {
-          "id": 72,
+          "id": 62,
           "supported_devices": "TODOS"
         },
         "product_type": {
-          "id": 56,
+          "id": 69,
           "name": "PRODUTOS APPLE"
         },
         "supplier": {
-          "id": 183,
+          "id": 269,
           "company_name": "SHENZHEN RN TECH CO., LTD",
           "fantasy_name": "",
-          "municipal_registration": 316385956254031,
-          "state_registration": 830549199668872,
-          "capital_social": "$22,226.71",
+          "municipal_registration": 447367935167239,
+          "state_registration": 717413486813771,
+          "capital_social": "$48,610.94",
           "document": {
-            "id": 261,
-            "type": "CNPJ",
-            "number": 87859620479055
+            "id": 56,
+            "type": "CPF",
+            "number": 9708641010825
           },
           "address": {
-            "id": 266,
-            "zip_code": 66859139,
+            "id": 194,
+            "zip_code": 64811182,
             "address": "RUA JOAQUIM FLORIANO",
-            "number": 48114330,
-            "complement": "APARTAMENTO 56 | TORRE 2",
-            "neighborhood": "ITAIM BIBI",
-            "ibge_code": 8367875,
+            "number": 84965616,
+            "complement": "NENHUM",
+            "neighborhood": "PARQUE INDEPENDÊNCIA",
+            "ibge_code": 5738224,
             "city": "SÃO PAULO",
             "state": "RIO DE JANEIRO",
             "contry": "BRASIL"
           },
           "contact": {
-            "id": 261,
-            "email_1": "EMAIL_1@GMAIL.COM",
+            "id": 18,
+            "email_1": "EMAIL_1@ICLOUD.COM",
             "email_2": "EMAIL_2@ICLOUD.COM",
-            "phone_1": 1123041295010,
-            "phone_2": 4213905429803,
+            "phone_1": 3421871086474,
+            "phone_2": 5211724986932,
             "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
           }
         }
       },
       {
-        "id": 150,
+        "id": 128,
+        "ncm": 53536309,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 17.21,
+        "value_sale": 13.08,
+        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
+        "color": "BRANCO",
+        "available_quantity": 134,
+        "status": false,
+        "creation_date": "2014-04-09 07:49:32",
+        "compatibility": {
+          "id": 73,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 10,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 154,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 112846857109161,
+          "state_registration": 738680976364329,
+          "capital_social": "$30,879.93",
+          "document": {
+            "id": 66,
+            "type": "RG",
+            "number": 23676442387775
+          },
+          "address": {
+            "id": 98,
+            "zip_code": 39206550,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 16633734,
+            "complement": "NENHUM",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 7725348,
+            "city": "RIO DE JANEIRO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 116,
+            "email_1": "EMAIL_1@ICLOUD.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 8404852577793,
+            "phone_2": 5854386101476,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      }
+    ],
+    "invoice": {
+      "id": 2,
+      "type": "SAIDA",
+      "number": 122064,
+      "serie": 8,
+      "sheet": 1,
+      "access_key": "b94e092b-f4c8-405a-851c-30d1f2282bb6",
+      "operation_type": "COMPRA",
+      "use_auth_protocol": 681261156746910,
+      "cfop": 7929,
+      "date_of_issue": "2014-02-28T08:05:14 +03:00",
+      "input_output_date": "2016-11-12T03:30:32 +02:00"
+    },
+    "taxes": {
+      "id": 0.72,
+      "icms_base_calculation": 0.37,
+      "value_icms": 1.36,
+      "icms_subst_base_calculation": 8.11,
+      "value_icms_subst": 3.01,
+      "total_value_of_the_products": 8.57,
+      "cost_of_freight": 7.83,
+      "safe_price": 0.06,
+      "discount": 4.48,
+      "other_expenses": 7.11,
+      "value_ipi": 5.85,
+      "total_note_value": 7.81
+    },
+    "client": {
+      "id": 86,
+      "name": "LUIZA CALDEIRA",
+      "nick_name": "LUQUINHAS",
+      "document": {
+        "id": 164,
+        "type": "CPF",
+        "number": 495509861653
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 257,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 5107913045377,
+        "phone_2": 5151698063410,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 172,
+    "amount": 2.56,
+    "buyer_message": "Irure consectetur mollit aliqua nostrud laboris elit mollit cillum do. Labore dolor voluptate ex irure ex commodo laborum. Nisi id eu velit exercitation laboris cupidatat. Occaecat deserunt officia tempor exercitation. Magna ullamco pariatur et non dolor deserunt nulla sunt elit sit incididunt veniam eu. Exercitation anim cillum anim nulla reprehenderit do exercitation irure. Velit proident consequat sunt sint.\r\n",
+    "use_auth_protocol": 430518001940100,
+    "sale_date": "2016-08-04 07:47:12",
+    "status": "CLOSED_DATE",
+    "tracking_code": "58289a4bfbeed7566f90ef54",
+    "form_of_payment": "CARTÃO DE DÉBITO",
+    "observations": "Enim ex velit nulla voluptate cillum dolore ullamco est velit eu laboris et in esse. Cillum pariatur ipsum esse esse tempor dolor voluptate id ea. Ex occaecat voluptate est quis.\r\n",
+    "sales_channel": "MERCADOSHOPS",
+    "value_of_shipment": 2,
+    "products": [
+      {
+        "id": 136,
+        "ncm": 64139521,
         "name": "FONE DE OUVIDO EARPODS APPLE",
-        "value_purchase": 113,
-        "value_sale": 134,
+        "value_purchase": 18.68,
+        "value_sale": 19.58,
         "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
         "color": "BRANCO",
-        "available_quantity": 124,
-        "status": false,
-        "creation_date": "2016-04-02T12:10:36 +03:00",
+        "available_quantity": 42,
+        "status": true,
+        "creation_date": "2015-10-12 10:37:20",
         "compatibility": {
-          "id": 210,
+          "id": 81,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 300,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 292,
+          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
+          "fantasy_name": "",
+          "municipal_registration": 519505314970194,
+          "state_registration": 284536112121921,
+          "capital_social": "$34,683.17",
+          "document": {
+            "id": 191,
+            "type": "CNPJ",
+            "number": 79358413722086
+          },
+          "address": {
+            "id": 64,
+            "zip_code": 53153585,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 65241314,
+            "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "PARQUE INDEPENDÊNCIA",
+            "ibge_code": 6899049,
+            "city": "SÃO PAULO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 231,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 5609842676454,
+            "phone_2": 8681889276760,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      },
+      {
+        "id": 173,
+        "ncm": 89240934,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 8.75,
+        "value_sale": 6.1,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 10,
+        "status": true,
+        "creation_date": "2015-05-17 02:50:07",
+        "compatibility": {
+          "id": 155,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 49,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 225,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 789751591652232,
+          "state_registration": 676254428194415,
+          "capital_social": "$20,190.03",
+          "document": {
+            "id": 285,
+            "type": "CPF",
+            "number": 46945350446493
+          },
+          "address": {
+            "id": 100,
+            "zip_code": 61039847,
+            "address": "RUA JOAQUIM FLORIANO",
+            "number": 63055727,
+            "complement": "NENHUM",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 1509225,
+            "city": "RIO DE JANEIRO",
+            "state": "SÃO PAULO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 127,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 3251427039788,
+            "phone_2": 4488732176669,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      }
+    ],
+    "invoice": {
+      "id": 274,
+      "type": "ENTRADA",
+      "number": 711421,
+      "serie": 1,
+      "sheet": 2,
+      "access_key": "e09eaa59-fccb-403c-bbe2-43235b9073a2",
+      "operation_type": "COMPRA",
+      "use_auth_protocol": 803115049718754,
+      "cfop": 8972,
+      "date_of_issue": "2016-10-09T09:06:28 +03:00",
+      "input_output_date": "2016-02-25T09:44:33 +03:00"
+    },
+    "taxes": {
+      "id": 3.96,
+      "icms_base_calculation": 6.33,
+      "value_icms": 6.92,
+      "icms_subst_base_calculation": 4.4,
+      "value_icms_subst": 3.24,
+      "total_value_of_the_products": 1.84,
+      "cost_of_freight": 1.51,
+      "safe_price": 7.21,
+      "discount": 7.95,
+      "other_expenses": 8.68,
+      "value_ipi": 7.96,
+      "total_note_value": 8.82
+    },
+    "client": {
+      "id": 249,
+      "name": "JOSÉ CARLOS",
+      "nick_name": "ZEZINHO",
+      "document": {
+        "id": 69,
+        "type": "CPF",
+        "number": 3102827983041
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 127,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 1817119169860,
+        "phone_2": 6378980566114,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 147,
+    "amount": 8.21,
+    "buyer_message": "Nisi exercitation eu officia do eu fugiat veniam et in aute quis et. Dolore fugiat sit ad irure nisi esse ut. Pariatur anim qui anim incididunt amet laborum. Non nisi eu et labore aute aute quis reprehenderit ex amet quis occaecat esse. Nostrud labore consequat ullamco nisi dolore laborum minim sunt. Dolore Lorem labore anim labore amet do. Quis dolore do anim officia minim culpa eiusmod ipsum eu non ad minim ipsum sint.\r\n",
+    "use_auth_protocol": 361328601847836,
+    "sale_date": "2015-04-27 04:35:19",
+    "status": "PROCESSED_DATE",
+    "tracking_code": "58289a4b9345e7e452965608",
+    "form_of_payment": "BOLETO BANCÁRIO",
+    "observations": "Elit labore irure sint culpa ea ea eiusmod ad tempor commodo. Id veniam est in do consequat esse consequat veniam. Aliqua labore aliquip esse ex anim ullamco exercitation proident dolor et. Quis tempor dolor nostrud consectetur nostrud proident sit occaecat anim laboris ut quis. Velit consequat laboris exercitation sint reprehenderit dolore cupidatat nisi minim eu consequat eu mollit.\r\n",
+    "sales_channel": "MERCADOLIVRE",
+    "value_of_shipment": 3,
+    "products": [
+      {
+        "id": 254,
+        "ncm": 19083971,
+        "name": "FONE DE OUVIDO EARPODS APPLE",
+        "value_purchase": 1.27,
+        "value_sale": 10.96,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 96,
+        "status": false,
+        "creation_date": "2015-02-24 10:13:18",
+        "compatibility": {
+          "id": 250,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 116,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 68,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 829005144809257,
+          "state_registration": 470539024310802,
+          "capital_social": "$22,359.05",
+          "document": {
+            "id": 132,
+            "type": "RG",
+            "number": 26813013146830
+          },
+          "address": {
+            "id": 188,
+            "zip_code": 60755331,
+            "address": "RUA JOAQUIM FLORIANO",
+            "number": 40056124,
+            "complement": "NENHUM",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 3907723,
+            "city": "RIO DE JANEIRO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 206,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 6071229106188,
+            "phone_2": 7646697458208,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      },
+      {
+        "id": 49,
+        "ncm": 61490197,
+        "name": "FONE DE OUVIDO EARPODS APPLE",
+        "value_purchase": 9.31,
+        "value_sale": 10.18,
+        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
+        "color": "BRANCO",
+        "available_quantity": 20,
+        "status": true,
+        "creation_date": "2014-06-03 04:12:42",
+        "compatibility": {
+          "id": 168,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 245,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 249,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 256864060056601,
+          "state_registration": 120934453637758,
+          "capital_social": "$41,352.43",
+          "document": {
+            "id": 11,
+            "type": "CNPJ",
+            "number": 1951505970781
+          },
+          "address": {
+            "id": 167,
+            "zip_code": 20044561,
+            "address": "RUA JOAQUIM FLORIANO",
+            "number": 31863261,
+            "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "PARQUE INDEPENDÊNCIA",
+            "ibge_code": 6021226,
+            "city": "RIO DE JANEIRO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 141,
+            "email_1": "EMAIL_1@ICLOUD.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 1434284155777,
+            "phone_2": 2853843735135,
+            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+          }
+        }
+      }
+    ],
+    "invoice": {
+      "id": 27,
+      "type": "SAIDA",
+      "number": 845006,
+      "serie": 9,
+      "sheet": 8,
+      "access_key": "66aa0dca-a440-46c7-a027-e8120a1ae200",
+      "operation_type": "COMPRA",
+      "use_auth_protocol": 113738641463483,
+      "cfop": 7692,
+      "date_of_issue": "2014-01-06T04:13:08 +02:00",
+      "input_output_date": "2014-06-11T08:41:39 +03:00"
+    },
+    "taxes": {
+      "id": 9.98,
+      "icms_base_calculation": 2.72,
+      "value_icms": 3.06,
+      "icms_subst_base_calculation": 8.01,
+      "value_icms_subst": 1.08,
+      "total_value_of_the_products": 2.11,
+      "cost_of_freight": 4.89,
+      "safe_price": 6.5,
+      "discount": 5.83,
+      "other_expenses": 9.26,
+      "value_ipi": 5.23,
+      "total_note_value": 3.38
+    },
+    "client": {
+      "id": 111,
+      "name": "MICHELE COUTO",
+      "nick_name": "MI",
+      "document": {
+        "id": 25,
+        "type": "CNPJ",
+        "number": 9458491627192
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 190,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 8899199513355,
+        "phone_2": 4302119978709,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  },
+  {
+    "id": 123,
+    "amount": 2.03,
+    "buyer_message": "Duis eiusmod labore duis cupidatat dolore officia aute voluptate. Consectetur aute culpa mollit sint qui nisi proident do nulla sint aliquip ullamco. Ex nulla ea elit dolore et occaecat dolore excepteur sint velit. Minim duis minim culpa reprehenderit voluptate dolore minim nisi ex voluptate id. Ut incididunt culpa aute reprehenderit fugiat. Pariatur dolore irure occaecat ut voluptate deserunt deserunt laborum eu minim ex officia culpa dolore. Dolor est ullamco dolor ad officia elit proident cillum proident ut velit.\r\n",
+    "use_auth_protocol": 593172404288679,
+    "sale_date": "2016-10-30 10:08:40",
+    "status": "CLOSED_REASON",
+    "tracking_code": "58289a4b473ccc7406da86cf",
+    "form_of_payment": "CARTÃO DE DÉBITO",
+    "observations": "Pariatur non sunt nulla sit sint est exercitation velit mollit commodo. Labore officia commodo sint irure mollit qui excepteur minim mollit in amet cupidatat. Aliquip ut adipisicing non incididunt.\r\n",
+    "sales_channel": "MERCADOSHOPS",
+    "value_of_shipment": 2,
+    "products": [
+      {
+        "id": 133,
+        "ncm": 79057846,
+        "name": "FONE DE OUVIDO EARPODS APPLE",
+        "value_purchase": 9.29,
+        "value_sale": 9,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 174,
+        "status": false,
+        "creation_date": "2016-03-22 11:12:08",
+        "compatibility": {
+          "id": 145,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 280,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 157,
+          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
+          "fantasy_name": "",
+          "municipal_registration": 610272460862003,
+          "state_registration": 626553872085744,
+          "capital_social": "$47,657.83",
+          "document": {
+            "id": 165,
+            "type": "CNPJ",
+            "number": 70285558324077
+          },
+          "address": {
+            "id": 263,
+            "zip_code": 76870778,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 66776404,
+            "complement": "NENHUM",
+            "neighborhood": "PARQUE INDEPENDÊNCIA",
+            "ibge_code": 1485213,
+            "city": "SÃO PAULO",
+            "state": "SÃO PAULO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 184,
+            "email_1": "EMAIL_1@ICLOUD.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 5160675748214,
+            "phone_2": 3151789849196,
+            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+          }
+        }
+      },
+      {
+        "id": 60,
+        "ncm": 68625857,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 17.77,
+        "value_sale": 13.55,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 141,
+        "status": true,
+        "creation_date": "2015-12-11 06:37:38",
+        "compatibility": {
+          "id": 3,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 168,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 248,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 756848985450469,
+          "state_registration": 640734870370854,
+          "capital_social": "$34,645.09",
+          "document": {
+            "id": 114,
+            "type": "CNPJ",
+            "number": 58098360779564
+          },
+          "address": {
+            "id": 226,
+            "zip_code": 83640296,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 35267282,
+            "complement": "NENHUM",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 6939357,
+            "city": "RIO DE JANEIRO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 253,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 3842425523434,
+            "phone_2": 3676390321816,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      }
+    ],
+    "invoice": {
+      "id": 257,
+      "type": "SAIDA",
+      "number": 272487,
+      "serie": 8,
+      "sheet": 9,
+      "access_key": "d030912a-8416-46c6-92d6-174e16011c22",
+      "operation_type": "VENDA",
+      "use_auth_protocol": 458540158765491,
+      "cfop": 7870,
+      "date_of_issue": "2016-10-18T07:55:17 +02:00",
+      "input_output_date": "2014-04-03T04:51:04 +03:00"
+    },
+    "taxes": {
+      "id": 8.78,
+      "icms_base_calculation": 6.73,
+      "value_icms": 0.88,
+      "icms_subst_base_calculation": 5.9,
+      "value_icms_subst": 3.17,
+      "total_value_of_the_products": 0.21,
+      "cost_of_freight": 3.66,
+      "safe_price": 4.84,
+      "discount": 0.35,
+      "other_expenses": 5.47,
+      "value_ipi": 4.07,
+      "total_note_value": 2.48
+    },
+    "client": {
+      "id": 230,
+      "name": "PEDRO PAULO",
+      "nick_name": "ZEZINHO",
+      "document": {
+        "id": 113,
+        "type": "RG",
+        "number": 1988495723136
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 8,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 8974806038052,
+        "phone_2": 6646336634732,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 104,
+    "amount": 5.1,
+    "buyer_message": "Ut consequat officia aute amet minim duis commodo sint duis sit qui. Incididunt culpa irure voluptate duis ea veniam laborum aliquip minim. Sit mollit fugiat ut laborum sint anim quis nisi. Cupidatat irure eu do laboris nulla et cillum officia ex voluptate commodo est officia irure. Et adipisicing dolore et eiusmod eiusmod laboris deserunt nulla pariatur. Nostrud ex quis sunt do laboris nostrud do nisi veniam magna incididunt irure. In ea sit duis occaecat ex dolore aute duis nostrud est esse sunt anim anim.\r\n",
+    "use_auth_protocol": 784998235724941,
+    "sale_date": "2015-01-31 12:00:11",
+    "status": "DELIVERED",
+    "tracking_code": "58289a4bac1290c3345b207b",
+    "form_of_payment": "CARTÃO DE DÉBITO",
+    "observations": "Laboris dolore sint eiusmod Lorem minim Lorem sint laboris sunt aliquip labore aliqua ipsum pariatur. Cupidatat officia nulla minim anim incididunt anim officia qui dolor sit. Fugiat cupidatat sit exercitation cillum laborum culpa proident ipsum est proident. Adipisicing est nostrud consequat nostrud ea enim. Irure quis cupidatat et ex nisi quis sunt nisi.\r\n",
+    "sales_channel": "MERCADOSHOPS",
+    "value_of_shipment": 3,
+    "products": [
+      {
+        "id": 256,
+        "ncm": 15255476,
+        "name": "FONE DE OUVIDO EARPODS APPLE",
+        "value_purchase": 8.13,
+        "value_sale": 11.85,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 143,
+        "status": false,
+        "creation_date": "2015-01-23 04:20:36",
+        "compatibility": {
+          "id": 276,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 288,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 28,
+          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
+          "fantasy_name": "",
+          "municipal_registration": 569979937990197,
+          "state_registration": 554194255806616,
+          "capital_social": "$45,677.88",
+          "document": {
+            "id": 45,
+            "type": "CNPJ",
+            "number": 57115781100459
+          },
+          "address": {
+            "id": 181,
+            "zip_code": 54860217,
+            "address": "RUA JOAQUIM FLORIANO",
+            "number": 40113609,
+            "complement": "NENHUM",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 7509502,
+            "city": "RIO DE JANEIRO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 166,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@GMAIL.COM",
+            "phone_1": 3862543548130,
+            "phone_2": 5935302274147,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      },
+      {
+        "id": 109,
+        "ncm": 25978174,
+        "name": "FONE DE OUVIDO EARPODS APPLE",
+        "value_purchase": 11.62,
+        "value_sale": 17.39,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 41,
+        "status": true,
+        "creation_date": "2015-03-13 03:41:41",
+        "compatibility": {
+          "id": 142,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 283,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 202,
+          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
+          "fantasy_name": "",
+          "municipal_registration": 210777017231137,
+          "state_registration": 271173765482977,
+          "capital_social": "$46,777.55",
+          "document": {
+            "id": 99,
+            "type": "CNPJ",
+            "number": 18964455563191
+          },
+          "address": {
+            "id": 289,
+            "zip_code": 50000436,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 80413193,
+            "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 5763284,
+            "city": "SÃO PAULO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 61,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 4481377405786,
+            "phone_2": 7695837598672,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      }
+    ],
+    "invoice": {
+      "id": 288,
+      "type": "ENTRADA",
+      "number": 225464,
+      "serie": 4,
+      "sheet": 2,
+      "access_key": "0c03b77b-cbbc-4f5d-9d24-db864ff8eb23",
+      "operation_type": "VENDA",
+      "use_auth_protocol": 894432690078982,
+      "cfop": 7375,
+      "date_of_issue": "2015-03-20T09:49:32 +03:00",
+      "input_output_date": "2015-01-09T05:19:44 +02:00"
+    },
+    "taxes": {
+      "id": 5.83,
+      "icms_base_calculation": 8.65,
+      "value_icms": 2.21,
+      "icms_subst_base_calculation": 0.64,
+      "value_icms_subst": 2.19,
+      "total_value_of_the_products": 1.74,
+      "cost_of_freight": 7.06,
+      "safe_price": 0.63,
+      "discount": 3.37,
+      "other_expenses": 5.81,
+      "value_ipi": 7.22,
+      "total_note_value": 4.44
+    },
+    "client": {
+      "id": 171,
+      "name": "PEDRO PAULO",
+      "nick_name": "TERÊ",
+      "document": {
+        "id": 202,
+        "type": "CNPJ",
+        "number": 8265948436584
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 206,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 8835619862526,
+        "phone_2": 8876942448565,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 270,
+    "amount": 3.39,
+    "buyer_message": "Reprehenderit deserunt ut reprehenderit velit pariatur ipsum aute do Lorem ullamco labore. Pariatur dolore exercitation non exercitation occaecat. Commodo consectetur fugiat deserunt nisi nulla consectetur magna minim excepteur do aute. Qui cillum amet anim aliquip. Elit labore proident ad aute enim Lorem minim deserunt cupidatat. Dolore qui ex cillum ullamco nulla aute voluptate ea ipsum laborum.\r\n",
+    "use_auth_protocol": 684635307987404,
+    "sale_date": "2015-09-26 11:56:44",
+    "status": "CONTACT_DATA_STATUS",
+    "tracking_code": "58289a4b8747242847b881e1",
+    "form_of_payment": "BOLETO BANCÁRIO",
+    "observations": "Ex elit eu laborum qui cupidatat tempor ea officia in adipisicing cillum occaecat. Consectetur laborum duis non incididunt exercitation reprehenderit irure sint mollit proident non. Amet minim excepteur nostrud voluptate ipsum proident elit dolore tempor officia. Exercitation irure nostrud nostrud ad excepteur ipsum excepteur officia amet culpa ut aliqua sint. Nostrud ipsum ad ullamco nisi. Laboris in eu ad duis laborum aliquip esse duis incididunt irure pariatur. Commodo cillum pariatur ut irure.\r\n",
+    "sales_channel": "MERCADOLIVRE",
+    "value_of_shipment": 3,
+    "products": [
+      {
+        "id": 173,
+        "ncm": 27073665,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 15.77,
+        "value_sale": 20,
+        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
+        "color": "BRANCO",
+        "available_quantity": 139,
+        "status": true,
+        "creation_date": "2015-10-05 06:05:42",
+        "compatibility": {
+          "id": 162,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 229,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 82,
+          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
+          "fantasy_name": "",
+          "municipal_registration": 176892635170078,
+          "state_registration": 415213333482671,
+          "capital_social": "$25,218.77",
+          "document": {
+            "id": 184,
+            "type": "CPF",
+            "number": 10233953262759
+          },
+          "address": {
+            "id": 208,
+            "zip_code": 16120428,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 30945001,
+            "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "PARQUE INDEPENDÊNCIA",
+            "ibge_code": 6946320,
+            "city": "SÃO PAULO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 96,
+            "email_1": "EMAIL_1@ICLOUD.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 3464212909605,
+            "phone_2": 8016887826145,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      },
+      {
+        "id": 176,
+        "ncm": 70821720,
+        "name": "FONE DE OUVIDO EARPODS APPLE",
+        "value_purchase": 2.78,
+        "value_sale": 9.35,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 98,
+        "status": true,
+        "creation_date": "2016-02-16 11:34:43",
+        "compatibility": {
+          "id": 171,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 284,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 96,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 203519422544877,
+          "state_registration": 555278031343937,
+          "capital_social": "$29,298.89",
+          "document": {
+            "id": 249,
+            "type": "CNPJ",
+            "number": 44295242653561
+          },
+          "address": {
+            "id": 280,
+            "zip_code": 69037360,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 49440710,
+            "complement": "NENHUM",
+            "neighborhood": "PARQUE INDEPENDÊNCIA",
+            "ibge_code": 5715103,
+            "city": "SÃO PAULO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 103,
+            "email_1": "EMAIL_1@ICLOUD.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 5096001349608,
+            "phone_2": 6799381053639,
+            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+          }
+        }
+      }
+    ],
+    "invoice": {
+      "id": 251,
+      "type": "SAIDA",
+      "number": 649895,
+      "serie": 8,
+      "sheet": 4,
+      "access_key": "c9ab76a8-beb9-4f6e-b9f6-4924f38bf485",
+      "operation_type": "VENDA",
+      "use_auth_protocol": 662441526812548,
+      "cfop": 6258,
+      "date_of_issue": "2014-10-24T09:58:47 +02:00",
+      "input_output_date": "2015-04-27T12:06:16 +03:00"
+    },
+    "taxes": {
+      "id": 7.62,
+      "icms_base_calculation": 2.85,
+      "value_icms": 6.28,
+      "icms_subst_base_calculation": 7.49,
+      "value_icms_subst": 2.4,
+      "total_value_of_the_products": 1.26,
+      "cost_of_freight": 9.03,
+      "safe_price": 2.33,
+      "discount": 9.98,
+      "other_expenses": 9.27,
+      "value_ipi": 7.8,
+      "total_note_value": 1.08
+    },
+    "client": {
+      "id": 23,
+      "name": "MARCELA CARDOSO",
+      "nick_name": "GUGU",
+      "document": {
+        "id": 11,
+        "type": "CNPJ",
+        "number": 239449888117
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 238,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 1150421071232,
+        "phone_2": 5973910309018,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 152,
+    "amount": 3.67,
+    "buyer_message": "Ex veniam anim eiusmod deserunt id occaecat sint ad proident est quis pariatur occaecat. Ea sunt et nisi ipsum nostrud. Reprehenderit eiusmod veniam cupidatat irure enim aliqua occaecat. Ad non ullamco ipsum anim occaecat nisi labore ut. Ullamco ad velit reprehenderit minim elit et nostrud cillum cupidatat consequat. Ut ullamco exercitation dolore ut ea occaecat tempor cillum aliqua. Tempor cupidatat ad deserunt eu et nostrud incididunt deserunt sit.\r\n",
+    "use_auth_protocol": 491826479623033,
+    "sale_date": "2016-07-09 07:00:30",
+    "status": "PROCESSED_DATE",
+    "tracking_code": "58289a4bb3906a2bb073a8c9",
+    "form_of_payment": "BOLETO BANCÁRIO",
+    "observations": "Qui eiusmod nostrud incididunt consequat cupidatat qui reprehenderit labore. Aute laborum nulla ad culpa voluptate exercitation exercitation ullamco quis esse eiusmod irure reprehenderit in. Ipsum proident irure ullamco cillum elit veniam. Laboris officia laborum ex enim nisi nulla duis. Aute laboris non ipsum in commodo consequat aliqua dolor Lorem ut ea ea. Ad anim pariatur eu reprehenderit sint sint ut dolore cupidatat aliqua enim ut minim.\r\n",
+    "sales_channel": "MERCADOLIVRE",
+    "value_of_shipment": 2,
+    "products": [
+      {
+        "id": 63,
+        "ncm": 48289653,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 6.86,
+        "value_sale": 16.01,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 100,
+        "status": true,
+        "creation_date": "2014-07-20 05:20:25",
+        "compatibility": {
+          "id": 70,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 218,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 213,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 598696306846596,
+          "state_registration": 437383791902547,
+          "capital_social": "$18,309.58",
+          "document": {
+            "id": 74,
+            "type": "CPF",
+            "number": 1127882868888
+          },
+          "address": {
+            "id": 109,
+            "zip_code": 53904972,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 31166322,
+            "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "PARQUE INDEPENDÊNCIA",
+            "ibge_code": 3001736,
+            "city": "SÃO PAULO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 11,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@GMAIL.COM",
+            "phone_1": 5256734764084,
+            "phone_2": 4751211153214,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      },
+      {
+        "id": 215,
+        "ncm": 83294807,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 5.13,
+        "value_sale": 8.58,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 91,
+        "status": false,
+        "creation_date": "2015-12-16 08:23:07",
+        "compatibility": {
+          "id": 256,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 44,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 37,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 615984613762981,
+          "state_registration": 715854217609769,
+          "capital_social": "$12,296.90",
+          "document": {
+            "id": 21,
+            "type": "CNPJ",
+            "number": 36730150735421
+          },
+          "address": {
+            "id": 207,
+            "zip_code": 16226102,
+            "address": "RUA JOAQUIM FLORIANO",
+            "number": 66341309,
+            "complement": "NENHUM",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 1073153,
+            "city": "SÃO PAULO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 113,
+            "email_1": "EMAIL_1@ICLOUD.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 5364175885000,
+            "phone_2": 8532245442022,
+            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+          }
+        }
+      }
+    ],
+    "invoice": {
+      "id": 221,
+      "type": "SAIDA",
+      "number": 314832,
+      "serie": 1,
+      "sheet": 7,
+      "access_key": "2c0c2814-47ae-49ba-91aa-b67e829ff785",
+      "operation_type": "COMPRA",
+      "use_auth_protocol": 185970325261660,
+      "cfop": 2170,
+      "date_of_issue": "2014-07-19T11:40:05 +03:00",
+      "input_output_date": "2016-04-04T08:51:18 +03:00"
+    },
+    "taxes": {
+      "id": 2.38,
+      "icms_base_calculation": 9.42,
+      "value_icms": 6,
+      "icms_subst_base_calculation": 1.28,
+      "value_icms_subst": 8.34,
+      "total_value_of_the_products": 4.76,
+      "cost_of_freight": 0.09,
+      "safe_price": 9.82,
+      "discount": 5.07,
+      "other_expenses": 7.55,
+      "value_ipi": 8.76,
+      "total_note_value": 0.03
+    },
+    "client": {
+      "id": 63,
+      "name": "MICHELE COUTO",
+      "nick_name": "ZEZINHO",
+      "document": {
+        "id": 168,
+        "type": "RG",
+        "number": 7286966206908
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 203,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 8098767115925,
+        "phone_2": 3115211515803,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 286,
+    "amount": 5.76,
+    "buyer_message": "Qui consequat quis qui commodo ut fugiat amet proident consectetur irure eiusmod. Exercitation anim excepteur cillum cupidatat esse dolore ad voluptate sit nisi magna. Adipisicing ea quis aliquip voluptate irure qui aliquip proident enim. Mollit ad culpa excepteur aliquip veniam quis nostrud pariatur eiusmod aute.\r\n",
+    "use_auth_protocol": 207345187417419,
+    "sale_date": "2014-03-06 06:08:49",
+    "status": "PAID",
+    "tracking_code": "58289a4b36f97b482946e784",
+    "form_of_payment": "PAYPAL",
+    "observations": "Deserunt occaecat excepteur aliquip ut velit sint est laboris labore amet. Elit exercitation qui anim exercitation voluptate sint ea laborum eiusmod in voluptate eiusmod Lorem. Occaecat cillum amet occaecat aliquip ipsum mollit id. Officia irure enim non minim exercitation minim do aute consequat.\r\n",
+    "sales_channel": "MERCADOLIVRE",
+    "value_of_shipment": 6,
+    "products": [
+      {
+        "id": 173,
+        "ncm": 44607086,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 17.42,
+        "value_sale": 1.18,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 189,
+        "status": false,
+        "creation_date": "2014-02-04 12:35:57",
+        "compatibility": {
+          "id": 161,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 171,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 86,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 423395506126261,
+          "state_registration": 421184316807450,
+          "capital_social": "$21,566.19",
+          "document": {
+            "id": 270,
+            "type": "CNPJ",
+            "number": 61954180392127
+          },
+          "address": {
+            "id": 191,
+            "zip_code": 37207697,
+            "address": "RUA JOAQUIM FLORIANO",
+            "number": 28797714,
+            "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 5343483,
+            "city": "SÃO PAULO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 24,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@GMAIL.COM",
+            "phone_1": 4410021539338,
+            "phone_2": 5017336099631,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      },
+      {
+        "id": 291,
+        "ncm": 36475731,
+        "name": "FONE DE OUVIDO EARPODS APPLE",
+        "value_purchase": 3.06,
+        "value_sale": 3.59,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 215,
+        "status": true,
+        "creation_date": "2015-10-20 09:16:40",
+        "compatibility": {
+          "id": 279,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 201,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 90,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 282822257928310,
+          "state_registration": 814143619448377,
+          "capital_social": "$33,609.53",
+          "document": {
+            "id": 172,
+            "type": "CNPJ",
+            "number": 58535341911616
+          },
+          "address": {
+            "id": 216,
+            "zip_code": 58780685,
+            "address": "RUA JOAQUIM FLORIANO",
+            "number": 46003829,
+            "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "PARQUE INDEPENDÊNCIA",
+            "ibge_code": 2457420,
+            "city": "SÃO PAULO",
+            "state": "SÃO PAULO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 75,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 1836507846912,
+            "phone_2": 8085833794183,
+            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+          }
+        }
+      }
+    ],
+    "invoice": {
+      "id": 111,
+      "type": "SAIDA",
+      "number": 451486,
+      "serie": 5,
+      "sheet": 2,
+      "access_key": "c35f51dd-64a7-4825-bce8-6f0fdc66a425",
+      "operation_type": "VENDA",
+      "use_auth_protocol": 714567588066786,
+      "cfop": 1589,
+      "date_of_issue": "2014-05-04T05:11:24 +03:00",
+      "input_output_date": "2016-01-11T10:25:01 +02:00"
+    },
+    "taxes": {
+      "id": 8.86,
+      "icms_base_calculation": 6.51,
+      "value_icms": 6.22,
+      "icms_subst_base_calculation": 2.65,
+      "value_icms_subst": 0.47,
+      "total_value_of_the_products": 9.46,
+      "cost_of_freight": 7.37,
+      "safe_price": 5.83,
+      "discount": 3.04,
+      "other_expenses": 8.65,
+      "value_ipi": 7.88,
+      "total_note_value": 1.41
+    },
+    "client": {
+      "id": 151,
+      "name": "JOSÉ CARLOS",
+      "nick_name": "ZEZINHO",
+      "document": {
+        "id": 12,
+        "type": "RG",
+        "number": 4970770485704
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 224,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 6001868180939,
+        "phone_2": 4999623110041,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 241,
+    "amount": 7.12,
+    "buyer_message": "Sint elit velit sit quis excepteur do culpa exercitation est ut pariatur elit. Id esse voluptate aute laboris incididunt. Adipisicing cupidatat in ea aliqua laborum est minim culpa consequat aute minim aute eiusmod. Consequat proident laboris nostrud adipisicing ipsum aliqua do ipsum ea ipsum consectetur voluptate. Sit excepteur aute Lorem mollit nulla sunt elit.\r\n",
+    "use_auth_protocol": 817428535548944,
+    "sale_date": "2015-10-07 10:28:29",
+    "status": "PROCESSED_DATE",
+    "tracking_code": "58289a4bf38f32805c90c27d",
+    "form_of_payment": "CARTÃO DE DÉBITO",
+    "observations": "Quis commodo occaecat irure amet sit dolor proident voluptate sit ipsum irure Lorem veniam elit. Nulla est dolore irure eiusmod laboris nisi eu fugiat occaecat cillum esse incididunt. Nisi ullamco Lorem irure ex laborum nisi excepteur. Eu do laboris aliqua non. Elit id consequat consequat do aliquip consequat eiusmod nulla proident. Tempor minim dolor culpa incididunt voluptate aliqua consequat qui magna est fugiat nostrud. Nostrud sint commodo consequat et aute nulla cillum reprehenderit adipisicing.\r\n",
+    "sales_channel": "MERCADOLIVRE",
+    "value_of_shipment": 9,
+    "products": [
+      {
+        "id": 174,
+        "ncm": 37479477,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 5.57,
+        "value_sale": 9.3,
+        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
+        "color": "BRANCO",
+        "available_quantity": 9,
+        "status": false,
+        "creation_date": "2016-11-01 10:04:46",
+        "compatibility": {
+          "id": 143,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 293,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 112,
+          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
+          "fantasy_name": "",
+          "municipal_registration": 855065222461191,
+          "state_registration": 180735766325793,
+          "capital_social": "$42,588.76",
+          "document": {
+            "id": 26,
+            "type": "RG",
+            "number": 45883641126198
+          },
+          "address": {
+            "id": 63,
+            "zip_code": 24238902,
+            "address": "RUA JOAQUIM FLORIANO",
+            "number": 80771355,
+            "complement": "NENHUM",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 6373871,
+            "city": "RIO DE JANEIRO",
+            "state": "SÃO PAULO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 4,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@GMAIL.COM",
+            "phone_1": 4052132453481,
+            "phone_2": 3613848266697,
+            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+          }
+        }
+      },
+      {
+        "id": 70,
+        "ncm": 69983115,
+        "name": "FONE DE OUVIDO EARPODS APPLE",
+        "value_purchase": 13.46,
+        "value_sale": 14.16,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 131,
+        "status": false,
+        "creation_date": "2014-06-10 11:09:16",
+        "compatibility": {
+          "id": 147,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 128,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 170,
+          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
+          "fantasy_name": "",
+          "municipal_registration": 332295748202238,
+          "state_registration": 372431276845055,
+          "capital_social": "$48,380.08",
+          "document": {
+            "id": 22,
+            "type": "CPF",
+            "number": 5892748217881
+          },
+          "address": {
+            "id": 122,
+            "zip_code": 57565086,
+            "address": "RUA JOAQUIM FLORIANO",
+            "number": 60962194,
+            "complement": "NENHUM",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 1972274,
+            "city": "SÃO PAULO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 94,
+            "email_1": "EMAIL_1@GMAIL.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 3971322689797,
+            "phone_2": 4354821997398,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      }
+    ],
+    "invoice": {
+      "id": 64,
+      "type": "SAIDA",
+      "number": 556908,
+      "serie": 4,
+      "sheet": 7,
+      "access_key": "bc6c5072-4a2e-4c80-a277-66cf42ea7adf",
+      "operation_type": "VENDA",
+      "use_auth_protocol": 597858434618650,
+      "cfop": 2743,
+      "date_of_issue": "2016-05-10T01:24:10 +03:00",
+      "input_output_date": "2016-09-21T05:45:09 +03:00"
+    },
+    "taxes": {
+      "id": 8.92,
+      "icms_base_calculation": 2.89,
+      "value_icms": 6.89,
+      "icms_subst_base_calculation": 1,
+      "value_icms_subst": 8.48,
+      "total_value_of_the_products": 8.78,
+      "cost_of_freight": 9.04,
+      "safe_price": 0.53,
+      "discount": 9,
+      "other_expenses": 5.82,
+      "value_ipi": 8.29,
+      "total_note_value": 8.51
+    },
+    "client": {
+      "id": 228,
+      "name": "MIRELA PACHECO",
+      "nick_name": "TERÊ",
+      "document": {
+        "id": 194,
+        "type": "CPF",
+        "number": 6230437284903
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 202,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 1715471331941,
+        "phone_2": 8274471700286,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  },
+  {
+    "id": 71,
+    "amount": 2.56,
+    "buyer_message": "Irure cupidatat anim deserunt sunt ex voluptate magna sunt nisi consectetur cillum. Reprehenderit consectetur sit minim duis irure nulla dolor est minim irure consequat eu. Sunt aute cupidatat fugiat adipisicing ipsum dolore ex magna ut sit ex.\r\n",
+    "use_auth_protocol": 233190169141495,
+    "sale_date": "2015-05-20 10:36:27",
+    "status": "PAID",
+    "tracking_code": "58289a4bf83f32b99eb32a1d",
+    "form_of_payment": "CARTÃO DE DÉBITO",
+    "observations": "Fugiat Lorem reprehenderit exercitation voluptate. Sit et Lorem adipisicing fugiat anim proident eiusmod minim elit enim labore do. Incididunt nisi minim ea do commodo consequat in enim ex duis elit irure nisi. Duis in ipsum laboris aute reprehenderit amet consectetur ullamco consequat. In non labore nulla ipsum aute exercitation duis eiusmod adipisicing commodo esse tempor incididunt incididunt.\r\n",
+    "sales_channel": "MERCADOLIVRE",
+    "value_of_shipment": 9,
+    "products": [
+      {
+        "id": 72,
+        "ncm": 55463770,
+        "name": "FONE DE OUVIDO EARPODS APPLE",
+        "value_purchase": 2.08,
+        "value_sale": 17.23,
+        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
+        "color": "BRANCO",
+        "available_quantity": 230,
+        "status": false,
+        "creation_date": "2015-03-08 12:00:33",
+        "compatibility": {
+          "id": 16,
           "supported_devices": "TODOS"
         },
         "product_type": {
@@ -1444,483 +3262,541 @@
           "name": "PRODUTOS APPLE"
         },
         "supplier": {
-          "id": 140,
+          "id": 260,
           "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
           "fantasy_name": "",
-          "municipal_registration": 529966149842591,
-          "state_registration": 751846311235475,
-          "capital_social": "$24,117.79",
+          "municipal_registration": 369683657274152,
+          "state_registration": 710679612768152,
+          "capital_social": "$43,004.21",
           "document": {
-            "id": 192,
-            "type": "CPF",
-            "number": 34895971718282
+            "id": 176,
+            "type": "CNPJ",
+            "number": 41526082442770
           },
           "address": {
-            "id": 56,
-            "zip_code": 62994281,
+            "id": 22,
+            "zip_code": 19977163,
             "address": "RUA JOAQUIM FLORIANO",
-            "number": 26499372,
-            "complement": "APARTAMENTO 56 | TORRE 2",
-            "neighborhood": "ITAIM BIBI",
-            "ibge_code": 5730334,
-            "city": "SÃO PAULO",
-            "state": "RIO DE JANEIRO",
-            "contry": "BRASIL"
-          },
-          "contact": {
-            "id": 161,
-            "email_1": "EMAIL_1@ICLOUD.COM",
-            "email_2": "EMAIL_2@GMAIL.COM",
-            "phone_1": 3469429169302,
-            "phone_2": 6846041580524,
-            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
-          }
-        }
-      }
-    ]
-  },
-  {
-    "id": 36,
-    "amount": 34,
-    "quantity": 1,
-    "buyer_message": "Elit nulla nisi et eiusmod incididunt dolore consequat ea proident nulla aliqua quis eu. Duis velit deserunt ea occaecat occaecat velit ullamco proident aute nulla. Et fugiat irure commodo ex cupidatat eu in.\r\n",
-    "sale_date": "2016-05-01T05:53:41 +03:00",
-    "status": "PROCESSED",
-    "tracking_code": "58129838f699f144c7581bbe",
-    "form_of_payment": "BOLETO BANCÁRIO",
-    "observations": "Elit irure ex cupidatat est ea duis ullamco pariatur dolor elit anim. Labore irure cupidatat veniam et tempor et nisi nulla amet. Aliqua incididunt irure pariatur ullamco mollit ut duis pariatur minim tempor ex irure. Minim voluptate incididunt nisi sint est minim labore. Sint esse mollit nulla aliquip laboris non excepteur ipsum amet. Sunt pariatur ex quis excepteur. Tempor labore minim eiusmod mollit esse Lorem.\r\n",
-    "sales_channel": "MERCADOLIVRE",
-    "value_of_shipment": 6,
-    "client": {
-      "id": 20,
-      "name": "MIRELA PACHECO",
-      "nick_name": "TERÊ"
-    },
-    "delivery_address": {
-      "id": 104,
-      "zip_code": 27849048,
-      "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 918,
-      "complement": "CONJUNTO 3",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 2628388,
-      "city": "FLORIANÓPOLIS",
-      "state": "SÃO PAULO",
-      "contry": "BOLÍVIA"
-    },
-    "billing_address": {
-      "id": 223,
-      "zip_code": 17514267,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 304,
-      "complement": "CONJUNTO 3",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 7849492,
-      "city": "SÃO PAULO",
-      "state": "RIO DE JANEIRO",
-      "contry": "BOLÍVIA"
-    },
-    "products": [
-      {
-        "id": 95,
-        "name": "FONE DE OUVIDO EARPODS APPLE",
-        "value_purchase": 112,
-        "value_sale": 113,
-        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
-        "color": "BRANCO",
-        "available_quantity": 86,
-        "status": true,
-        "creation_date": "2015-11-11T10:59:40 +02:00",
-        "compatibility": {
-          "id": 14,
-          "supported_devices": "TODOS"
-        },
-        "product_type": {
-          "id": 141,
-          "name": "PRODUTOS APPLE"
-        },
-        "supplier": {
-          "id": 223,
-          "company_name": "SHENZHEN RN TECH CO., LTD",
-          "fantasy_name": "",
-          "municipal_registration": 107815495265598,
-          "state_registration": 695680395329260,
-          "capital_social": "$49,274.30",
-          "document": {
-            "id": 55,
-            "type": "RG",
-            "number": 78216946704096
-          },
-          "address": {
-            "id": 282,
-            "zip_code": 11357583,
-            "address": "RUA JOAQUIM FLORIANO",
-            "number": 77605506,
+            "number": 40814352,
             "complement": "APARTAMENTO 56 | TORRE 2",
             "neighborhood": "PARQUE INDEPENDÊNCIA",
-            "ibge_code": 1101318,
+            "ibge_code": 7567116,
             "city": "RIO DE JANEIRO",
             "state": "SÃO PAULO",
             "contry": "BRASIL"
           },
           "contact": {
-            "id": 237,
-            "email_1": "EMAIL_1@ICLOUD.COM",
-            "email_2": "EMAIL_2@GMAIL.COM",
-            "phone_1": 5687599780054,
-            "phone_2": 4548481162885,
-            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
-          }
-        }
-      },
-      {
-        "id": 186,
-        "name": "FONE DE OUVIDO EARPODS APPLE",
-        "value_purchase": 110,
-        "value_sale": 266,
-        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
-        "color": "BRANCO",
-        "available_quantity": 3,
-        "status": false,
-        "creation_date": "2015-05-09T12:41:12 +03:00",
-        "compatibility": {
-          "id": 67,
-          "supported_devices": "TODOS"
-        },
-        "product_type": {
-          "id": 157,
-          "name": "PRODUTOS APPLE"
-        },
-        "supplier": {
-          "id": 155,
-          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
-          "fantasy_name": "",
-          "municipal_registration": 425643675168168,
-          "state_registration": 810986031236115,
-          "capital_social": "$45,187.61",
-          "document": {
-            "id": 88,
-            "type": "RG",
-            "number": 60676271981311
-          },
-          "address": {
-            "id": 255,
-            "zip_code": 24945488,
-            "address": "RUA JOAQUIM FLORIANO",
-            "number": 76603457,
-            "complement": "APARTAMENTO 56 | TORRE 2",
-            "neighborhood": "ITAIM BIBI",
-            "ibge_code": 3380021,
-            "city": "SÃO PAULO",
-            "state": "SÃO PAULO",
-            "contry": "BRASIL"
-          },
-          "contact": {
-            "id": 183,
+            "id": 238,
             "email_1": "EMAIL_1@GMAIL.COM",
             "email_2": "EMAIL_2@GMAIL.COM",
-            "phone_1": 6811381429987,
-            "phone_2": 7256977833527,
+            "phone_1": 3663393511569,
+            "phone_2": 8141184744789,
             "observations": "NÃO LIGAR PELA MANHÃ"
           }
         }
-      }
-    ]
-  },
-  {
-    "id": 105,
-    "amount": 39,
-    "quantity": 1,
-    "buyer_message": "Qui officia anim dolor in do laboris do ut eu non voluptate. Ex excepteur occaecat aute dolor Lorem aliqua ullamco labore sunt incididunt anim aliqua dolor eiusmod. Voluptate voluptate adipisicing magna sint cillum ullamco duis laboris. Esse eu est excepteur minim. Laborum non tempor et in deserunt enim officia.\r\n",
-    "sale_date": "2014-08-08T04:00:18 +03:00",
-    "status": "DELIVERED",
-    "tracking_code": "58129838af128791c0d7b788",
-    "form_of_payment": "PAYPAL",
-    "observations": "Qui occaecat adipisicing fugiat est id nostrud Lorem elit magna labore et ullamco sint. Cillum duis est voluptate aute eiusmod eu est consequat laboris. Velit cillum Lorem id elit proident irure do consectetur nisi est aliquip ipsum eiusmod. Eiusmod fugiat ullamco consequat Lorem. Enim consequat pariatur laboris sit. Nisi pariatur sint irure cillum cillum et do ut culpa incididunt aute mollit mollit amet.\r\n",
-    "sales_channel": "MERCADOLIVRE",
-    "value_of_shipment": 3,
-    "client": {
-      "id": 195,
-      "name": "JOSÉ CARLOS",
-      "nick_name": "LULU"
-    },
-    "delivery_address": {
-      "id": 203,
-      "zip_code": 69180933,
-      "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 907,
-      "complement": "CONJUNTO 3",
-      "neighborhood": "PIRAPORINHA",
-      "ibge_code": 7882884,
-      "city": "RIO DE JANEIRO",
-      "state": "SANTA CATARINA",
-      "contry": "BRASIL"
-    },
-    "billing_address": {
-      "id": 64,
-      "zip_code": 42473264,
-      "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 43,
-      "complement": "CONJUNTO 1",
-      "neighborhood": "PARQUE INDEPENDÊNCIA",
-      "ibge_code": 6716818,
-      "city": "RIO DE JANEIRO",
-      "state": "SANTA CATARINA",
-      "contry": "BRASIL"
-    },
-    "products": [
-      {
-        "id": 23,
-        "name": "CABO USB LIGHTNING APPLE",
-        "value_purchase": 110,
-        "value_sale": 135,
-        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
-        "color": "BRANCO",
-        "available_quantity": 231,
-        "status": false,
-        "creation_date": "2015-05-29T05:30:52 +03:00",
-        "compatibility": {
-          "id": 235,
-          "supported_devices": "TODOS"
-        },
-        "product_type": {
-          "id": 241,
-          "name": "PRODUTOS APPLE"
-        },
-        "supplier": {
-          "id": 272,
-          "company_name": "SHENZHEN RN TECH CO., LTD",
-          "fantasy_name": "",
-          "municipal_registration": 585814295418963,
-          "state_registration": 307191590126066,
-          "capital_social": "$47,188.93",
-          "document": {
-            "id": 299,
-            "type": "CNPJ",
-            "number": 22136027762516
-          },
-          "address": {
-            "id": 125,
-            "zip_code": 80166218,
-            "address": "RUA JOAQUIM FLORIANO",
-            "number": 52352842,
-            "complement": "APARTAMENTO 56 | TORRE 2",
-            "neighborhood": "PARQUE INDEPENDÊNCIA",
-            "ibge_code": 3320224,
-            "city": "RIO DE JANEIRO",
-            "state": "RIO DE JANEIRO",
-            "contry": "BRASIL"
-          },
-          "contact": {
-            "id": 91,
-            "email_1": "EMAIL_1@GMAIL.COM",
-            "email_2": "EMAIL_2@GMAIL.COM",
-            "phone_1": 1077266617859,
-            "phone_2": 2309417528342,
-            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
-          }
-        }
       },
       {
-        "id": 158,
+        "id": 1,
+        "ncm": 43931916,
         "name": "CABO USB LIGHTNING APPLE",
-        "value_purchase": 145,
-        "value_sale": 68,
+        "value_purchase": 6.97,
+        "value_sale": 4.49,
         "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
         "color": "BRANCO",
-        "available_quantity": 25,
+        "available_quantity": 74,
         "status": true,
-        "creation_date": "2014-06-09T12:09:10 +03:00",
+        "creation_date": "2016-05-13 11:54:29",
         "compatibility": {
-          "id": 111,
+          "id": 47,
           "supported_devices": "TODOS"
         },
         "product_type": {
-          "id": 275,
+          "id": 237,
           "name": "PRODUTOS APPLE"
         },
         "supplier": {
-          "id": 158,
+          "id": 287,
           "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
           "fantasy_name": "",
-          "municipal_registration": 291220064475136,
-          "state_registration": 431564048281331,
-          "capital_social": "$32,419.29",
+          "municipal_registration": 156366858149596,
+          "state_registration": 124650865320243,
+          "capital_social": "$24,579.03",
           "document": {
-            "id": 136,
+            "id": 170,
             "type": "RG",
-            "number": 19860845560672
+            "number": 35919988267446
           },
           "address": {
-            "id": 156,
-            "zip_code": 82818064,
+            "id": 279,
+            "zip_code": 29434478,
             "address": "RUA JOSÉ RIBEIRO RAMOS",
-            "number": 76396492,
+            "number": 60842248,
             "complement": "APARTAMENTO 56 | TORRE 2",
             "neighborhood": "ITAIM BIBI",
-            "ibge_code": 5491913,
-            "city": "RIO DE JANEIRO",
+            "ibge_code": 5043195,
+            "city": "SÃO PAULO",
             "state": "SÃO PAULO",
             "contry": "BRASIL"
           },
           "contact": {
-            "id": 287,
+            "id": 83,
             "email_1": "EMAIL_1@ICLOUD.COM",
             "email_2": "EMAIL_2@ICLOUD.COM",
-            "phone_1": 4628973450832,
-            "phone_2": 3618890564515,
-            "observations": "NÃO LIGAR PELA MANHÃ"
+            "phone_1": 5479091859621,
+            "phone_2": 2058667321052,
+            "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
           }
         }
       }
-    ]
+    ],
+    "invoice": {
+      "id": 294,
+      "type": "ENTRADA",
+      "number": 379653,
+      "serie": 1,
+      "sheet": 1,
+      "access_key": "86700b6a-e24e-4d02-b075-8c10e5afecf6",
+      "operation_type": "COMPRA",
+      "use_auth_protocol": 408304461607047,
+      "cfop": 8312,
+      "date_of_issue": "2014-04-14T02:20:42 +03:00",
+      "input_output_date": "2015-07-21T01:30:45 +03:00"
+    },
+    "taxes": {
+      "id": 6.89,
+      "icms_base_calculation": 9.96,
+      "value_icms": 9.34,
+      "icms_subst_base_calculation": 4.17,
+      "value_icms_subst": 8.98,
+      "total_value_of_the_products": 3.91,
+      "cost_of_freight": 1.71,
+      "safe_price": 5.67,
+      "discount": 2.7,
+      "other_expenses": 2.79,
+      "value_ipi": 8.99,
+      "total_note_value": 1.93
+    },
+    "client": {
+      "id": 48,
+      "name": "JOSÉ CARLOS",
+      "nick_name": "ZEZINHO",
+      "document": {
+        "id": 3,
+        "type": "CNPJ",
+        "number": 1037083666803
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 155,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 7303314117077,
+        "phone_2": 6278374670831,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
   },
   {
-    "id": 245,
-    "amount": 119,
-    "quantity": 3,
-    "buyer_message": "Ullamco irure et voluptate aute quis. Fugiat aliquip do nulla nisi aliqua. Minim fugiat reprehenderit enim cillum excepteur cupidatat amet duis eu sint incididunt non labore.\r\n",
-    "sale_date": "2014-06-02T02:00:51 +03:00",
-    "status": "CLOSED_REASON",
-    "tracking_code": "581298385951968860d69e84",
-    "form_of_payment": "BOLETO BANCÁRIO",
-    "observations": "Ad dolore commodo eiusmod reprehenderit nostrud officia ut sit adipisicing in. Amet nulla quis veniam excepteur velit culpa labore adipisicing veniam ut aliqua laboris. In sint cupidatat proident velit veniam cillum do dolore quis excepteur veniam. Pariatur nisi consequat sit mollit eu tempor eiusmod occaecat cupidatat elit nisi minim. Minim ut tempor ex id velit non pariatur esse ad veniam nulla. Incididunt enim veniam voluptate adipisicing. Ea culpa est commodo eiusmod magna pariatur consequat ea elit aliquip eu.\r\n",
+    "id": 251,
+    "amount": 9.18,
+    "buyer_message": "Laborum Lorem culpa dolore irure nisi minim pariatur est duis nisi velit do laboris cupidatat. Sit ullamco et exercitation sunt. Labore non duis exercitation Lorem. Aliquip adipisicing commodo exercitation dolore est anim culpa magna reprehenderit laborum duis duis. Sunt commodo ex mollit labore dolor velit in ea aute. Tempor non deserunt nostrud voluptate reprehenderit cillum dolore ipsum ea.\r\n",
+    "use_auth_protocol": 550893663461029,
+    "sale_date": "2016-04-22 09:44:57",
+    "status": "PROCESSED_DATE",
+    "tracking_code": "58289a4ba506e62e3e9a0354",
+    "form_of_payment": "CARTÃO DE CRÉDITO",
+    "observations": "Anim consequat proident irure deserunt velit in eiusmod culpa id aliqua. Cillum eu tempor ex tempor qui sunt eiusmod velit eiusmod aute voluptate minim. Ex sit sit deserunt mollit sint ea quis ullamco. Quis voluptate esse ad aliquip exercitation ipsum dolor Lorem ex ex veniam aliqua veniam quis. Non irure excepteur commodo enim reprehenderit non aliqua amet ullamco nisi aute incididunt. Dolor dolore commodo aliquip mollit anim ipsum id et esse dolore proident reprehenderit. Eu officia est deserunt qui laboris Lorem nostrud adipisicing adipisicing.\r\n",
     "sales_channel": "MERCADOSHOPS",
-    "value_of_shipment": 5,
-    "client": {
-      "id": 124,
-      "name": "MARIA TEREZA",
-      "nick_name": "MARCELINHA"
-    },
-    "delivery_address": {
-      "id": 40,
-      "zip_code": 67057257,
-      "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 828,
-      "complement": "CONJUNTO 2",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 6070333,
-      "city": "SÃO PAULO",
-      "state": "SANTA CATARINA",
-      "contry": "BOLÍVIA"
-    },
-    "billing_address": {
-      "id": 220,
-      "zip_code": 19626332,
-      "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 799,
-      "complement": "CONJUNTO 1",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 3683208,
-      "city": "SÃO PAULO",
-      "state": "RIO DE JANEIRO",
-      "contry": "BOLÍVIA"
-    },
+    "value_of_shipment": 4,
     "products": [
       {
-        "id": 199,
-        "name": "CABO USB LIGHTNING APPLE",
-        "value_purchase": 124,
-        "value_sale": 265,
+        "id": 240,
+        "ncm": 87672716,
+        "name": "FONE DE OUVIDO EARPODS APPLE",
+        "value_purchase": 10.48,
+        "value_sale": 18.34,
         "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
         "color": "BRANCO",
-        "available_quantity": 44,
-        "status": false,
-        "creation_date": "2016-04-29T02:08:34 +03:00",
+        "available_quantity": 163,
+        "status": true,
+        "creation_date": "2014-10-04 03:29:32",
         "compatibility": {
-          "id": 190,
+          "id": 53,
           "supported_devices": "TODOS"
         },
         "product_type": {
-          "id": 40,
+          "id": 87,
           "name": "PRODUTOS APPLE"
         },
         "supplier": {
-          "id": 229,
+          "id": 148,
           "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
           "fantasy_name": "",
-          "municipal_registration": 720526710168434,
-          "state_registration": 310402515552711,
-          "capital_social": "$11,046.86",
+          "municipal_registration": 201014693674460,
+          "state_registration": 702844293332836,
+          "capital_social": "$28,542.59",
           "document": {
-            "id": 155,
+            "id": 263,
             "type": "CPF",
-            "number": 52128773387257
+            "number": 26367716429123
           },
           "address": {
-            "id": 181,
-            "zip_code": 71421697,
+            "id": 33,
+            "zip_code": 89090754,
             "address": "RUA JOAQUIM FLORIANO",
-            "number": 88950466,
+            "number": 14823252,
             "complement": "NENHUM",
             "neighborhood": "PARQUE INDEPENDÊNCIA",
-            "ibge_code": 1934194,
+            "ibge_code": 7752239,
+            "city": "RIO DE JANEIRO",
+            "state": "RIO DE JANEIRO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 275,
+            "email_1": "EMAIL_1@ICLOUD.COM",
+            "email_2": "EMAIL_2@ICLOUD.COM",
+            "phone_1": 7105770069066,
+            "phone_2": 7634842866519,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      },
+      {
+        "id": 137,
+        "ncm": 69579836,
+        "name": "CABO USB LIGHTNING APPLE",
+        "value_purchase": 1.25,
+        "value_sale": 11.33,
+        "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
+        "color": "BRANCO",
+        "available_quantity": 141,
+        "status": false,
+        "creation_date": "2014-08-02 10:06:39",
+        "compatibility": {
+          "id": 52,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 271,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 78,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 613377110924665,
+          "state_registration": 160805707023418,
+          "capital_social": "$17,421.46",
+          "document": {
+            "id": 47,
+            "type": "CNPJ",
+            "number": 34904506670417
+          },
+          "address": {
+            "id": 248,
+            "zip_code": 59198567,
+            "address": "RUA JOSÉ RIBEIRO RAMOS",
+            "number": 89623746,
+            "complement": "NENHUM",
+            "neighborhood": "ITAIM BIBI",
+            "ibge_code": 2259388,
+            "city": "SÃO PAULO",
+            "state": "SÃO PAULO",
+            "contry": "BRASIL"
+          },
+          "contact": {
+            "id": 125,
+            "email_1": "EMAIL_1@ICLOUD.COM",
+            "email_2": "EMAIL_2@GMAIL.COM",
+            "phone_1": 7948417353398,
+            "phone_2": 3769738495639,
+            "observations": "NÃO LIGAR PELA MANHÃ"
+          }
+        }
+      }
+    ],
+    "invoice": {
+      "id": 51,
+      "type": "SAIDA",
+      "number": 613678,
+      "serie": 7,
+      "sheet": 7,
+      "access_key": "1c67010f-e62d-4bb0-90f8-141b351ea806",
+      "operation_type": "COMPRA",
+      "use_auth_protocol": 835897601923283,
+      "cfop": 7564,
+      "date_of_issue": "2016-03-27T05:50:02 +03:00",
+      "input_output_date": "2014-05-31T07:32:15 +03:00"
+    },
+    "taxes": {
+      "id": 3.59,
+      "icms_base_calculation": 7.74,
+      "value_icms": 0.36,
+      "icms_subst_base_calculation": 7.35,
+      "value_icms_subst": 8.09,
+      "total_value_of_the_products": 0.58,
+      "cost_of_freight": 9.8,
+      "safe_price": 3.76,
+      "discount": 4.92,
+      "other_expenses": 7.35,
+      "value_ipi": 3.63,
+      "total_note_value": 8.71
+    },
+    "client": {
+      "id": 36,
+      "name": "MIRELA PACHECO",
+      "nick_name": "GUGU",
+      "document": {
+        "id": 134,
+        "type": "CPF",
+        "number": 8571623307349
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 229,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 2842920460990,
+        "phone_2": 5122674926816,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
+  },
+  {
+    "id": 37,
+    "amount": 1.8,
+    "buyer_message": "Ipsum laboris adipisicing eu incididunt irure consequat commodo veniam eiusmod nulla quis aute labore. Pariatur laboris aliquip et sit esse. Consectetur eiusmod qui nisi sunt.\r\n",
+    "use_auth_protocol": 781021646124895,
+    "sale_date": "2016-05-09 08:30:40",
+    "status": "CONTACT_DATA_STATUS",
+    "tracking_code": "58289a4b509a680f54e83c9a",
+    "form_of_payment": "CARTÃO DE DÉBITO",
+    "observations": "Veniam ipsum reprehenderit duis pariatur exercitation elit nulla adipisicing laboris pariatur nulla ad. Irure nostrud ut quis ad. Nostrud aliquip magna est minim ex nulla ut nisi cupidatat ea.\r\n",
+    "sales_channel": "MERCADOLIVRE",
+    "value_of_shipment": 9,
+    "products": [
+      {
+        "id": 65,
+        "ncm": 85396030,
+        "name": "FONE DE OUVIDO EARPODS APPLE",
+        "value_purchase": 15.85,
+        "value_sale": 4.66,
+        "specifications": "LIGHTNING | REVERSÍVEL | 8 PINOS",
+        "color": "BRANCO",
+        "available_quantity": 60,
+        "status": false,
+        "creation_date": "2016-03-02 04:35:38",
+        "compatibility": {
+          "id": 31,
+          "supported_devices": "TODOS"
+        },
+        "product_type": {
+          "id": 266,
+          "name": "PRODUTOS APPLE"
+        },
+        "supplier": {
+          "id": 49,
+          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "fantasy_name": "",
+          "municipal_registration": 268271181201818,
+          "state_registration": 379374944624300,
+          "capital_social": "$35,655.21",
+          "document": {
+            "id": 160,
+            "type": "CNPJ",
+            "number": 46825311493982
+          },
+          "address": {
+            "id": 289,
+            "zip_code": 29046943,
+            "address": "RUA JOAQUIM FLORIANO",
+            "number": 37771379,
+            "complement": "APARTAMENTO 56 | TORRE 2",
+            "neighborhood": "PARQUE INDEPENDÊNCIA",
+            "ibge_code": 1174909,
             "city": "SÃO PAULO",
             "state": "RIO DE JANEIRO",
             "contry": "BRASIL"
           },
           "contact": {
-            "id": 57,
+            "id": 219,
             "email_1": "EMAIL_1@ICLOUD.COM",
-            "email_2": "EMAIL_2@ICLOUD.COM",
-            "phone_1": 7420326021562,
-            "phone_2": 4109795991120,
+            "email_2": "EMAIL_2@GMAIL.COM",
+            "phone_1": 4438309627093,
+            "phone_2": 3816021664902,
             "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
           }
         }
       },
       {
-        "id": 140,
+        "id": 107,
+        "ncm": 54479358,
         "name": "FONE DE OUVIDO EARPODS APPLE",
-        "value_purchase": 240,
-        "value_sale": 213,
+        "value_purchase": 15.58,
+        "value_sale": 17.18,
         "specifications": "CONTROLE DE CHAMADAS/REPRODUÇÃO",
         "color": "BRANCO",
-        "available_quantity": 143,
-        "status": true,
-        "creation_date": "2015-09-07T01:44:24 +03:00",
+        "available_quantity": 176,
+        "status": false,
+        "creation_date": "2016-02-27 07:46:29",
         "compatibility": {
-          "id": 171,
+          "id": 278,
           "supported_devices": "TODOS"
         },
         "product_type": {
-          "id": 187,
+          "id": 51,
           "name": "PRODUTOS APPLE"
         },
         "supplier": {
-          "id": 164,
-          "company_name": "SHENZHEN RN TECH CO., LTD",
+          "id": 68,
+          "company_name": "SHENZHEN ZOEIN VIP TECHNOLOGY CO,LTD",
           "fantasy_name": "",
-          "municipal_registration": 594805738924577,
-          "state_registration": 553508126373015,
-          "capital_social": "$42,537.84",
+          "municipal_registration": 579271345653951,
+          "state_registration": 819240202723280,
+          "capital_social": "$15,577.33",
           "document": {
-            "id": 282,
-            "type": "CPF",
-            "number": 48284161678877
+            "id": 191,
+            "type": "RG",
+            "number": 36208910793234
           },
           "address": {
-            "id": 91,
-            "zip_code": 22081781,
+            "id": 287,
+            "zip_code": 72941522,
             "address": "RUA JOAQUIM FLORIANO",
-            "number": 80104045,
-            "complement": "APARTAMENTO 56 | TORRE 2",
+            "number": 22031968,
+            "complement": "NENHUM",
             "neighborhood": "PARQUE INDEPENDÊNCIA",
-            "ibge_code": 1102614,
+            "ibge_code": 2201127,
             "city": "SÃO PAULO",
             "state": "RIO DE JANEIRO",
             "contry": "BRASIL"
           },
           "contact": {
-            "id": 56,
-            "email_1": "EMAIL_1@GMAIL.COM",
-            "email_2": "EMAIL_2@ICLOUD.COM",
-            "phone_1": 2927246943211,
-            "phone_2": 8509851721489,
+            "id": 243,
+            "email_1": "EMAIL_1@ICLOUD.COM",
+            "email_2": "EMAIL_2@GMAIL.COM",
+            "phone_1": 6536645296105,
+            "phone_2": 3261912031772,
             "observations": "NÃO LIGAR PELA MANHÃ"
           }
         }
       }
-    ]
+    ],
+    "invoice": {
+      "id": 36,
+      "type": "ENTRADA",
+      "number": 107723,
+      "serie": 7,
+      "sheet": 1,
+      "access_key": "4caf97ee-b4ae-4236-bc47-8448611f8239",
+      "operation_type": "VENDA",
+      "use_auth_protocol": 538928462895975,
+      "cfop": 4429,
+      "date_of_issue": "2015-08-03T02:33:40 +03:00",
+      "input_output_date": "2016-05-29T03:32:52 +03:00"
+    },
+    "taxes": {
+      "id": 9.12,
+      "icms_base_calculation": 1.78,
+      "value_icms": 3.89,
+      "icms_subst_base_calculation": 6.05,
+      "value_icms_subst": 1.6,
+      "total_value_of_the_products": 2.5,
+      "cost_of_freight": 9.78,
+      "safe_price": 7.01,
+      "discount": 6.89,
+      "other_expenses": 4.1,
+      "value_ipi": 9.49,
+      "total_note_value": 9.73
+    },
+    "client": {
+      "id": 160,
+      "name": "MICHELE COUTO",
+      "nick_name": "MI",
+      "document": {
+        "id": 97,
+        "type": "CNPJ",
+        "number": 8081945595922
+      },
+      "delivery_address": {
+        "id": 34,
+        "zip_code": 27308092,
+        "address": "RUA JOAQUIM FLORIANO",
+        "number": 884,
+        "complement": "CONJUNTO 2",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 7032030,
+        "city": "RIO DE JANEIRO",
+        "state": "SANTA CATARINA",
+        "contry": "BOLÍVIA"
+      },
+      "billing_address": {
+        "id": 240,
+        "zip_code": 18033245,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 489,
+        "complement": "CONJUNTO 1",
+        "neighborhood": "JARDIM ÂNGELA",
+        "ibge_code": 5624328,
+        "city": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 222,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 7904041145010,
+        "phone_2": 4434715183028,
+        "observations": "NÃO LIGAR PELA MANHÃ"
+      }
+    }
   }
 ]

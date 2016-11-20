@@ -1,469 +1,442 @@
 [
   {
-    "id": 116,
-    "name": "CAPAS DE LUXO MOTOMO",
-    "value_purchase": 20,
-    "value_sale": 141,
+    "id": 35,
+    "name": "CAPAS DE LUXO ROCK ROYCE",
+    "ncm": 71565522,
+    "value_purchase": 92.61,
+    "value_sale": 50.37,
     "specifications": "TPU E PC",
-    "color": "ROSE-GOLD",
-    "available_quantity": 47,
-    "status": false,
-    "creation_date": "2016-08-28T05:40:37 +03:00",
-    "compatibility": {
-      "id": 16,
-      "supported_devices": "IPHONE 6"
-    },
+    "color": "SKY-BLUE",
+    "available_quantity": 113,
+    "status": true,
+    "creation_date": null,
     "product_type": {
-      "id": 259,
-      "name": "COVERS"
+      "id": 220,
+      "description_type": "COVERS"
     },
     "supplier": {
-      "id": 162,
-      "company_name": "CHINA WHOLESALE ONLINE STORE",
+      "id": 102,
+      "company_name": "FIVE CITY DIGITAL STORE",
       "fantasy_name": "",
-      "municipal_registration": 171453966185930,
-      "state_registration": 769680585519297,
-      "capital_social": "$30,040.00",
+      "municipal_registration": 596218423998986,
+      "state_registration": 750990067557930,
+      "capital_social": 49533.79,
       "document": {
-        "id": 32,
-        "type": "CNPJ",
-        "number": 4876796638548
+        "id": 249,
+        "type": "CPF",
+        "number": 79137506951276
       },
       "address": {
-        "id": 67,
-        "zip_code": 68135029,
+        "id": 171,
+        "zip_code": 10182481,
         "address": "RUA JOAQUIM FLORIANO",
-        "number": 72451850,
+        "number": 56893141,
         "complement": "APARTAMENTO 56 | TORRE 2",
-        "neighborhood": "PARQUE INDEPENDÊNCIA",
-        "ibge_code": 4805001,
+        "neighborhood": "ITAIM BIBI",
+        "ibge_code": 6523940,
         "city": "RIO DE JANEIRO",
         "state": "RIO DE JANEIRO",
         "contry": "BRASIL"
       },
       "contact": {
-        "id": 46,
-        "email_1": "EMAIL_1@ICLOUD.COM",
-        "email_2": "EMAIL_2@GMAIL.COM",
-        "phone_1": 3497278825476,
-        "phone_2": 5669576389966,
+        "id": 54,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 6315559589939,
+        "phone_2": 4004701052219,
         "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
       }
     }
   },
   {
-    "id": 182,
-    "name": "CAPAS DE LUXO ROCK ROYCE",
-    "value_purchase": 47,
-    "value_sale": 59,
+    "id": 241,
+    "name": "CAPAS DE LUXO MOTOMO",
+    "ncm": 35230953,
+    "value_purchase": 63.77,
+    "value_sale": 72.84,
     "specifications": "TPU E PC",
-    "color": "GOLD",
-    "available_quantity": 122,
-    "status": false,
-    "creation_date": "2015-05-03T05:07:39 +03:00",
-    "compatibility": {
-      "id": 11,
-      "supported_devices": "IPHONE 6"
-    },
+    "color": "ROSE-RED",
+    "available_quantity": 166,
+    "status": true,
+    "creation_date": null,
     "product_type": {
-      "id": 82,
-      "name": "COVERS"
+      "id": 185,
+      "description_type": "COVERS"
     },
     "supplier": {
-      "id": 205,
+      "id": 223,
       "company_name": "FIVE CITY DIGITAL STORE",
       "fantasy_name": "",
-      "municipal_registration": 766532379392117,
-      "state_registration": 300219621118436,
-      "capital_social": "$33,928.31",
+      "municipal_registration": 152137788115573,
+      "state_registration": 549861118400910,
+      "capital_social": 47005.82,
       "document": {
-        "id": 155,
-        "type": "CPF",
-        "number": 86001494723115
+        "id": 283,
+        "type": "RG",
+        "number": 59157114014179
       },
       "address": {
-        "id": 218,
-        "zip_code": 72732983,
+        "id": 132,
+        "zip_code": 56923869,
         "address": "RUA JOSÉ RIBEIRO RAMOS",
-        "number": 83944674,
-        "complement": "NENHUM",
-        "neighborhood": "ITAIM BIBI",
-        "ibge_code": 5708159,
+        "number": 83221652,
+        "complement": "APARTAMENTO 56 | TORRE 2",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 7912390,
         "city": "SÃO PAULO",
         "state": "SÃO PAULO",
         "contry": "BRASIL"
       },
       "contact": {
-        "id": 171,
-        "email_1": "EMAIL_1@GMAIL.COM",
-        "email_2": "EMAIL_2@ICLOUD.COM",
-        "phone_1": 2703476345574,
-        "phone_2": 3897128032987,
-        "observations": "NÃO LIGAR PELA MANHÃ"
-      }
-    }
-  },
-  {
-    "id": 121,
-    "name": "CAPAS DE LUXO MOTOMO",
-    "value_purchase": 32,
-    "value_sale": 262,
-    "specifications": "TPU E PC",
-    "color": "SKY-BLUE",
-    "available_quantity": 146,
-    "status": false,
-    "creation_date": "2015-06-20T05:34:22 +03:00",
-    "compatibility": {
-      "id": 28,
-      "supported_devices": "IPHONE 5"
-    },
-    "product_type": {
-      "id": 91,
-      "name": "COVERS"
-    },
-    "supplier": {
-      "id": 267,
-      "company_name": "FIVE CITY DIGITAL STORE",
-      "fantasy_name": "",
-      "municipal_registration": 876227986784683,
-      "state_registration": 746439104983409,
-      "capital_social": "$17,528.77",
-      "document": {
-        "id": 210,
-        "type": "CPF",
-        "number": 32133636187427
-      },
-      "address": {
-        "id": 148,
-        "zip_code": 56297508,
-        "address": "RUA JOAQUIM FLORIANO",
-        "number": 54957905,
-        "complement": "APARTAMENTO 56 | TORRE 2",
-        "neighborhood": "ITAIM BIBI",
-        "ibge_code": 3702173,
-        "city": "RIO DE JANEIRO",
-        "state": "RIO DE JANEIRO",
-        "contry": "BRASIL"
-      },
-      "contact": {
-        "id": 67,
-        "email_1": "EMAIL_1@GMAIL.COM",
-        "email_2": "EMAIL_2@ICLOUD.COM",
-        "phone_1": 1090488539723,
-        "phone_2": 8232924953643,
+        "id": 184,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 1291652422265,
+        "phone_2": 5562422894288,
         "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
       }
     }
   },
   {
-    "id": 14,
-    "name": "CAPAS DE LUXO MOTOMO",
-    "value_purchase": 85,
-    "value_sale": 181,
+    "id": 15,
+    "name": "CAPAS DE LUXO ROCK ROYCE",
+    "ncm": 41880961,
+    "value_purchase": 37.02,
+    "value_sale": 79.71,
     "specifications": "TPU E ALUMÍNIO",
-    "color": "BLACK",
-    "available_quantity": 14,
-    "status": true,
-    "creation_date": "2015-03-26T04:08:57 +03:00",
-    "compatibility": {
-      "id": 109,
-      "supported_devices": "IPHONE 6"
-    },
+    "color": "ROSE-RED",
+    "available_quantity": 50,
+    "status": false,
+    "creation_date": null,
     "product_type": {
-      "id": 222,
-      "name": "COVERS"
+      "id": 299,
+      "description_type": "COVERS"
     },
     "supplier": {
-      "id": 185,
-      "company_name": "FIVE CITY DIGITAL STORE",
+      "id": 114,
+      "company_name": "CHINA WHOLESALE ONLINE STORE",
       "fantasy_name": "",
-      "municipal_registration": 150119408149766,
-      "state_registration": 178935156610404,
-      "capital_social": "$32,365.06",
+      "municipal_registration": 137951373619770,
+      "state_registration": 427488388657078,
+      "capital_social": 15454.01,
       "document": {
-        "id": 9,
+        "id": 61,
         "type": "RG",
-        "number": 87690648710630
+        "number": 20590746669797
       },
       "address": {
-        "id": 195,
-        "zip_code": 57005939,
+        "id": 11,
+        "zip_code": 51507642,
         "address": "RUA JOSÉ RIBEIRO RAMOS",
-        "number": 36946767,
-        "complement": "NENHUM",
+        "number": 50676083,
+        "complement": "APARTAMENTO 56 | TORRE 2",
         "neighborhood": "ITAIM BIBI",
-        "ibge_code": 8854214,
+        "ibge_code": 2672505,
         "city": "RIO DE JANEIRO",
         "state": "SÃO PAULO",
         "contry": "BRASIL"
       },
       "contact": {
-        "id": 181,
-        "email_1": "EMAIL_1@ICLOUD.COM",
+        "id": 19,
+        "email_1": "EMAIL_1@GMAIL.COM",
         "email_2": "EMAIL_2@GMAIL.COM",
-        "phone_1": 1371384514037,
-        "phone_2": 2575211948269,
+        "phone_1": 5749137146283,
+        "phone_2": 6641867532842,
         "observations": "NÃO LIGAR PELA MANHÃ"
       }
     }
   },
   {
-    "id": 290,
-    "name": "CAPAS DE LUXO ROCK ROYCE",
-    "value_purchase": 73,
-    "value_sale": 193,
+    "id": 87,
+    "name": "CAPAS DE LUXO MOTOMO",
+    "ncm": 63356476,
+    "value_purchase": 93.48,
+    "value_sale": 21.16,
     "specifications": "TPU E ALUMÍNIO",
-    "color": "BLACK",
-    "available_quantity": 38,
-    "status": false,
-    "creation_date": "2016-07-21T03:15:51 +03:00",
-    "compatibility": {
-      "id": 142,
-      "supported_devices": "IPHONE 6"
-    },
+    "color": "SILVER",
+    "available_quantity": 136,
+    "status": true,
+    "creation_date": null,
     "product_type": {
-      "id": 270,
-      "name": "COVERS"
+      "id": 68,
+      "description_type": "COVERS"
     },
     "supplier": {
-      "id": 171,
-      "company_name": "FIVE CITY DIGITAL STORE",
+      "id": 187,
+      "company_name": "CHINA WHOLESALE ONLINE STORE",
       "fantasy_name": "",
-      "municipal_registration": 818421720355193,
-      "state_registration": 161146814204792,
-      "capital_social": "$39,138.24",
+      "municipal_registration": 140579126489371,
+      "state_registration": 435425070660876,
+      "capital_social": 44466.07,
       "document": {
-        "id": 122,
-        "type": "RG",
-        "number": 34513057262192
+        "id": 251,
+        "type": "CNPJ",
+        "number": 19325110793159
       },
       "address": {
-        "id": 260,
-        "zip_code": 28199160,
-        "address": "RUA JOAQUIM FLORIANO",
-        "number": 79195166,
-        "complement": "APARTAMENTO 56 | TORRE 2",
+        "id": 229,
+        "zip_code": 19780422,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 10605538,
+        "complement": "NENHUM",
         "neighborhood": "PARQUE INDEPENDÊNCIA",
-        "ibge_code": 2512742,
-        "city": "RIO DE JANEIRO",
+        "ibge_code": 2106992,
+        "city": "SÃO PAULO",
         "state": "RIO DE JANEIRO",
         "contry": "BRASIL"
       },
       "contact": {
-        "id": 268,
+        "id": 86,
         "email_1": "EMAIL_1@GMAIL.COM",
         "email_2": "EMAIL_2@GMAIL.COM",
-        "phone_1": 4351550228816,
-        "phone_2": 3794751912202,
+        "phone_1": 3596828755286,
+        "phone_2": 8027073197095,
         "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
       }
     }
   },
   {
-    "id": 200,
-    "name": "CAPAS DE LUXO ROCK ROYCE",
-    "value_purchase": 24,
-    "value_sale": 151,
+    "id": 161,
+    "name": "CAPAS DE LUXO MOTOMO",
+    "ncm": 51455002,
+    "value_purchase": 50.53,
+    "value_sale": 28.72,
     "specifications": "TPU E ALUMÍNIO",
-    "color": "GOLD",
-    "available_quantity": 134,
-    "status": true,
-    "creation_date": "2014-09-14T04:52:22 +03:00",
-    "compatibility": {
-      "id": 179,
-      "supported_devices": "IPHONE 5"
-    },
+    "color": "SKY-BLUE",
+    "available_quantity": 161,
+    "status": false,
+    "creation_date": null,
     "product_type": {
-      "id": 176,
-      "name": "COVERS"
+      "id": 168,
+      "description_type": "COVERS"
     },
     "supplier": {
-      "id": 108,
-      "company_name": "FIVE CITY DIGITAL STORE",
+      "id": 235,
+      "company_name": "CHINA WHOLESALE ONLINE STORE",
       "fantasy_name": "",
-      "municipal_registration": 897121385778528,
-      "state_registration": 534530407329629,
-      "capital_social": "$22,311.14",
+      "municipal_registration": 139860799798674,
+      "state_registration": 674200441116988,
+      "capital_social": 21077.83,
       "document": {
-        "id": 16,
-        "type": "RG",
-        "number": 35712087938415
+        "id": 43,
+        "type": "CPF",
+        "number": 21552183536188
       },
       "address": {
-        "id": 223,
-        "zip_code": 54360092,
+        "id": 67,
+        "zip_code": 38474546,
         "address": "RUA JOAQUIM FLORIANO",
-        "number": 73867999,
+        "number": 46111820,
         "complement": "NENHUM",
         "neighborhood": "PARQUE INDEPENDÊNCIA",
-        "ibge_code": 4290862,
-        "city": "RIO DE JANEIRO",
-        "state": "RIO DE JANEIRO",
+        "ibge_code": 6060935,
+        "city": "SÃO PAULO",
+        "state": "SÃO PAULO",
         "contry": "BRASIL"
       },
       "contact": {
-        "id": 196,
-        "email_1": "EMAIL_1@ICLOUD.COM",
-        "email_2": "EMAIL_2@ICLOUD.COM",
-        "phone_1": 4920098263490,
-        "phone_2": 8459990250834,
-        "observations": "NÃO LIGAR PELA MANHÃ"
+        "id": 104,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 3058884966786,
+        "phone_2": 1293573500257,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
       }
     }
   },
   {
-    "id": 297,
+    "id": 132,
     "name": "CAPAS DE LUXO MOTOMO",
-    "value_purchase": 17,
-    "value_sale": 199,
+    "ncm": 15140239,
+    "value_purchase": 19.83,
+    "value_sale": 51.38,
     "specifications": "TPU E ALUMÍNIO",
     "color": "DARK-GREY",
     "available_quantity": 230,
-    "status": false,
-    "creation_date": "2015-12-18T08:00:12 +02:00",
-    "compatibility": {
-      "id": 269,
-      "supported_devices": "IPHONE 5"
-    },
+    "status": true,
+    "creation_date": null,
     "product_type": {
-      "id": 83,
-      "name": "COVERS"
+      "id": 213,
+      "description_type": "COVERS"
     },
     "supplier": {
-      "id": 82,
-      "company_name": "FIVE CITY DIGITAL STORE",
+      "id": 96,
+      "company_name": "CHINA WHOLESALE ONLINE STORE",
       "fantasy_name": "",
-      "municipal_registration": 672832885372567,
-      "state_registration": 659328423070895,
-      "capital_social": "$43,450.29",
+      "municipal_registration": 832834292045475,
+      "state_registration": 212417854869227,
+      "capital_social": 21845.26,
       "document": {
-        "id": 112,
+        "id": 282,
         "type": "CPF",
-        "number": 83785938961314
+        "number": 33630714337190
       },
       "address": {
-        "id": 156,
-        "zip_code": 39425786,
-        "address": "RUA JOAQUIM FLORIANO",
-        "number": 41149191,
+        "id": 204,
+        "zip_code": 85375260,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 57628011,
         "complement": "NENHUM",
         "neighborhood": "ITAIM BIBI",
-        "ibge_code": 6156761,
+        "ibge_code": 6970491,
         "city": "SÃO PAULO",
         "state": "RIO DE JANEIRO",
         "contry": "BRASIL"
       },
       "contact": {
-        "id": 151,
-        "email_1": "EMAIL_1@GMAIL.COM",
-        "email_2": "EMAIL_2@ICLOUD.COM",
-        "phone_1": 6306039647403,
-        "phone_2": 1632770601168,
+        "id": 42,
+        "email_1": "EMAIL_1@ICLOUD.COM",
+        "email_2": "EMAIL_2@GMAIL.COM",
+        "phone_1": 8722366588990,
+        "phone_2": 4426706443814,
         "observations": "NÃO LIGAR PELA MANHÃ"
       }
     }
   },
   {
-    "id": 192,
+    "id": 34,
     "name": "CAPAS DE LUXO ROCK ROYCE",
-    "value_purchase": 26,
-    "value_sale": 110,
+    "ncm": 87439831,
+    "value_purchase": 99.2,
+    "value_sale": 38.69,
     "specifications": "TPU E PC",
-    "color": "ROSE-GOLD",
-    "available_quantity": 226,
-    "status": false,
-    "creation_date": "2014-04-09T02:35:35 +03:00",
-    "compatibility": {
-      "id": 292,
-      "supported_devices": "IPHONE 6"
-    },
+    "color": "BLACK",
+    "available_quantity": 76,
+    "status": true,
+    "creation_date": null,
     "product_type": {
-      "id": 292,
-      "name": "COVERS"
+      "id": 194,
+      "description_type": "COVERS"
     },
     "supplier": {
-      "id": 128,
-      "company_name": "CHINA WHOLESALE ONLINE STORE",
+      "id": 141,
+      "company_name": "FIVE CITY DIGITAL STORE",
       "fantasy_name": "",
-      "municipal_registration": 575697266946709,
-      "state_registration": 277380892032301,
-      "capital_social": "$30,573.10",
+      "municipal_registration": 807218471478522,
+      "state_registration": 268432567631160,
+      "capital_social": 44555.46,
       "document": {
-        "id": 192,
-        "type": "RG",
-        "number": 88485637812804
+        "id": 127,
+        "type": "CNPJ",
+        "number": 1849951043797
       },
       "address": {
-        "id": 222,
-        "zip_code": 64955288,
-        "address": "RUA JOAQUIM FLORIANO",
-        "number": 54627621,
-        "complement": "NENHUM",
-        "neighborhood": "ITAIM BIBI",
-        "ibge_code": 6451335,
+        "id": 99,
+        "zip_code": 75477386,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 13971912,
+        "complement": "APARTAMENTO 56 | TORRE 2",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 5966100,
+        "city": "SÃO PAULO",
+        "state": "RIO DE JANEIRO",
+        "contry": "BRASIL"
+      },
+      "contact": {
+        "id": 197,
+        "email_1": "EMAIL_1@GMAIL.COM",
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 5838045120840,
+        "phone_2": 2591320319183,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      }
+    }
+  },
+  {
+    "id": 248,
+    "name": "CAPAS DE LUXO ROCK ROYCE",
+    "ncm": 10129543,
+    "value_purchase": 25.13,
+    "value_sale": 77.06,
+    "specifications": "TPU E ALUMÍNIO",
+    "color": "ROSE-RED",
+    "available_quantity": 88,
+    "status": true,
+    "creation_date": null,
+    "product_type": {
+      "id": 224,
+      "description_type": "COVERS"
+    },
+    "supplier": {
+      "id": 244,
+      "company_name": "CHINA WHOLESALE ONLINE STORE",
+      "fantasy_name": "",
+      "municipal_registration": 592829863124886,
+      "state_registration": 225851739836259,
+      "capital_social": 39660.07,
+      "document": {
+        "id": 250,
+        "type": "CNPJ",
+        "number": 37006828457577
+      },
+      "address": {
+        "id": 189,
+        "zip_code": 51626904,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 25000931,
+        "complement": "APARTAMENTO 56 | TORRE 2",
+        "neighborhood": "PARQUE INDEPENDÊNCIA",
+        "ibge_code": 5698745,
         "city": "RIO DE JANEIRO",
         "state": "SÃO PAULO",
         "contry": "BRASIL"
       },
       "contact": {
-        "id": 218,
+        "id": 4,
         "email_1": "EMAIL_1@GMAIL.COM",
         "email_2": "EMAIL_2@GMAIL.COM",
-        "phone_1": 2952772129029,
-        "phone_2": 8184064272402,
+        "phone_1": 7441838869023,
+        "phone_2": 2922173096930,
         "observations": "NÃO LIGAR PELA MANHÃ"
       }
     }
   },
   {
-    "id": 124,
+    "id": 9,
     "name": "CAPAS DE LUXO ROCK ROYCE",
-    "value_purchase": 100,
-    "value_sale": 217,
-    "specifications": "TPU E PC",
-    "color": "SKY-BLUE",
-    "available_quantity": 161,
+    "ncm": 58796711,
+    "value_purchase": 35.23,
+    "value_sale": 57.66,
+    "specifications": "TPU E ALUMÍNIO",
+    "color": "DARK-BLUE",
+    "available_quantity": 142,
     "status": true,
-    "creation_date": "2014-10-14T02:34:14 +03:00",
-    "compatibility": {
-      "id": 199,
-      "supported_devices": "IPHONE 6"
-    },
+    "creation_date": null,
     "product_type": {
-      "id": 97,
-      "name": "COVERS"
+      "id": 88,
+      "description_type": "COVERS"
     },
     "supplier": {
-      "id": 137,
+      "id": 152,
       "company_name": "CHINA WHOLESALE ONLINE STORE",
       "fantasy_name": "",
-      "municipal_registration": 793024498197341,
-      "state_registration": 158694392858501,
-      "capital_social": "$25,626.56",
+      "municipal_registration": 546830243223851,
+      "state_registration": 127996203109369,
+      "capital_social": 24171.58,
       "document": {
-        "id": 131,
-        "type": "CPF",
-        "number": 25180969970780
+        "id": 160,
+        "type": "CNPJ",
+        "number": 86140402920501
       },
       "address": {
-        "id": 146,
-        "zip_code": 12665351,
-        "address": "RUA JOAQUIM FLORIANO",
-        "number": 79924672,
+        "id": 98,
+        "zip_code": 23601935,
+        "address": "RUA JOSÉ RIBEIRO RAMOS",
+        "number": 69127118,
         "complement": "NENHUM",
         "neighborhood": "PARQUE INDEPENDÊNCIA",
-        "ibge_code": 7730098,
+        "ibge_code": 8295993,
         "city": "RIO DE JANEIRO",
-        "state": "RIO DE JANEIRO",
+        "state": "SÃO PAULO",
         "contry": "BRASIL"
       },
       "contact": {
-        "id": 71,
+        "id": 284,
         "email_1": "EMAIL_1@ICLOUD.COM",
-        "email_2": "EMAIL_2@GMAIL.COM",
-        "phone_1": 5357759215205,
-        "phone_2": 4205464311468,
-        "observations": "NÃO LIGAR PELA MANHÃ"
+        "email_2": "EMAIL_2@ICLOUD.COM",
+        "phone_1": 3053525964625,
+        "phone_2": 5086991305610,
+        "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
       }
     }
   }

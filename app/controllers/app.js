@@ -108,6 +108,46 @@ app.config(function($routeProvider)
       templateUrl : 'views/tracking/tracking.html',
       controller : "trackingController",  
    })
+
+   .when('/sales', {
+      templateUrl : 'views/sales/sales.html',
+      controller : "salesController",  
+   })
+
+   .when('/sales-details', {
+      templateUrl : 'views/sales/sales-details.html',
+      controller : "salesController",  
+   })
+
+   .when('/sale', {
+      templateUrl : 'views/sales/sale.html',
+      controller : "salesController",  
+   })
+
+   .when('/sales-note', {
+      templateUrl : 'views/sales/sale.html',
+      controller : "salesController",  
+   })
+
+   .when('/sales-taxes', {
+      templateUrl : 'views/sales/sale.html',
+      controller : "salesController",  
+   })
+
+   .when('/sales-product', {
+      templateUrl : 'views/sales/sale.html',
+      controller : "salesController",  
+   })
+
+   .when('/sales-client', {
+      templateUrl : 'views/sales/sale.html',
+      controller : "salesController",  
+   })
+
+   .when('/sales-address', {
+      templateUrl : 'views/sales/sale.html',
+      controller : "salesController",  
+   })
  
    .otherwise ({ redirectTo: '/' });
 });

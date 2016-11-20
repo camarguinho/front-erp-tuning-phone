@@ -1,391 +1,757 @@
 [
   {
-    "id": 225,
-    "name": "MARCELA CARDOSO",
-    "nick_name": "ZEZINHO",
+    "id": 147,
+    "name": "JOSÉ CARLOS",
+    "nick_name": "PEDROCA",
     "document": {
-      "id": 266,
+      "id": 43,
       "type": "RG",
-      "number": 7084522475933
+      "number": 8735833453523
     },
-    "address": {
-      "id": 159,
-      "zip_code": 22540591,
+    "delivery_address": {
+      "id": 34,
+      "zip_code": 27308092,
       "address": "RUA JOAQUIM FLORIANO",
-      "number": 67,
+      "number": 884,
+      "complement": "CONJUNTO 2",
+      "neighborhood": "JARDIM ÂNGELA",
+      "ibge_code": 7032030,
+      "city": "RIO DE JANEIRO",
+      "state": "SANTA CATARINA",
+      "contry": "BOLÍVIA"
+    },
+    "billing_address": {
+      "id": 240,
+      "zip_code": 18033245,
+      "address": "RUA JOSÉ RIBEIRO RAMOS",
+      "number": 489,
       "complement": "CONJUNTO 1",
+      "neighborhood": "JARDIM ÂNGELA",
+      "ibge_code": 5624328,
+      "city": "RIO DE JANEIRO",
+      "state": "SÃO PAULO",
+      "contry": "BRASIL"
+    },
+    "contact": {
+      "id": 63,
+      "email_1": "EMAIL_1@ICLOUD.COM",
+      "email_2": "EMAIL_2@ICLOUD.COM",
+      "phone_1": 8905534479882,
+      "phone_2": 5184246810808,
+      "observations": "NÃO LIGAR PELA MANHÃ"
+    }
+  },
+  {
+    "id": 265,
+    "name": "LUIZA CALDEIRA",
+    "nick_name": "GUGU",
+    "document": {
+      "id": 75,
+      "type": "CNPJ",
+      "number": 7034807386068
+    },
+    "delivery_address": {
+      "id": 230,
+      "zip_code": 73754709,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 296,
+      "complement": "CONJUNTO 2",
       "neighborhood": "PIRAPORINHA",
-      "ibge_code": 2250355,
+      "ibge_code": 9003299,
       "city": "FLORIANÓPOLIS",
-      "state": "RIO DE JANEIRO",
+      "state": "SANTA CATARINA",
+      "contry": "BRASIL"
+    },
+    "billing_address": {
+      "id": 194,
+      "zip_code": 53996550,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 300,
+      "complement": "CONJUNTO 2",
+      "neighborhood": "JARDIM ÂNGELA",
+      "ibge_code": 1864563,
+      "city": "FLORIANÓPOLIS",
+      "state": "SANTA CATARINA",
       "contry": "CHILE"
     },
     "contact": {
-      "id": 65,
-      "email_1": "EMAIL_1@ICLOUD.COM",
+      "id": 266,
+      "email_1": "EMAIL_1@GMAIL.COM",
       "email_2": "EMAIL_2@GMAIL.COM",
-      "phone_1": 4255394564011,
-      "phone_2": 6190934781978,
+      "phone_1": 4595445473925,
+      "phone_2": 2157760946269,
       "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
     }
   },
   {
-    "id": 138,
-    "name": "MICHELE COUTO",
+    "id": 100,
+    "name": "ANTONIO AUGUSTO",
+    "nick_name": "LULU",
+    "document": {
+      "id": 226,
+      "type": "CPF",
+      "number": 8017447870148
+    },
+    "delivery_address": {
+      "id": 55,
+      "zip_code": 23944861,
+      "address": "RUA JOSÉ RIBEIRO RAMOS",
+      "number": 357,
+      "complement": "CONJUNTO 1",
+      "neighborhood": "JARDIM ÂNGELA",
+      "ibge_code": 1658207,
+      "city": "SÃO PAULO",
+      "state": "SANTA CATARINA",
+      "contry": "BOLÍVIA"
+    },
+    "billing_address": {
+      "id": 68,
+      "zip_code": 54045993,
+      "address": "RUA JOSÉ RIBEIRO RAMOS",
+      "number": 32,
+      "complement": "CONJUNTO 1",
+      "neighborhood": "PARQUE INDEPENDÊNCIA",
+      "ibge_code": 5358825,
+      "city": "SÃO PAULO",
+      "state": "RIO DE JANEIRO",
+      "contry": "BOLÍVIA"
+    },
+    "contact": {
+      "id": 59,
+      "email_1": "EMAIL_1@ICLOUD.COM",
+      "email_2": "EMAIL_2@ICLOUD.COM",
+      "phone_1": 7871833191232,
+      "phone_2": 3455265305762,
+      "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+    }
+  },
+  {
+    "id": 279,
+    "name": "ANTONIO AUGUSTO",
+    "nick_name": "MARCELINHA",
+    "document": {
+      "id": 44,
+      "type": "RG",
+      "number": 1534550923460
+    },
+    "delivery_address": {
+      "id": 154,
+      "zip_code": 40071945,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 32,
+      "complement": "CONJUNTO 1",
+      "neighborhood": "JARDIM ÂNGELA",
+      "ibge_code": 1746124,
+      "city": "RIO DE JANEIRO",
+      "state": "SANTA CATARINA",
+      "contry": "CHILE"
+    },
+    "billing_address": {
+      "id": 174,
+      "zip_code": 16276968,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 804,
+      "complement": "CONJUNTO 1",
+      "neighborhood": "PARQUE INDEPENDÊNCIA",
+      "ibge_code": 3949561,
+      "city": "SÃO PAULO",
+      "state": "RIO DE JANEIRO",
+      "contry": "BRASIL"
+    },
+    "contact": {
+      "id": 52,
+      "email_1": "EMAIL_1@GMAIL.COM",
+      "email_2": "EMAIL_2@ICLOUD.COM",
+      "phone_1": 1525821384728,
+      "phone_2": 3351935475752,
+      "observations": "NÃO LIGAR PELA MANHÃ"
+    }
+  },
+  {
+    "id": 160,
+    "name": "JOSÉ CARLOS",
     "nick_name": "MIRELA",
     "document": {
-      "id": 245,
+      "id": 173,
       "type": "CPF",
-      "number": 4347449581532
+      "number": 6457872620561
     },
-    "address": {
-      "id": 276,
-      "zip_code": 64980995,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 246,
+    "delivery_address": {
+      "id": 229,
+      "zip_code": 56362291,
+      "address": "RUA JOSÉ RIBEIRO RAMOS",
+      "number": 530,
       "complement": "CONJUNTO 2",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 8535908,
-      "city": "RIO DE JANEIRO",
+      "neighborhood": "PARQUE INDEPENDÊNCIA",
+      "ibge_code": 6872047,
+      "city": "FLORIANÓPOLIS",
+      "state": "RIO DE JANEIRO",
+      "contry": "BRASIL"
+    },
+    "billing_address": {
+      "id": 282,
+      "zip_code": 32259946,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 96,
+      "complement": "CONJUNTO 3",
+      "neighborhood": "PARQUE INDEPENDÊNCIA",
+      "ibge_code": 8908809,
+      "city": "SÃO PAULO",
       "state": "SÃO PAULO",
       "contry": "CHILE"
     },
     "contact": {
-      "id": 167,
+      "id": 287,
       "email_1": "EMAIL_1@GMAIL.COM",
       "email_2": "EMAIL_2@GMAIL.COM",
-      "phone_1": 3583902118481,
-      "phone_2": 4795601323410,
+      "phone_1": 7540616133926,
+      "phone_2": 7115008636292,
+      "observations": "NÃO LIGAR PELA MANHÃ"
+    }
+  },
+  {
+    "id": 231,
+    "name": "JOSÉ CARLOS",
+    "nick_name": "GUGU",
+    "document": {
+      "id": 227,
+      "type": "RG",
+      "number": 8012691723959
+    },
+    "delivery_address": {
+      "id": 293,
+      "zip_code": 31820849,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 604,
+      "complement": "CONJUNTO 2",
+      "neighborhood": "PARQUE INDEPENDÊNCIA",
+      "ibge_code": 2210609,
+      "city": "SÃO PAULO",
+      "state": "SANTA CATARINA",
+      "contry": "BRASIL"
+    },
+    "billing_address": {
+      "id": 234,
+      "zip_code": 54619898,
+      "address": "RUA JOSÉ RIBEIRO RAMOS",
+      "number": 686,
+      "complement": "CONJUNTO 2",
+      "neighborhood": "JARDIM ÂNGELA",
+      "ibge_code": 7524142,
+      "city": "RIO DE JANEIRO",
+      "state": "SÃO PAULO",
+      "contry": "BOLÍVIA"
+    },
+    "contact": {
+      "id": 71,
+      "email_1": "EMAIL_1@ICLOUD.COM",
+      "email_2": "EMAIL_2@ICLOUD.COM",
+      "phone_1": 7867006575459,
+      "phone_2": 4435898458161,
+      "observations": "NÃO LIGAR PELA MANHÃ"
+    }
+  },
+  {
+    "id": 76,
+    "name": "PEDRO PAULO",
+    "nick_name": "MIRELA",
+    "document": {
+      "id": 48,
+      "type": "RG",
+      "number": 6474781852848
+    },
+    "delivery_address": {
+      "id": 238,
+      "zip_code": 16631747,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 460,
+      "complement": "CONJUNTO 2",
+      "neighborhood": "PARQUE INDEPENDÊNCIA",
+      "ibge_code": 2635858,
+      "city": "FLORIANÓPOLIS",
+      "state": "RIO DE JANEIRO",
+      "contry": "CHILE"
+    },
+    "billing_address": {
+      "id": 142,
+      "zip_code": 45212537,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 768,
+      "complement": "CONJUNTO 1",
+      "neighborhood": "JARDIM ÂNGELA",
+      "ibge_code": 5589307,
+      "city": "SÃO PAULO",
+      "state": "SÃO PAULO",
+      "contry": "BOLÍVIA"
+    },
+    "contact": {
+      "id": 241,
+      "email_1": "EMAIL_1@GMAIL.COM",
+      "email_2": "EMAIL_2@ICLOUD.COM",
+      "phone_1": 7921912835464,
+      "phone_2": 5276759537533,
+      "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+    }
+  },
+  {
+    "id": 201,
+    "name": "MIRELA PACHECO",
+    "nick_name": "MIRELA",
+    "document": {
+      "id": 82,
+      "type": "RG",
+      "number": 2027286710083
+    },
+    "delivery_address": {
+      "id": 219,
+      "zip_code": 59059104,
+      "address": "RUA JOSÉ RIBEIRO RAMOS",
+      "number": 764,
+      "complement": "CONJUNTO 2",
+      "neighborhood": "JARDIM ÂNGELA",
+      "ibge_code": 7271907,
+      "city": "FLORIANÓPOLIS",
+      "state": "SANTA CATARINA",
+      "contry": "BOLÍVIA"
+    },
+    "billing_address": {
+      "id": 241,
+      "zip_code": 76768480,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 468,
+      "complement": "CONJUNTO 2",
+      "neighborhood": "JARDIM ÂNGELA",
+      "ibge_code": 1462368,
+      "city": "RIO DE JANEIRO",
+      "state": "RIO DE JANEIRO",
+      "contry": "BRASIL"
+    },
+    "contact": {
+      "id": 204,
+      "email_1": "EMAIL_1@GMAIL.COM",
+      "email_2": "EMAIL_2@GMAIL.COM",
+      "phone_1": 8330699020479,
+      "phone_2": 8534263294263,
+      "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+    }
+  },
+  {
+    "id": 25,
+    "name": "PEDRO PAULO",
+    "nick_name": "MARCELINHA",
+    "document": {
+      "id": 2,
+      "type": "CNPJ",
+      "number": 1921501389228
+    },
+    "delivery_address": {
+      "id": 204,
+      "zip_code": 27771683,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 215,
+      "complement": "CONJUNTO 2",
+      "neighborhood": "JARDIM ÂNGELA",
+      "ibge_code": 4021159,
+      "city": "RIO DE JANEIRO",
+      "state": "RIO DE JANEIRO",
+      "contry": "BRASIL"
+    },
+    "billing_address": {
+      "id": 171,
+      "zip_code": 75526433,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 112,
+      "complement": "CONJUNTO 3",
+      "neighborhood": "PIRAPORINHA",
+      "ibge_code": 1296472,
+      "city": "RIO DE JANEIRO",
+      "state": "SANTA CATARINA",
+      "contry": "BRASIL"
+    },
+    "contact": {
+      "id": 202,
+      "email_1": "EMAIL_1@GMAIL.COM",
+      "email_2": "EMAIL_2@ICLOUD.COM",
+      "phone_1": 3377448884702,
+      "phone_2": 1003527056530,
+      "observations": "NÃO LIGAR PELA MANHÃ"
+    }
+  },
+  {
+    "id": 33,
+    "name": "MARCELA CARDOSO",
+    "nick_name": "MARCELINHA",
+    "document": {
+      "id": 211,
+      "type": "CNPJ",
+      "number": 8059788884540
+    },
+    "delivery_address": {
+      "id": 278,
+      "zip_code": 85208815,
+      "address": "RUA JOSÉ RIBEIRO RAMOS",
+      "number": 85,
+      "complement": "CONJUNTO 1",
+      "neighborhood": "PARQUE INDEPENDÊNCIA",
+      "ibge_code": 8988819,
+      "city": "RIO DE JANEIRO",
+      "state": "SÃO PAULO",
+      "contry": "BOLÍVIA"
+    },
+    "billing_address": {
+      "id": 286,
+      "zip_code": 38904467,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 716,
+      "complement": "CONJUNTO 2",
+      "neighborhood": "PARQUE INDEPENDÊNCIA",
+      "ibge_code": 4389677,
+      "city": "FLORIANÓPOLIS",
+      "state": "SANTA CATARINA",
+      "contry": "BRASIL"
+    },
+    "contact": {
+      "id": 135,
+      "email_1": "EMAIL_1@GMAIL.COM",
+      "email_2": "EMAIL_2@GMAIL.COM",
+      "phone_1": 6239480179074,
+      "phone_2": 2571644831860,
+      "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+    }
+  },
+  {
+    "id": 53,
+    "name": "LUCAS SANTOS",
+    "nick_name": "ZEZINHO",
+    "document": {
+      "id": 152,
+      "type": "RG",
+      "number": 5610849915494
+    },
+    "delivery_address": {
+      "id": 48,
+      "zip_code": 62095329,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 417,
+      "complement": "CONJUNTO 1",
+      "neighborhood": "PARQUE INDEPENDÊNCIA",
+      "ibge_code": 5012069,
+      "city": "FLORIANÓPOLIS",
+      "state": "SANTA CATARINA",
+      "contry": "BOLÍVIA"
+    },
+    "billing_address": {
+      "id": 257,
+      "zip_code": 35886963,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 63,
+      "complement": "CONJUNTO 2",
+      "neighborhood": "JARDIM ÂNGELA",
+      "ibge_code": 8240477,
+      "city": "RIO DE JANEIRO",
+      "state": "SANTA CATARINA",
+      "contry": "BOLÍVIA"
+    },
+    "contact": {
+      "id": 125,
+      "email_1": "EMAIL_1@ICLOUD.COM",
+      "email_2": "EMAIL_2@ICLOUD.COM",
+      "phone_1": 6645209234639,
+      "phone_2": 7289656482271,
       "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
     }
   },
   {
     "id": 129,
-    "name": "MARIA TEREZA",
-    "nick_name": "MARCELINHA",
-    "document": {
-      "id": 159,
-      "type": "CNPJ",
-      "number": 8842035850914
-    },
-    "address": {
-      "id": 261,
-      "zip_code": 83121415,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 588,
-      "complement": "CONJUNTO 1",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 1605005,
-      "city": "FLORIANÓPOLIS",
-      "state": "SANTA CATARINA",
-      "contry": "CHILE"
-    },
-    "contact": {
-      "id": 123,
-      "email_1": "EMAIL_1@ICLOUD.COM",
-      "email_2": "EMAIL_2@GMAIL.COM",
-      "phone_1": 5514538745885,
-      "phone_2": 5047040387327,
-      "observations": "NÃO LIGAR PELA MANHÃ"
-    }
-  },
-  {
-    "id": 232,
     "name": "ANTONIO AUGUSTO",
-    "nick_name": "PEDROCA",
+    "nick_name": "GUGU",
     "document": {
-      "id": 90,
-      "type": "RG",
-      "number": 7221012764823
+      "id": 110,
+      "type": "CNPJ",
+      "number": 196301106576
     },
-    "address": {
-      "id": 181,
-      "zip_code": 89043619,
+    "delivery_address": {
+      "id": 292,
+      "zip_code": 35686480,
       "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 528,
+      "number": 224,
       "complement": "CONJUNTO 3",
       "neighborhood": "PIRAPORINHA",
-      "ibge_code": 5855739,
-      "city": "SÃO PAULO",
+      "ibge_code": 8664776,
+      "city": "FLORIANÓPOLIS",
       "state": "RIO DE JANEIRO",
+      "contry": "CHILE"
+    },
+    "billing_address": {
+      "id": 177,
+      "zip_code": 59628467,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 999,
+      "complement": "CONJUNTO 3",
+      "neighborhood": "PIRAPORINHA",
+      "ibge_code": 4253712,
+      "city": "SÃO PAULO",
+      "state": "SÃO PAULO",
       "contry": "BRASIL"
     },
     "contact": {
-      "id": 107,
-      "email_1": "EMAIL_1@GMAIL.COM",
-      "email_2": "EMAIL_2@GMAIL.COM",
-      "phone_1": 8136167555930,
-      "phone_2": 5431760880473,
+      "id": 16,
+      "email_1": "EMAIL_1@ICLOUD.COM",
+      "email_2": "EMAIL_2@ICLOUD.COM",
+      "phone_1": 6470497013239,
+      "phone_2": 3553315947265,
       "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
     }
   },
   {
-    "id": 82,
-    "name": "ANTONIO AUGUSTO",
-    "nick_name": "MARCELINHA",
-    "document": {
-      "id": 279,
-      "type": "RG",
-      "number": 3686587967931
-    },
-    "address": {
-      "id": 105,
-      "zip_code": 83963708,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 908,
-      "complement": "CONJUNTO 2",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 6492064,
-      "city": "SÃO PAULO",
-      "state": "SÃO PAULO",
-      "contry": "BOLÍVIA"
-    },
-    "contact": {
-      "id": 285,
-      "email_1": "EMAIL_1@ICLOUD.COM",
-      "email_2": "EMAIL_2@ICLOUD.COM",
-      "phone_1": 2211260772095,
-      "phone_2": 4005750080610,
-      "observations": "NÃO LIGAR PELA MANHÃ"
-    }
-  },
-  {
-    "id": 256,
-    "name": "LUIZA CALDEIRA",
-    "nick_name": "MARCELINHA",
+    "id": 174,
+    "name": "MARIA TEREZA",
+    "nick_name": "LUQUINHAS",
     "document": {
       "id": 128,
-      "type": "CNPJ",
-      "number": 7163366988500
-    },
-    "address": {
-      "id": 177,
-      "zip_code": 29271444,
-      "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 230,
-      "complement": "CONJUNTO 2",
-      "neighborhood": "PARQUE INDEPENDÊNCIA",
-      "ibge_code": 6085126,
-      "city": "RIO DE JANEIRO",
-      "state": "RIO DE JANEIRO",
-      "contry": "BOLÍVIA"
-    },
-    "contact": {
-      "id": 20,
-      "email_1": "EMAIL_1@GMAIL.COM",
-      "email_2": "EMAIL_2@ICLOUD.COM",
-      "phone_1": 3481958100324,
-      "phone_2": 4648820027500,
-      "observations": "NÃO LIGAR PELA MANHÃ"
-    }
-  },
-  {
-    "id": 269,
-    "name": "PEDRO PAULO",
-    "nick_name": "MARCELINHA",
-    "document": {
-      "id": 120,
       "type": "RG",
-      "number": 8619185548640
+      "number": 1318345300029
     },
-    "address": {
-      "id": 250,
-      "zip_code": 21937204,
+    "delivery_address": {
+      "id": 296,
+      "zip_code": 15847375,
       "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 323,
-      "complement": "CONJUNTO 3",
+      "number": 888,
+      "complement": "CONJUNTO 1",
       "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 7470504,
-      "city": "FLORIANÓPOLIS",
+      "ibge_code": 8374513,
+      "city": "SÃO PAULO",
       "state": "RIO DE JANEIRO",
       "contry": "BOLÍVIA"
     },
-    "contact": {
-      "id": 170,
-      "email_1": "EMAIL_1@ICLOUD.COM",
-      "email_2": "EMAIL_2@GMAIL.COM",
-      "phone_1": 1419756346789,
-      "phone_2": 6396298505820,
-      "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
-    }
-  },
-  {
-    "id": 243,
-    "name": "LUIZA CALDEIRA",
-    "nick_name": "MIRELA",
-    "document": {
-      "id": 247,
-      "type": "RG",
-      "number": 1225883664839
-    },
-    "address": {
-      "id": 198,
-      "zip_code": 53045864,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 860,
+    "billing_address": {
+      "id": 267,
+      "zip_code": 68004221,
+      "address": "RUA JOSÉ RIBEIRO RAMOS",
+      "number": 131,
       "complement": "CONJUNTO 3",
-      "neighborhood": "PIRAPORINHA",
-      "ibge_code": 6477183,
-      "city": "RIO DE JANEIRO",
-      "state": "RIO DE JANEIRO",
+      "neighborhood": "PARQUE INDEPENDÊNCIA",
+      "ibge_code": 5379208,
+      "city": "FLORIANÓPOLIS",
+      "state": "SÃO PAULO",
       "contry": "CHILE"
     },
     "contact": {
-      "id": 142,
+      "id": 46,
       "email_1": "EMAIL_1@ICLOUD.COM",
       "email_2": "EMAIL_2@GMAIL.COM",
-      "phone_1": 4372940018708,
-      "phone_2": 2257722890121,
+      "phone_1": 5618909776550,
+      "phone_2": 1689766497614,
       "observations": "NÃO LIGAR PELA MANHÃ"
     }
   },
   {
-    "id": 4,
-    "name": "JOSÉ CARLOS",
-    "nick_name": "PEDROCA",
-    "document": {
-      "id": 125,
-      "type": "CNPJ",
-      "number": 5395110439503
-    },
-    "address": {
-      "id": 96,
-      "zip_code": 52738101,
-      "address": "RUA JOAQUIM FLORIANO",
-      "number": 279,
-      "complement": "CONJUNTO 1",
-      "neighborhood": "PARQUE INDEPENDÊNCIA",
-      "ibge_code": 3247080,
-      "city": "FLORIANÓPOLIS",
-      "state": "SANTA CATARINA",
-      "contry": "BOLÍVIA"
-    },
-    "contact": {
-      "id": 73,
-      "email_1": "EMAIL_1@GMAIL.COM",
-      "email_2": "EMAIL_2@GMAIL.COM",
-      "phone_1": 2124859650401,
-      "phone_2": 5871232893671,
-      "observations": "NÃO LIGAR PELA MANHÃ"
-    }
-  },
-  {
-    "id": 148,
+    "id": 14,
     "name": "ANTONIO AUGUSTO",
-    "nick_name": "MIRELA",
-    "document": {
-      "id": 20,
-      "type": "RG",
-      "number": 1498737945767
-    },
-    "address": {
-      "id": 262,
-      "zip_code": 42932373,
-      "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 62,
-      "complement": "CONJUNTO 3",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 4761404,
-      "city": "FLORIANÓPOLIS",
-      "state": "SÃO PAULO",
-      "contry": "BOLÍVIA"
-    },
-    "contact": {
-      "id": 45,
-      "email_1": "EMAIL_1@GMAIL.COM",
-      "email_2": "EMAIL_2@ICLOUD.COM",
-      "phone_1": 1239258492559,
-      "phone_2": 8339879195538,
-      "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
-    }
-  },
-  {
-    "id": 179,
-    "name": "LUCAS SANTOS",
     "nick_name": "ZEZINHO",
     "document": {
-      "id": 237,
-      "type": "CNPJ",
-      "number": 2260749921873
+      "id": 275,
+      "type": "CPF",
+      "number": 6171964519451
     },
-    "address": {
-      "id": 218,
-      "zip_code": 48915491,
+    "delivery_address": {
+      "id": 34,
+      "zip_code": 22817674,
       "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 5,
-      "complement": "CONJUNTO 1",
-      "neighborhood": "PIRAPORINHA",
-      "ibge_code": 1050148,
+      "number": 53,
+      "complement": "CONJUNTO 2",
+      "neighborhood": "PARQUE INDEPENDÊNCIA",
+      "ibge_code": 4716088,
       "city": "RIO DE JANEIRO",
-      "state": "SÃO PAULO",
-      "contry": "BOLÍVIA"
+      "state": "SANTA CATARINA",
+      "contry": "BRASIL"
+    },
+    "billing_address": {
+      "id": 152,
+      "zip_code": 52116192,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 71,
+      "complement": "CONJUNTO 2",
+      "neighborhood": "PARQUE INDEPENDÊNCIA",
+      "ibge_code": 6149191,
+      "city": "RIO DE JANEIRO",
+      "state": "SANTA CATARINA",
+      "contry": "BRASIL"
     },
     "contact": {
-      "id": 42,
+      "id": 148,
       "email_1": "EMAIL_1@ICLOUD.COM",
       "email_2": "EMAIL_2@ICLOUD.COM",
-      "phone_1": 2318344873134,
-      "phone_2": 2020257896825,
-      "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+      "phone_1": 5397843653305,
+      "phone_2": 2739554682424,
+      "observations": "NÃO LIGAR PELA MANHÃ"
     }
   },
   {
-    "id": 122,
-    "name": "MARCELA CARDOSO",
+    "id": 291,
+    "name": "MARIA TEREZA",
     "nick_name": "PEDROCA",
     "document": {
       "id": 182,
       "type": "CPF",
-      "number": 8629139727403
+      "number": 8381715463981
     },
-    "address": {
-      "id": 67,
-      "zip_code": 63510955,
+    "delivery_address": {
+      "id": 106,
+      "zip_code": 22488476,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 785,
+      "complement": "CONJUNTO 1",
+      "neighborhood": "PARQUE INDEPENDÊNCIA",
+      "ibge_code": 7003286,
+      "city": "SÃO PAULO",
+      "state": "SÃO PAULO",
+      "contry": "BRASIL"
+    },
+    "billing_address": {
+      "id": 293,
+      "zip_code": 14157906,
       "address": "RUA JOSÉ RIBEIRO RAMOS",
-      "number": 10,
+      "number": 523,
       "complement": "CONJUNTO 2",
       "neighborhood": "PIRAPORINHA",
-      "ibge_code": 7928017,
+      "ibge_code": 6520906,
       "city": "RIO DE JANEIRO",
-      "state": "RIO DE JANEIRO",
+      "state": "SANTA CATARINA",
       "contry": "BRASIL"
     },
     "contact": {
-      "id": 94,
+      "id": 176,
       "email_1": "EMAIL_1@ICLOUD.COM",
       "email_2": "EMAIL_2@ICLOUD.COM",
-      "phone_1": 7612075351339,
-      "phone_2": 6420494736250,
+      "phone_1": 5880997208639,
+      "phone_2": 2062799426120,
       "observations": "NÃO LIGAR PELA MANHÃ"
     }
   },
   {
-    "id": 139,
-    "name": "MARCELA CARDOSO",
-    "nick_name": "ZEZINHO",
+    "id": 216,
+    "name": "MICHELE COUTO",
+    "nick_name": "LUQUINHAS",
     "document": {
-      "id": 62,
-      "type": "CNPJ",
-      "number": 8969721005190
+      "id": 283,
+      "type": "CPF",
+      "number": 5666724073706
     },
-    "address": {
-      "id": 4,
-      "zip_code": 85961754,
+    "delivery_address": {
+      "id": 272,
+      "zip_code": 82072662,
       "address": "RUA JOAQUIM FLORIANO",
-      "number": 89,
-      "complement": "CONJUNTO 2",
-      "neighborhood": "JARDIM ÂNGELA",
-      "ibge_code": 5924224,
+      "number": 366,
+      "complement": "CONJUNTO 1",
+      "neighborhood": "PIRAPORINHA",
+      "ibge_code": 2092857,
       "city": "SÃO PAULO",
-      "state": "RIO DE JANEIRO",
+      "state": "SANTA CATARINA",
+      "contry": "BOLÍVIA"
+    },
+    "billing_address": {
+      "id": 64,
+      "zip_code": 29377169,
+      "address": "RUA JOSÉ RIBEIRO RAMOS",
+      "number": 88,
+      "complement": "CONJUNTO 2",
+      "neighborhood": "PIRAPORINHA",
+      "ibge_code": 5541781,
+      "city": "RIO DE JANEIRO",
+      "state": "SÃO PAULO",
+      "contry": "BOLÍVIA"
+    },
+    "contact": {
+      "id": 100,
+      "email_1": "EMAIL_1@ICLOUD.COM",
+      "email_2": "EMAIL_2@GMAIL.COM",
+      "phone_1": 1330107200490,
+      "phone_2": 3355499755499,
+      "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+    }
+  },
+  {
+    "id": 61,
+    "name": "MARIA TEREZA",
+    "nick_name": "GUGU",
+    "document": {
+      "id": 179,
+      "type": "RG",
+      "number": 603191889664
+    },
+    "delivery_address": {
+      "id": 125,
+      "zip_code": 47891663,
+      "address": "RUA JOSÉ RIBEIRO RAMOS",
+      "number": 511,
+      "complement": "CONJUNTO 3",
+      "neighborhood": "PIRAPORINHA",
+      "ibge_code": 6234083,
+      "city": "RIO DE JANEIRO",
+      "state": "SANTA CATARINA",
+      "contry": "BRASIL"
+    },
+    "billing_address": {
+      "id": 78,
+      "zip_code": 73081469,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 506,
+      "complement": "CONJUNTO 2",
+      "neighborhood": "PIRAPORINHA",
+      "ibge_code": 7494161,
+      "city": "RIO DE JANEIRO",
+      "state": "SÃO PAULO",
+      "contry": "BOLÍVIA"
+    },
+    "contact": {
+      "id": 201,
+      "email_1": "EMAIL_1@GMAIL.COM",
+      "email_2": "EMAIL_2@ICLOUD.COM",
+      "phone_1": 6226752305873,
+      "phone_2": 7766616628027,
+      "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
+    }
+  },
+  {
+    "id": 178,
+    "name": "JOSÉ CARLOS",
+    "nick_name": "LUQUINHAS",
+    "document": {
+      "id": 221,
+      "type": "RG",
+      "number": 9051387457565
+    },
+    "delivery_address": {
+      "id": 52,
+      "zip_code": 80860946,
+      "address": "RUA JOSÉ RIBEIRO RAMOS",
+      "number": 660,
+      "complement": "CONJUNTO 2",
+      "neighborhood": "PIRAPORINHA",
+      "ibge_code": 7815320,
+      "city": "FLORIANÓPOLIS",
+      "state": "SÃO PAULO",
+      "contry": "BOLÍVIA"
+    },
+    "billing_address": {
+      "id": 95,
+      "zip_code": 80689968,
+      "address": "RUA JOAQUIM FLORIANO",
+      "number": 725,
+      "complement": "CONJUNTO 3",
+      "neighborhood": "PIRAPORINHA",
+      "ibge_code": 5939487,
+      "city": "RIO DE JANEIRO",
+      "state": "SÃO PAULO",
       "contry": "BRASIL"
     },
     "contact": {
-      "id": 270,
-      "email_1": "EMAIL_1@ICLOUD.COM",
+      "id": 77,
+      "email_1": "EMAIL_1@GMAIL.COM",
       "email_2": "EMAIL_2@GMAIL.COM",
-      "phone_1": 7806715065633,
-      "phone_2": 8578322147467,
+      "phone_1": 2811844409517,
+      "phone_2": 7402789040535,
       "observations": "NÃO DEIXAR RECADO COM CRIANÇA"
     }
   }

@@ -22,14 +22,14 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr dir-paginate="supplier in suppiersList | itemsPerPage: 6 track by $index">
+                            <tr dir-paginate="supplier in suppliersList | itemsPerPage: 6 track by $index">
                                 <td>{{supplier.id}}</td>                                
                                 <td>{{supplier.company_name}}</td>
                                 <td>{{supplier.fantasy_name}}</td>
                                 <td>{{supplier.capital_social}}</td>
                                 <td>{{supplier.document.type}}</td>
                                 <td>{{supplier.document.number}}</td>
-                                <td>
+                                <td class="action">
                                     <div class="col-lg-2">
                                         <a href="" ng-click="read(supplier)"><i class="glyphicon glyphicon-search fa-2x"></i></a>
                                     </div>

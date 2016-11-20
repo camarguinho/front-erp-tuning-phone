@@ -3,7 +3,7 @@ app.controller('suppliersController', function($scope, $location, sharedValues) 
   $scope.supplier = sharedValues.getObject();
 
   $.getJSON("mocks/suppliers/suppliers.json", function(json) {
-    $scope.suppiersList = json;
+    $scope.suppliersList = json;
   });
 
   $scope.new = function(){
@@ -24,7 +24,7 @@ app.controller('suppliersController', function($scope, $location, sharedValues) 
   };
 
   $scope.remove = function(val) {
-    $scope.suppiersList.splice($scope.suppiersList.indexOf(val),1);
+    $scope.suppliersList.splice($scope.suppliersList.indexOf(val),1);
   };
 
   $scope.return = function(){

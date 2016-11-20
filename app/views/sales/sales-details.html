@@ -1,0 +1,263 @@
+<div id="page-wrapper" ng-controller="salesController">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2 class="page-header">DETALHES DA VENDA</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="panel panel-info">				
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="glyphicon glyphicon-file"></i> Detalhes da Nota
+						</h3>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-bordered table-hover">
+							<thead>
+	                            <tr>
+	                                <th>Data de emissão</th>
+	                                <th>Data de entrada / saída</th>
+	                                <th>Natureza da operação</th>
+	                                <th>Chave de acesso</th>
+	                                <th>Tipo operação</th>
+	                                <th>Protocolo de autorização</th>
+	                            </tr>
+	                        </thead>
+	                        <tbody>
+	                            <tr>
+	                                <td>{{sale.invoice.date_of_issue}}</td>
+	                                <td>{{sale.invoice.input_output_date}}</td>
+	                                <td>{{sale.invoice.type}}</td>
+	                                <td>{{sale.invoice.access_key}}</td>
+	                                <td>{{sale.invoice.operation_type}}</td>
+	                                <td>{{sale.invoice.use_auth_protocol}}</td>
+	                            </tr>
+	                        </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="panel panel-info">				
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="fa fa-info-circle" aria-hidden="true"></i> Dados de Impostos
+						</h3>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-bordered table-hover">
+							<thead>
+	                            <tr>
+	                                <th>Cálculo do ICMS</th>
+	                                <th>Valor do ICMS</th>
+	                                <th>Cálculo do ICMS subst.</th>
+	                                <th>Valor do ICMS subst.</th>
+	                                <th>Valor total dos produtos</th>
+	                                <th>Valor do frete</th>
+	                                <th>Desconto</th>
+	                                <th>Valor do IPI</th>
+	                                <th>Valor total da nota</th>
+	                            </tr>
+	                        </thead>
+	                        <tbody>
+	                            <tr>
+	                                <td>{{sale.taxes.icms_base_calculation}}</td>
+	                                <td>{{sale.taxes.value_icms}}</td>
+	                                <td>{{sale.taxes.icms_subst_base_calculation}}</td>
+	                                <td>{{sale.taxes.value_icms_subst}}</td>
+	                                <td>{{sale.taxes.total_value_of_the_products}}</td>
+	                                <td>{{sale.taxes.cost_of_freight}}</td>
+	                                <td>{{sale.taxes.discount}}</td>
+	                                <td>{{sale.taxes.value_ipi}}</td>
+	                                <td>{{sale.taxes.total_note_value}}</td>
+	                            </tr>
+	                        </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="panel panel-info">				
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="glyphicon glyphicon-th-list"></i> Produto(s)
+						</h3>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-bordered table-hover">
+							<thead>
+	                            <tr>
+	                                <th>#</th>
+	                                <th>Descrição</th>
+	                                <th>NCM</th>
+	                                <th>CFOP</th>
+	                                <th>Valor unit.</th>
+	                                <th>Un.</th>
+	                                <th>Qtde.</th>
+	                            </tr>
+	                        </thead>
+	                        <tbody>
+	                            <tr ng-repeat="product in sale.products">
+	                                <td>{{product.id}}</td>
+	                                <td>{{product.name}}</td>
+	                                <td>{{product.ncm}}</td>
+	                                <td>{{sale.invoice.cfop}}</td>
+	                                <td>{{product.value_sale}}</td>
+	                                <td>UN</td>
+	                                <td>1</td>
+	                            </tr>
+	                        </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-5">
+				<div class="panel panel-info">				
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="fa fa-user-circle" aria-hidden="true"></i> Destinatário / Remetente
+						</h3>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-bordered table-hover">
+							<thead>
+	                            <tr>
+	                                <th>Nome / razão social</th>
+	                                <th>Documento</th>
+	                            </tr>
+	                        </thead>
+	                        <tbody>
+	                            <tr>
+	                                <td>{{sale.client.name}}</td>
+	                                <td>{{sale.client.document.number}}</td>
+	                            </tr>
+	                        </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-7">
+				<div class="panel panel-info">				
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="fa fa-phone"></i> Contatos</h3>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-bordered table-hover">
+							<thead>
+	                            <tr>
+	                                <th>Fone 1</th>
+	                                <th>Fone 2</th>
+	                                <th>E-mail 1</th>
+	                                <th>E-mail 2</th>
+	                                <th>Obs.</th>
+	                            </tr>
+	                        </thead>
+	                        <tbody>
+	                            <tr>
+	                                <td>{{sale.client.contact.phone_1}}</td>
+	                                <td>{{sale.client.contact.phone_2}}</td>
+	                                <td>{{sale.client.contact.email_1}}</td>
+	                                <td>{{sale.client.contact.email_2}}</td>
+	                                <td>{{sale.client.contact.observations}}</td>
+	                            </tr>
+	                        </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="panel panel-info">				
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="fa fa-truck" aria-hidden="true"></i> Endereço de Entrega
+						</h3>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-bordered table-hover">
+							<thead>
+	                            <tr>
+	                                <th>CEP</th>
+	                                <th>Logradouro</th>
+	                                <th>Número</th>
+	                                <th>Complemento</th>
+	                                <th>Bairro</th>
+	                                <th>IBGE</th>
+	                                <th>Cidade</th>
+	                                <th>UF</th>
+	                                <th>País</th>
+	                            </tr>
+	                        </thead>
+	                        <tbody>
+	                            <tr>
+	                                <td>{{sale.client.delivery_address.zip_code}}</td>
+	                                <td>{{sale.client.delivery_address.address}}</td>
+	                                <td>{{sale.client.delivery_address.number}}</td>
+	                                <td>{{sale.client.delivery_address.complement}}</td>
+	                                <td>{{sale.client.delivery_address.neighborhood}}</td>
+	                                <td>{{sale.client.delivery_address.ibge_code}}</td>
+	                                <td>{{sale.client.delivery_address.city}}</td>
+	                                <td>{{sale.client.delivery_address.state}}</td>
+	                                <td>{{sale.client.delivery_address.contry}}</td>
+	                            </tr>
+	                        </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="panel panel-info">				
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="fa fa-truck" aria-hidden="true"></i> Endereço de Cobrança
+						</h3>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-bordered table-hover">
+							<thead>
+	                            <tr>
+	                                <th>CEP</th>
+	                                <th>Logradouro</th>
+	                                <th>Número</th>
+	                                <th>Complemento</th>
+	                                <th>Bairro</th>
+	                                <th>IBGE</th>
+	                                <th>Cidade</th>
+	                                <th>UF</th>
+	                                <th>País</th>
+	                            </tr>
+	                        </thead>
+	                        <tbody>
+	                            <tr>
+	                                <td>{{sale.client.billing_address.zip_code}}</td>
+	                                <td>{{sale.client.billing_address.address}}</td>
+	                                <td>{{sale.client.billing_address.number}}</td>
+	                                <td>{{sale.client.billing_address.complement}}</td>
+	                                <td>{{sale.client.billing_address.neighborhood}}</td>
+	                                <td>{{sale.client.billing_address.ibge_code}}</td>
+	                                <td>{{sale.client.billing_address.city}}</td>
+	                                <td>{{sale.client.billing_address.state}}</td>
+	                                <td>{{sale.client.billing_address.contry}}</td>
+	                            </tr>
+	                        </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<a class="btn btn-primary" href="" ng-click="return()" role="button">Voltar</a>
+		
+	</div>
+</div>
