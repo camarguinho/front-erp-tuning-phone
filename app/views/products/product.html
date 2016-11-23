@@ -25,6 +25,10 @@
 						<label for="specifications">Especificações:</label>
 						<input id="specifications" type="text" ng-model="product.specifications"  ng-maxlength="100" size="100" ng-disabled="operation == 'read'">
 					</div>
+					<div class="form-group">
+						<label for="creation_date">Data cadastro:</label>
+						<input id="creation_date" type="date" ng-model="product.creation_date" ng-disabled="operation == 'read'">
+					</div>
 					<div class="form-group">	
 						<label for="specifications">Cor:</label>
 						<input id="specifications" type="text" ng-model="product.color"  ng-maxlength="20" size="20" ng-disabled="operation == 'read'">

@@ -14,9 +14,9 @@
                             <tr>
                                 <th>#</th>
                                 <th>Nome</th>
-                                <th>Compatibilidade</th>
                                 <th>Qtde.</th>
                                 <th>Características</th>
+                                <th>Data cadastro</th>
                                 <th>Cores</th>
                                 <th>Valor compra</th>
                                 <th>Valor venda</th>
@@ -28,9 +28,9 @@
                             <tr dir-paginate="product in coversProductsList | itemsPerPage: 6 track by $index">
                                 <td>{{product.id}}</td>
                                 <td>{{product.name}}</td>
-                                <td>{{product.compatibility.supported_devices}}</td>
                                 <td>{{product.available_quantity}}</td>
                                 <td>{{product.specifications}}</td>
+                                <td>{{product.creation_date | date : "dd/MM/yyyy HH:mm:ss"}}</td>
                                 <td>{{product.color}}</td>
                                 <td>{{product.value_purchase}}</td>
                                 <td>{{product.value_sale}}</td>
