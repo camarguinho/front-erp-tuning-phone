@@ -1,7 +1,6 @@
 [
   '{{repeat(11, 22)}}',
   {
-    id: '{{integer(1, 300)}}',
     name: '{{random("josé carlos", "antonio augusto", "pedro paulo", "marcela cardoso", "maria tereza", "lucas santos", "michele couto", "mirela pacheco", "luiza caldeira").toUpperCase()}}',
     nick_name: '{{random("zezinho", "gugu", "pedroca", "marcelinha", "terê", "luquinhas", "mi", "mirela", "lulu").toUpperCase()}}',
     document: {
@@ -10,7 +9,6 @@
     number: '{{integer(10000000000, 10000000000000)}}'
   },
     delivery_address: {
-    id: '{{integer(1, 300)}}', 
     zip_code: '{{integer(10000000, 90000000)}}',
     address: '{{random("Rua Joaquim Floriano", "Rua José Ribeiro Ramos").toUpperCase()}}',
     number: '{{integer(0, 1000)}}',
@@ -23,7 +21,6 @@
       
   },
     billing_address: {
-    id: '{{integer(1, 300)}}', 
     zip_code: '{{integer(10000000, 90000000)}}',
     address: '{{random("Rua Joaquim Floriano", "Rua José Ribeiro Ramos").toUpperCase()}}',
     number: '{{integer(0, 1000)}}',
@@ -36,7 +33,6 @@
       
   },
     contact: {
-    id: '{{integer(1, 300)}}',
     email_1: '{{random("email_1@gmail.com","email_1@icloud.com").toUpperCase()}}',
         email_2: '{{random("email_2@gmail.com","email_2@icloud.com").toUpperCase()}}',
     phone_1: '{{integer(1000000000000, 9000000000000)}}',

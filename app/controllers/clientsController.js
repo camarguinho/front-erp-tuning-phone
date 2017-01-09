@@ -1,10 +1,20 @@
-app.controller('clientsController', function($scope, $location, sharedValues) {
+app.controller('clientsController', function($scope, $location, $http, sharedValues) {
   $scope.module = "Clientes";
   $scope.client = sharedValues.getObject();
 
-  $.getJSON("mocks/clients/clients.json", function(json) {
-    $scope.clientsList = json;
-  });
+  // $.getJSON("mocks/clients/clients.json", function(json) {
+  //   $scope.clientsList = json;
+  // });
+
+    $http({
+        method : "GET",
+        url : "http://localhost:8080/api/clients"
+    }).then(function mySucces(response) {
+        $scope.clientsList = response.data;
+        console.log("Sucesso!");
+    }, function myError(response) {
+        console.log("Erro!");
+    });
 
   $scope.new = function(){
     sharedValues.setObject(null);
