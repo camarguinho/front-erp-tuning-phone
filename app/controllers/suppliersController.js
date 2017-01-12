@@ -1,9 +1,19 @@
-app.controller('suppliersController', function($scope, $location, sharedValues) {
+app.controller('suppliersController', function($scope, $location, $http, sharedValues) {
   $scope.module = "Fornecedores";
   $scope.supplier = sharedValues.getObject();
 
-  $.getJSON("mocks/suppliers/suppliers.json", function(json) {
-    $scope.suppliersList = json;
+  // $.getJSON("mocks/suppliers/suppliers.json", function(json) {
+  //   $scope.suppliersList = json;
+  // });
+
+  $http({
+        method : "GET",
+        url : "http://localhost:8080/api/suppliers"
+    }).then(function mySucces(response) {
+        $scope.suppliersList = response.data;
+        console.log("Sucesso!");
+    }, function myError(response) {
+        console.log("Erro!");
   });
 
   $scope.new = function(){

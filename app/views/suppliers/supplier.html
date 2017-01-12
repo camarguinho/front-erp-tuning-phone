@@ -45,13 +45,14 @@
                       <!-- Documentos -->
                       <div id="suppliers-document" class="tab-pane fade">
                           <div class="form-group">
-                              <label for="type">Tipo:</label>
-                              <select id="type" ng-model="supplier.document.type">
-                                <option>-- Escolha o tipo --</option>
-                                <option>CNPJ</option>
-                                <option>IE</option>
-                              </select>
-                          </div>
+                                <label for="type">Tipo:</label>
+                                <select id="type" ng-model="supplier.document.type">
+                                  <option>-- Escolha o tipo --</option>
+                                  <option>RG</option>
+                                  <option>CPF</option>
+                                  <option>CNPJ</option>
+                                </select>
+                            </div>
                           <div class="form-group">
                               <label for="number">Número:</label>
                               <input id="number" type="number" ng-maxlength"14" size="4" ng-model="supplier.document.number"/>
